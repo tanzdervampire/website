@@ -3,19 +3,12 @@
 import React, {Component} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import AppBar from 'material-ui/AppBar';
-
-import Popover, {PopoverAnimationVertical} from 'material-ui/Popover';
-import Menu from 'material-ui/Menu';
-import MenuItem from 'material-ui/MenuItem';
-
-import DatePicker from 'material-ui/DatePicker';
-
-import RaisedButton from 'material-ui/RaisedButton';
 import FullWidthSection from './FullWidthSection';
 import typography from 'material-ui/styles/typography';
 import {cyan500, grey200, darkWhite} from 'material-ui/styles/colors';
-import spacing from 'material-ui/styles/spacing';
+
+import ShowPicker from './ShowPicker/ShowPicker';
+import RaisedButton from 'material-ui/RaisedButton';
 
 import './App.css';
 
@@ -51,22 +44,9 @@ class App extends Component {
         });
     };
 
-    appBar() {
-        const style = {
-            position: 'fixed',
-            top: 0
-        };
-
-        return (
-            <div>
-                <AppBar
-                    title={process.env.REACT_APP_TITLE}
-                    onLeftIconButtonTouchTap={this.handleTouchTap}
-                    zDepth={0}
-                    style={style}/>
-            </div>
-        );
-    }
+    handleShowPickFinish = (date, show) => {
+        // TODO Handle this
+    };
 
     introductionPanel() {
         const styles = {
@@ -82,12 +62,10 @@ class App extends Component {
             },
             h2: {
                 fontSize: 24,
-                lineHeight: '32px',
-                paddingTop: 16,
                 letterSpacing: 0,
             },
             button: {
-                margin: '16px 32px 0px 32px',
+                margin: '32px 32px 0px 0px',
             },
         };
 
@@ -96,16 +74,26 @@ class App extends Component {
         return (
             <FullWidthSection useContent={true} style={styles.root}>
                 <h1 style={styles.h1}>
-                    {process.env.REACT_APP_TITLE}
+                    Besetzungslisten »Tanz der Vampire«
                 </h1>
                 <h2 style={styles.h2}>
-                    TODO
+                    Finde schnell und unkompliziert heraus welcher Cast an einem bestimmten Tag gespielt hat.
                 </h2>
                 <RaisedButton
-                    label="Get started"
+                    label="Cast finden"
                     style={styles.button}
                 />
             </FullWidthSection>
+        );
+    }
+
+    searchPanel() {
+        return (
+            <div style={{maxWidth: 500, margin: 'auto'}}>
+                <ShowPicker
+                    onFinish={this.handleShowPickFinish}
+                />
+            </div>
         );
     }
 
@@ -124,22 +112,15 @@ class App extends Component {
                 fontWeight: typography.fontWeightLight,
                 fontSize: 22,
             },
-            div: {
-                paddingTop: spacing.desktopKeylineIncrement
-            }
         };
 
         return (
             <MuiThemeProvider>
                 <div id="app-container">
-                    {this.appBar()}
-
-                    <div style={styles.div}>
-                        {this.introductionPanel()}
-                    </div>
+                    {this.introductionPanel()}
 
                     <div id="content-container">
-                        <DatePicker hintText="Portrait Dialog" />
+                        {this.searchPanel()}
                     </div>
                 </div>
             </MuiThemeProvider>
