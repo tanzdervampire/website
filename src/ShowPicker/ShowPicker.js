@@ -59,6 +59,8 @@ class ShowPicker extends React.Component {
             this.setState({
                 shows: this.props.onDateSelected(date),
             });
+
+            // TODO Skip next step if there is only one show.
         }
 
         if (stepIndex === 1) {
