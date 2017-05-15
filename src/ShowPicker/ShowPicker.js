@@ -83,10 +83,6 @@ class ShowPicker extends React.Component {
         const maxDate = new Date();
 
         const styles = {
-            radioButtonGroup: {
-                marginTop: 16,
-                marginBottom: 16,
-            },
             radioButton: {
                 textAlign: "left",
                 marginBottom: 16,
@@ -102,7 +98,7 @@ class ShowPicker extends React.Component {
                             <DatePicker
                                 hintText="Datum wählen"
                                 cancelLabel="Abbrechen"
-                                autoOk="true"
+                                autoOk={true}
                                 defaultDate={this.state.date}
                                 DateTimeFormat={global.Intl.DateTimeFormat}
                                 locale="de-DE"
@@ -120,7 +116,6 @@ class ShowPicker extends React.Component {
                             <RadioButtonGroup
                                 name="show"
                                 defaultSelected="soiree"
-                                style={styles.radioButtonGroup}
                                 onChange={this.handleShowChange}
                             >
                                 <RadioButton
