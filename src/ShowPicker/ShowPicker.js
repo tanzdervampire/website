@@ -144,6 +144,8 @@ class ShowPicker extends React.Component {
             );
         });
 
+        let DateTimeFormat = global.Intl.DateTimeFormat;
+
         return (
             <div style={{maxWidth: 380, maxHeight: 400, margin: 'auto'}}>
                 <Stepper activeStep={stepIndex} orientation="vertical">
@@ -155,11 +157,16 @@ class ShowPicker extends React.Component {
                                 cancelLabel="Abbrechen"
                                 autoOk={true}
                                 defaultDate={this.state.date}
-                                DateTimeFormat={global.Intl.DateTimeFormat}
-                                locale="de-DE"
+                                DateTimeFormat={DateTimeFormat}
                                 minDate={minDate}
                                 maxDate={maxDate}
                                 onChange={this.handleDateChange}
+                                formatDate={new DateTimeFormat("de-DE", {
+                                    weekday: "long",
+                                    day: "numeric",
+                                    month: "long",
+                                    year: "numeric",
+                                }).format}
                             />
 
                             {this.renderStepActions(0)}
