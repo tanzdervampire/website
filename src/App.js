@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import FullWidthSection from './FullWidthSection';
 import typography from 'material-ui/styles/typography';
-import {cyan500, grey200, darkWhite} from 'material-ui/styles/colors';
+import {cyan500, grey200, grey900, lightWhite, darkWhite} from 'material-ui/styles/colors';
 
 import ShowPicker from './ShowPicker/ShowPicker';
 import RaisedButton from 'material-ui/RaisedButton';
@@ -88,12 +88,67 @@ class App extends Component {
     }
 
     searchPanel() {
+        const styles = {
+            root: {
+                backgroundColor: grey200
+            }
+        };
+
         return (
-            <div style={{maxWidth: 500, margin: 'auto'}}>
-                <ShowPicker
-                    onFinish={this.handleShowPickFinish}
-                />
+            <FullWidthSection useContent={true} style={styles.root}>
+                <div style={{maxWidth: 500, margin: 'auto'}}>
+                    <ShowPicker
+                        onFinish={this.handleShowPickFinish}
+                    />
+                </div>
+            </FullWidthSection>
+        );
+    }
+
+    castList() {
+        const styles = {
+            content: {
+                backgroundColor: lightWhite
+            }
+        };
+
+        return (
+            <div id="content-container" style={styles.content}>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
+                <p>Todo</p>
             </div>
+        );
+    }
+
+    footer() {
+        const styles = {
+            root: {
+                backgroundColor: grey900,
+                position: "relative",
+                bottom: 0
+            },
+            p: {
+                color: lightWhite,
+                maxWidth: 500
+            }
+        };
+
+        return (
+            <FullWidthSection useContent={true} style={styles.root}>
+                <p style={styles.p}>
+                    This is the footer
+                </p>
+            </FullWidthSection>
         );
     }
 
@@ -118,10 +173,9 @@ class App extends Component {
             <MuiThemeProvider>
                 <div id="app-container">
                     {this.introductionPanel()}
-
-                    <div id="content-container">
-                        {this.searchPanel()}
-                    </div>
+                    {this.searchPanel()}
+                    {this.castList()}
+                    {this.footer()}
                 </div>
             </MuiThemeProvider>
         );
