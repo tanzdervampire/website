@@ -24,25 +24,8 @@ class App extends Component {
         super(props);
 
         this.state = {
-            open: false,
         };
     }
-
-    handleTouchTap = (event) => {
-        // This prevents ghost click.
-        event.preventDefault();
-
-        this.setState({
-            open: true,
-            anchorEl: event.currentTarget,
-        });
-    };
-
-    handleRequestClose = () => {
-        this.setState({
-            open: false,
-        });
-    };
 
     handleShowPickFinish = (date, show) => {
         // TODO Handle this
