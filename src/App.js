@@ -141,11 +141,11 @@ class App extends Component {
             root: {
                 backgroundColor: grey900,
                 position: "relative",
-                bottom: 0
+                bottom: 0,
+                textAlign: "center"
             },
             p: {
                 color: lightWhite,
-                maxWidth: 500
             }
         };
 
