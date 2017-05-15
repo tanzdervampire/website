@@ -153,22 +153,6 @@ class App extends Component {
     }
 
     render() {
-        const styles = {
-            h2: {
-                fontSize: 20,
-                lineHeight: '28px',
-                paddingTop: 19,
-                marginBottom: 13,
-                letterSpacing: 0,
-            },
-            h3: {
-                margin: 0,
-                padding: 0,
-                fontWeight: typography.fontWeightLight,
-                fontSize: 22,
-            },
-        };
-
         return (
             <MuiThemeProvider>
                 <div id="app-container">
