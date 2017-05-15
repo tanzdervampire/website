@@ -6,6 +6,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FullWidthSection from './FullWidthSection';
 import typography from 'material-ui/styles/typography';
 import {cyan500, grey200, grey900, lightWhite, darkWhite} from 'material-ui/styles/colors';
+import transitions from 'material-ui/styles/transitions';
 
 import ShowPicker from './ShowPicker/ShowPicker';
 import RaisedButton from 'material-ui/RaisedButton';
@@ -87,21 +88,24 @@ class App extends Component {
 
         const styles = {
             root: {
-                backgroundColor: grey200
+                backgroundColor: grey200,
+            },
+            container: {
+                transition: transitions.easeOut("1000ms", ["max-height"]),
+                maxHeight: showShowPicker ? 500 : 0,
+                overflow: "hidden",
             }
         };
 
         return (
-            <div>
-                { showShowPicker && (
-                    <FullWidthSection useContent={true} style={styles.root}>
-                        <div style={{maxWidth: 500, margin: 'auto'}}>
-                            <ShowPicker
-                                onFinish={this.handleShowPickFinish}
-                            />
-                        </div>
-                    </FullWidthSection>
-                ) }
+            <div style={styles.container}>
+                <FullWidthSection useContent={true} style={styles.root}>
+                    <div style={{maxWidth: 500, margin: 'auto'}}>
+                        <ShowPicker
+                            onFinish={this.handleShowPickFinish}
+                        />
+                    </div>
+                </FullWidthSection>
             </div>
         );
     }
