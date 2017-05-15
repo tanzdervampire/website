@@ -134,6 +134,7 @@ class ShowPicker extends React.Component {
             },
         };
 
+        const selected = (shows.length > 0) ? shows[0].id : "";
         var items = shows.map((current) => {
             return (
                 <RadioButton
@@ -147,7 +148,7 @@ class ShowPicker extends React.Component {
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
         return (
-            <div style={{maxWidth: 380, maxHeight: 400, margin: 'auto'}}>
+            <div style={{maxHeight: 400, margin: "0 auto"}}>
                 <Stepper activeStep={stepIndex} orientation="vertical">
                     <Step>
                         <StepLabel>Wähle das Datum der Vorstellung aus</StepLabel>
@@ -177,6 +178,7 @@ class ShowPicker extends React.Component {
                         <StepContent>
                             <RadioButtonGroup
                                 name="show"
+                                defaultSelected={selected}
                                 onChange={this.handleShowChange}
                             >
                                 {items}
