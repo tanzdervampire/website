@@ -21,13 +21,9 @@ injectTapEventPlugin();
 
 class App extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            showShowPicker: false
-        };
-    }
+    state = {
+        showShowPicker: false
+    };
 
     handleSearchCast = () => {
         this.setState({
@@ -35,7 +31,16 @@ class App extends Component {
         });
     };
 
-    handleShowPickFinish = (date, show) => {
+    providePossibleShows = (date) => {
+        return [
+            {
+                "id": "x",
+                "name": "Test"
+            },
+        ];
+    };
+
+    handleShowPickFinish = (show) => {
         this.setState({
             showShowPicker: false,
         });
@@ -103,6 +108,7 @@ class App extends Component {
                 <FullWidthSection useContent={true} style={styles.root}>
                     <div style={{maxWidth: 500, margin: 'auto'}}>
                         <ShowPicker
+                            onDateSelected={this.providePossibleShows}
                             onFinish={this.handleShowPickFinish}
                         />
                     </div>

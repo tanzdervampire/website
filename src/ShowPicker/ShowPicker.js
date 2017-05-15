@@ -1,6 +1,8 @@
 // @flow
 
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import {
     Step,
     Stepper,
@@ -14,20 +16,61 @@ import {RadioButton, RadioButtonGroup} from 'material-ui/RadioButton';
 
 class ShowPicker extends React.Component {
 
+    static propTypes = {
+        /**
+         * Callback to determine which shows are available with signature (date) => [].
+         * The returned array must contain objects with the signature
+         * {
+         *   "id": <id>,
+         *   "name": <name>,
+         * }
+         */
+        onDateSelected: PropTypes.func.isRequired,
+
+        /**
+         * Called when a show has been selected, called with the ID of the selected show.
+         * Signature: (id) => ().
+         */
+        onFinish: PropTypes.func.isRequired,
+    };
+
     state = {
+        /** The current step of the stepper. */
         stepIndex: 0,
+
+        /** The selected date. */
         date: new Date(),
-        show: "soiree"
+
+        /** The shows which are possible after having selected a date. */
+        shows: [],
+
+        /** The ID of the selected show. */
+        show: undefined,
     };
 
     handleNext = () => {
         const {stepIndex, date, show} = this.state;
+
         this.setState({
             stepIndex: stepIndex + 1,
         });
 
-        if (stepIndex >= 1 && this.props.onFinish) {
-            this.props.onFinish(date, show);
+        if (stepIndex === 0) {
+            this.setState({
+                shows: this.props.onDateSelected(date),
+            });
+        }
+
+        if (stepIndex === 1) {
+            this.props.onFinish(show);
+
+            // TODO Refactor to avoid duplicating the defaults.
+            this.setState({
+                stepIndex: 0,
+                date: new Date(),
+                shows: [],
+                show: undefined,
+            });
         }
     };
 
@@ -77,7 +120,7 @@ class ShowPicker extends React.Component {
     }
 
     render() {
-        const {stepIndex} = this.state;
+        const {stepIndex, shows} = this.state;
 
         const minDate = new Date("10-04-1997");
         const maxDate = new Date();
@@ -88,6 +131,16 @@ class ShowPicker extends React.Component {
                 marginBottom: 16,
             },
         };
+
+        var items = shows.map((current) => {
+            return (
+                <RadioButton
+                    value={current.id}
+                    label={current.name}
+                    style={styles.radioButton}
+                />
+            );
+        });
 
         return (
             <div style={{maxWidth: 380, maxHeight: 400, margin: 'auto'}}>
@@ -115,19 +168,9 @@ class ShowPicker extends React.Component {
                         <StepContent>
                             <RadioButtonGroup
                                 name="show"
-                                defaultSelected="soiree"
                                 onChange={this.handleShowChange}
                             >
-                                <RadioButton
-                                    value="matinee"
-                                    label="Matinee (Nachmittag)"
-                                    style={styles.radioButton}
-                                />
-                                <RadioButton
-                                    value="soiree"
-                                    label="Soiree (Abend)"
-                                    style={styles.radioButton}
-                                />
+                                {items}
                             </RadioButtonGroup>
 
                             {this.renderStepActions(1)}
