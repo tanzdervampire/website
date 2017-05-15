@@ -26,8 +26,10 @@ class App extends Component {
     };
 
     handleSearchCast = () => {
+        const {showShowPicker} = this.state;
+
         this.setState({
-            showShowPicker: true,
+            showShowPicker: !showShowPicker,
         });
     };
 
