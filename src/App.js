@@ -48,7 +48,11 @@ class App extends Component {
         return [
             {
                 "id": "x",
-                "name": "Test"
+                "name": "Test 1"
+            },
+            {
+                "id": "y",
+                "name": "Test 2"
             },
         ];
     };
