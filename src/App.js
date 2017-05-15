@@ -24,10 +24,21 @@ class App extends Component {
         super(props);
 
         this.state = {
+            showShowPicker: false
         };
     }
 
+    handleSearchCast = () => {
+        this.setState({
+            showShowPicker: true,
+        });
+    };
+
     handleShowPickFinish = (date, show) => {
+        this.setState({
+            showShowPicker: false,
+        });
+
         // TODO Handle this
     };
 
@@ -65,12 +76,15 @@ class App extends Component {
                 <RaisedButton
                     label="Cast finden"
                     style={styles.button}
+                    onTouchTap={this.handleSearchCast}
                 />
             </FullWidthSection>
         );
     }
 
     searchPanel() {
+        const { showShowPicker } = this.state;
+
         const styles = {
             root: {
                 backgroundColor: grey200
@@ -78,13 +92,17 @@ class App extends Component {
         };
 
         return (
-            <FullWidthSection useContent={true} style={styles.root}>
-                <div style={{maxWidth: 500, margin: 'auto'}}>
-                    <ShowPicker
-                        onFinish={this.handleShowPickFinish}
-                    />
-                </div>
-            </FullWidthSection>
+            <div>
+                { showShowPicker && (
+                    <FullWidthSection useContent={true} style={styles.root}>
+                        <div style={{maxWidth: 500, margin: 'auto'}}>
+                            <ShowPicker
+                                onFinish={this.handleShowPickFinish}
+                            />
+                        </div>
+                    </FullWidthSection>
+                ) }
+            </div>
         );
     }
 
