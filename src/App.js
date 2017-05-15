@@ -86,6 +86,7 @@ class App extends Component {
     searchPanel() {
         const { showShowPicker } = this.state;
 
+        // TOOD Revisit animation and check Material UI's "Show source" mechanism out.
         const styles = {
             root: {
                 backgroundColor: grey200,
