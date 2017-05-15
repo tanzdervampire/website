@@ -74,13 +74,13 @@ class App extends Component {
         return (
             <FullWidthSection useContent={true} style={styles.root}>
                 <h1 style={styles.h1}>
-                    Besetzungslisten »Tanz der Vampire«
+                    Besetzungslisten für Tanz der Vampire
                 </h1>
                 <h2 style={styles.h2}>
-                    Finde schnell und unkompliziert heraus welcher Cast an einem bestimmten Tag gespielt hat.
+                    Finde schnell und unkompliziert die Besetzung für eine Vorstellung.
                 </h2>
                 <RaisedButton
-                    label="Cast finden"
+                    label="Besetzung finden"
                     style={styles.button}
                     onTouchTap={this.handleSearchCast}
                 />
@@ -158,7 +158,7 @@ class App extends Component {
         return (
             <FullWidthSection useContent={true} style={styles.root}>
                 <p style={styles.p}>
-                    This is the footer
+                    Created by Ingo Bürk, 2017.
                 </p>
             </FullWidthSection>
         );
