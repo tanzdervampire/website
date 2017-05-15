@@ -56,8 +56,12 @@ class ShowPicker extends React.Component {
         });
 
         if (stepIndex === 0) {
+            var shows = this.props.onDateSelected(date),
+                selected = (shows.length > 0) ? shows[0].id : "";
+
             this.setState({
-                shows: this.props.onDateSelected(date),
+                shows: shows,
+                show: selected,
             });
 
             // TODO Skip next step if there is only one show.
@@ -87,6 +91,9 @@ class ShowPicker extends React.Component {
         this.setState({
             date: date
         });
+
+        // TODO Why does this not work?
+        // this.handleNext();
     };
 
     handleShowChange = (_, value) => {
@@ -122,7 +129,7 @@ class ShowPicker extends React.Component {
     }
 
     render() {
-        const {stepIndex, shows} = this.state;
+        const {stepIndex, shows, show} = this.state;
 
         const minDate = new Date("10-04-1997");
         const maxDate = new Date();
@@ -134,10 +141,10 @@ class ShowPicker extends React.Component {
             },
         };
 
-        const selected = (shows.length > 0) ? shows[0].id : "";
         var items = shows.map((current) => {
             return (
                 <RadioButton
+                    key={current.id}
                     value={current.id}
                     label={current.name}
                     style={styles.radioButton}
@@ -178,8 +185,8 @@ class ShowPicker extends React.Component {
                         <StepContent>
                             <RadioButtonGroup
                                 name="show"
-                                defaultSelected={selected}
                                 onChange={this.handleShowChange}
+                                defaultSelected={show}
                             >
                                 {items}
                             </RadioButtonGroup>

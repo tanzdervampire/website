@@ -88,6 +88,7 @@ class App extends Component {
 
         styles.h2 = Object.assign({}, styles.h1, styles.h2);
 
+        // TODO Deal with smaller screen sizes
         return (
             <FullWidthSection useContent={true} style={styles.root}>
                 <h1 style={styles.h1}>
