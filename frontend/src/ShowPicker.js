@@ -176,15 +176,20 @@ class ShowPicker extends React.Component {
                         </StepContent>
                     </Step>
                     <Step>
-                        <StepLabel>Wähle zwischen Matinee und Soiree</StepLabel>
+                        <StepLabel>Wähle die Vorstellung</StepLabel>
                         <StepContent>
-                            <RadioButtonGroup
-                                name="show"
-                                onChange={this.handleShowChange}
-                                valueSelected={show}
-                            >
-                                {items}
-                            </RadioButtonGroup>
+                            { items.length === 0 && (
+                                <p>Bitte warten…</p>
+                            ) }
+                            { items.length > 0 && (
+                                <RadioButtonGroup
+                                    name="show"
+                                    onChange={this.handleShowChange}
+                                    valueSelected={show}
+                                >
+                                    {items}
+                                </RadioButtonGroup>
+                            ) }
 
                             {this.renderStepActions(1)}
                         </StepContent>
