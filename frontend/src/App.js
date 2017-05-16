@@ -53,6 +53,14 @@ class App extends Component {
             showShowPicker: false,
         });
 
+        fetch("api/test", {
+            accept: "application/json"
+        }).then((response) => {
+            return response.json();
+        }).then((response) => {
+            global.window.alert(response["message"]);
+        });
+
         // TODO Handle this
     };
 
