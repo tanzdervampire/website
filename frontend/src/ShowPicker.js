@@ -181,7 +181,7 @@ class ShowPicker extends React.Component {
                             <RadioButtonGroup
                                 name="show"
                                 onChange={this.handleShowChange}
-                                defaultSelected={show}
+                                valueSelected={show}
                             >
                                 {items}
                             </RadioButtonGroup>
