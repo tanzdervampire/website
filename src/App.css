@@ -7,6 +7,6 @@ html, body, #root {
 }
 
 #content-container {
-    padding: 1em 2em;
+    padding: 1em 0;
     text-align: center;
 }
