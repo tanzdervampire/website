@@ -18,16 +18,6 @@ class ShowPicker extends React.Component {
 
     static propTypes = {
         /**
-         * Callback to determine which shows are available with signature (date) => [].
-         * The returned array must contain objects with the signature
-         * {
-         *   "id": <id>,
-         *   "name": <name>,
-         * }
-         */
-        onDateSelected: PropTypes.func.isRequired,
-
-        /**
          * Called when a show has been selected, called with the ID of the selected show.
          * Signature: (id) => ().
          */
@@ -56,14 +46,6 @@ class ShowPicker extends React.Component {
         });
 
         if (stepIndex === 0) {
-            var shows = this.props.onDateSelected(date),
-                selected = (shows.length > 0) ? shows[0].id : "";
-
-            this.setState({
-                shows: shows,
-                show: selected,
-            });
-
             // TODO Skip next step if there is only one show.
         }
 
@@ -92,8 +74,20 @@ class ShowPicker extends React.Component {
             date: date
         });
 
-        // TODO Why does this not work?
-        // this.handleNext();
+        /* We already query the available shows here to make it a bit snappier. */
+        // TODO Correct date
+        fetch("api/shows?date=23051990", {
+            accept: "application/json"
+        }).then((response) => {
+            return response.json();
+        }).then((shows) => {
+            var selected = (shows.length > 0) ? shows[0].id : "";
+
+            this.setState({
+                shows: shows,
+                show: selected,
+            });
+        });
     };
 
     handleShowChange = (_, value) => {
@@ -142,11 +136,12 @@ class ShowPicker extends React.Component {
         };
 
         var items = shows.map((current) => {
+            // TODO include time AND place in label
             return (
                 <RadioButton
                     key={current.id}
                     value={current.id}
-                    label={current.name}
+                    label={current.time}
                     style={styles.radioButton}
                 />
             );

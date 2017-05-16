@@ -35,30 +35,9 @@ class App extends Component {
         });
     };
 
-    providePossibleShows = (date) => {
-        return [
-            {
-                "id": "x",
-                "name": "Test 1"
-            },
-            {
-                "id": "y",
-                "name": "Test 2"
-            },
-        ];
-    };
-
     handleShowPickFinish = (show) => {
         this.setState({
             showShowPicker: false,
-        });
-
-        fetch("api/test", {
-            accept: "application/json"
-        }).then((response) => {
-            return response.json();
-        }).then((response) => {
-            global.window.alert(response["message"]);
         });
 
         // TODO Handle this
@@ -125,7 +104,6 @@ class App extends Component {
                 <FullWidthSection useContent={true} style={styles.root}>
                     <div style={{maxWidth: 500, margin: 'auto'}}>
                         <ShowPicker
-                            onDateSelected={this.providePossibleShows}
                             onFinish={this.handleShowPickFinish}
                         />
                     </div>
