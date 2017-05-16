@@ -5,8 +5,3 @@ html, body, #root {
 #app-container {
     height: 100%;
 }
-
-#content-container {
-    padding: 1em 0;
-    text-align: center;
-}
