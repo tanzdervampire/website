@@ -8,7 +8,7 @@ import typography from 'material-ui/styles/typography';
 import {cyan500, grey200, grey900, lightWhite, darkWhite} from 'material-ui/styles/colors';
 import transitions from 'material-ui/styles/transitions';
 
-import ShowPicker from './ShowPicker/ShowPicker';
+import ShowPicker from './ShowPicker';
 import RaisedButton from 'material-ui/RaisedButton';
 
 import Paper from 'material-ui/Paper';

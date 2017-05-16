@@ -154,6 +154,7 @@ class ShowPicker extends React.Component {
 
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
+        // TODO Disable days without any show (shouldDisableDate)
         return (
             <div style={{maxHeight: 400, margin: "0 auto"}}>
                 <Stepper activeStep={stepIndex} orientation="vertical">
