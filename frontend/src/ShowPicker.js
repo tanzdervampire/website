@@ -46,6 +46,20 @@ class ShowPicker extends React.Component {
         });
 
         if (stepIndex === 0) {
+            // TODO Correct date
+            fetch("api/shows?date=23051990", {
+                accept: "application/json"
+            }).then((response) => {
+                return response.json();
+            }).then((shows) => {
+                var selected = (shows.length > 0) ? shows[0].id : "";
+
+                this.setState({
+                    shows: shows,
+                    show: selected,
+                });
+            });
+
             // TODO Skip next step if there is only one show.
         }
 
@@ -72,21 +86,6 @@ class ShowPicker extends React.Component {
     handleDateChange = (_, date) => {
         this.setState({
             date: date
-        });
-
-        /* We already query the available shows here to make it a bit snappier. */
-        // TODO Correct date
-        fetch("api/shows?date=23051990", {
-            accept: "application/json"
-        }).then((response) => {
-            return response.json();
-        }).then((shows) => {
-            var selected = (shows.length > 0) ? shows[0].id : "";
-
-            this.setState({
-                shows: shows,
-                show: selected,
-            });
         });
     };
 
