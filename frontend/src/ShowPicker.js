@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 
 import {
     Step,
@@ -36,6 +37,9 @@ class ShowPicker extends React.Component {
 
         /** The ID of the selected show. */
         show: undefined,
+
+        /* Whether available shows have been loaded already. */
+        hasLoaded: false,
     };
 
     handleNext = () => {
@@ -46,8 +50,9 @@ class ShowPicker extends React.Component {
         });
 
         if (stepIndex === 0) {
-            // TODO Correct date
-            fetch("api/shows?date=23051990", {
+            var formattedDate = moment(date).format("DD.MM.YYYY");
+
+            fetch("api/shows?date=" + formattedDate, {
                 accept: "application/json"
             }).then((response) => {
                 return response.json();
@@ -57,6 +62,7 @@ class ShowPicker extends React.Component {
                 this.setState({
                     shows: shows,
                     show: selected,
+                    hasLoaded: true,
                 });
             });
 
@@ -72,6 +78,7 @@ class ShowPicker extends React.Component {
                 date: new Date(),
                 shows: [],
                 show: undefined,
+                hasLoaded: false,
             });
         }
     };
@@ -79,13 +86,17 @@ class ShowPicker extends React.Component {
     handlePrev = () => {
         const {stepIndex} = this.state;
         if (stepIndex > 0) {
-            this.setState({stepIndex: stepIndex - 1});
+            this.setState({
+                stepIndex: stepIndex - 1,
+                hasLoaded: false,
+            });
         }
     };
 
     handleDateChange = (_, date) => {
         this.setState({
-            date: date
+            date: date,
+            hasLoaded: false,
         });
     };
 
@@ -121,11 +132,8 @@ class ShowPicker extends React.Component {
         );
     }
 
-    render() {
-        const {stepIndex, shows, show} = this.state;
-
-        const minDate = new Date("10-04-1997");
-        const maxDate = new Date();
+    showStepContent() {
+        const { shows, show, hasLoaded } = this.state;
 
         const styles = {
             radioButton: {
@@ -133,6 +141,18 @@ class ShowPicker extends React.Component {
                 marginBottom: 16,
             },
         };
+
+        if (!hasLoaded) {
+            return (
+                <p>Bitte warten…</p>
+            );
+        }
+
+        if (shows.length === 0) {
+            return (
+                <p>Für diesen Tag haben wir leider keine Besetzungsliste!</p>
+            );
+        }
 
         var items = shows.map((current) => {
             // TODO include time AND place in label
@@ -145,6 +165,23 @@ class ShowPicker extends React.Component {
                 />
             );
         });
+
+        return (
+            <RadioButtonGroup
+                name="show"
+                onChange={this.handleShowChange}
+                valueSelected={show}
+            >
+                {items}
+            </RadioButtonGroup>
+        );
+    }
+
+    render() {
+        const {stepIndex} = this.state;
+
+        const minDate = new Date("10-04-1997");
+        const maxDate = new Date();
 
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
@@ -178,20 +215,10 @@ class ShowPicker extends React.Component {
                     <Step>
                         <StepLabel>Wähle die Vorstellung</StepLabel>
                         <StepContent>
-                            { items.length === 0 && (
-                                <p>Bitte warten…</p>
-                            ) }
-                            { items.length > 0 && (
-                                <RadioButtonGroup
-                                    name="show"
-                                    onChange={this.handleShowChange}
-                                    valueSelected={show}
-                                >
-                                    {items}
-                                </RadioButtonGroup>
-                            ) }
-
-                            {this.renderStepActions(1)}
+                            <div>
+                                {this.showStepContent()}
+                                {this.renderStepActions(1)}
+                            </div>
                         </StepContent>
                     </Step>
                 </Stepper>

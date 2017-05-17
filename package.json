@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "concurrently": "^3.4.0"
