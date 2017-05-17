@@ -36,13 +36,13 @@ class ShowPicker extends React.Component {
         stepIndex: 0,
 
         /** The selected date. */
-        date: new Date(),
+        date: null,
 
         /** The shows which are possible after having selected a date. */
         shows: [],
 
         /** The ID of the selected show. */
-        show: undefined,
+        show: null,
 
         /* Whether available shows have been loaded already. */
         hasLoaded: false,
@@ -209,11 +209,18 @@ class ShowPicker extends React.Component {
     }
 
     render() {
-        const {stepIndex} = this.state;
+        const {stepIndex, date, availableDates} = this.state;
 
-        const minDate = new Date("10-04-1997");
-        const maxDate = new Date();
+        let minDate, maxDate;
+        if (availableDates.length === 0) {
+            minDate = new Date("10-04-1997");
+            maxDate = new Date();
+        } else {
+            minDate = moment(availableDates[0], "DD.MM.YYYY").toDate();
+            maxDate = moment(availableDates[availableDates.length - 1], "DD.MM.YYYY").toDate();
+        }
 
+        const defaultDate = (date) ? date : maxDate;
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
         return (
@@ -226,7 +233,7 @@ class ShowPicker extends React.Component {
                                 hintText="Datum wählen"
                                 cancelLabel="Abbrechen"
                                 autoOk={true}
-                                defaultDate={this.state.date}
+                                value={defaultDate}
                                 DateTimeFormat={DateTimeFormat}
                                 minDate={minDate}
                                 maxDate={maxDate}

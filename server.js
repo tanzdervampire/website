@@ -1,4 +1,5 @@
 const express = require('express');
+const moment = require('moment');
 
 const fs = require('fs');
 let data = {};
@@ -19,10 +20,24 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'));
 }
 
+/**
+ * /api/dates
+ *   Returns available show dates in format DD.MM.YYYY and in ascending order.
+ */
 app.get('/api/dates', (req, res) => {
-    return res.json(Object.keys(data));
+    return res.json(Object.keys(data)
+        .sort((a, b) => {
+            return a - b;
+        })
+        .map((unix) => {
+            return moment.unix(unix).format('DD.MM.YYYY');
+        })
+    );
 });
 
+/**
+ * /api/shows?date=<DD.MM.YYYY>
+ */
 app.get('/api/shows', (req, res) => {
     const date = req.query.date;
     if (!date) {
@@ -32,7 +47,7 @@ app.get('/api/shows', (req, res) => {
         return;
     }
 
-    var shows = data[date] || [];
+    var shows = data[moment(date, "DD.MM.YYYY").unix()] || [];
 
     var id = 1;
     return res.json(shows.map((show) => {
