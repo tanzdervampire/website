@@ -19,6 +19,10 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'));
 }
 
+app.get('/api/dates', (req, res) => {
+    return res.json(Object.keys(data));
+});
+
 app.get('/api/shows', (req, res) => {
     const date = req.query.date;
     if (!date) {

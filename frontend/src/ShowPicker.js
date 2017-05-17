@@ -17,6 +17,12 @@ import {RadioButton, RadioButtonGroup} from 'material-ui/RadioButton';
 
 class ShowPicker extends React.Component {
 
+    constructor() {
+        super();
+
+        this.loadAvailableDates();
+    }
+
     static propTypes = {
         /**
          * Called when a show has been selected, called with the ID of the selected show.
@@ -40,6 +46,31 @@ class ShowPicker extends React.Component {
 
         /* Whether available shows have been loaded already. */
         hasLoaded: false,
+
+        /* List of dates which are allowed */
+        availableDates: [],
+    };
+
+    loadAvailableDates() {
+        fetch("api/dates", {
+            accept: "application/json"
+        }).then((response) => {
+            return response.json();
+        }).then((dates) => {
+            this.setState({
+                availableDates: dates
+            });
+        });
+    };
+
+    disableUnavailableDates = (date) => {
+        const { availableDates } = this.state;
+        if(availableDates.length === 0) {
+            return false;
+        }
+
+        var formattedDate = moment(date).format("DD.MM.YYYY");
+        return !availableDates.includes(formattedDate);
     };
 
     handleNext = () => {
@@ -185,7 +216,6 @@ class ShowPicker extends React.Component {
 
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
-        // TODO Disable days without any show (shouldDisableDate)
         return (
             <div style={{maxHeight: 400, margin: "0 auto"}}>
                 <Stepper activeStep={stepIndex} orientation="vertical">
@@ -207,6 +237,7 @@ class ShowPicker extends React.Component {
                                     month: "long",
                                     year: "numeric",
                                 }).format}
+                                shouldDisableDate={this.disableUnavailableDates}
                             />
 
                             {this.renderStepActions(0)}
