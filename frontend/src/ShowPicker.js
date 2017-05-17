@@ -60,6 +60,12 @@ class ShowPicker extends React.Component {
             this.setState({
                 availableDates: dates
             });
+
+            if (!this.state.date) {
+                this.setState({
+                    date: moment(dates[dates.length - 1], "DD.MM.YYYY").toDate(),
+                });
+            }
         });
     };
 
@@ -103,12 +109,10 @@ class ShowPicker extends React.Component {
         if (stepIndex === 1) {
             this.props.onFinish(show);
 
-            // TODO Refactor to avoid duplicating the defaults.
             this.setState({
                 stepIndex: 0,
-                date: new Date(),
                 shows: [],
-                show: undefined,
+                show: null,
                 hasLoaded: false,
             });
         }
@@ -220,7 +224,6 @@ class ShowPicker extends React.Component {
             maxDate = moment(availableDates[availableDates.length - 1], "DD.MM.YYYY").toDate();
         }
 
-        const defaultDate = (date) ? date : maxDate;
         let DateTimeFormat = global.Intl.DateTimeFormat;
 
         return (
@@ -233,7 +236,7 @@ class ShowPicker extends React.Component {
                                 hintText="Datum wählen"
                                 cancelLabel="Abbrechen"
                                 autoOk={true}
-                                value={defaultDate}
+                                value={date}
                                 DateTimeFormat={DateTimeFormat}
                                 minDate={minDate}
                                 maxDate={maxDate}
