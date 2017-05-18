@@ -1,18 +1,16 @@
 const express = require('express');
 const moment = require('moment');
-
+const sql = require('sql.js');
 const fs = require('fs');
-let data = {};
 
-fs.readFile("data.json", "utf8", (err, raw) => {
+const app = express();
+
+const dbBuffer = fs.readFileSync('data.sqlite', (err) => {
     if (err) {
         throw err;
     }
-
-    data = JSON.parse(raw);
 });
-
-const app = express();
+const db = new sql.Database(dbBuffer);
 
 app.set('port', (process.env.PORT || 3001));
 
@@ -20,101 +18,133 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'));
 }
 
-var toId = function(show) {
-    return show['date'] + '|' + show['time'] + '|' + show['place'];
-};
-
-var fromId = function(id) {
-    const parts = id.split(/\|/);
-    if (parts.length !== 3) {
-        return null;
+process.on('exit', () => {
+    if (db) {
+        db.close();
     }
+});
 
-    return {
-        date: parts[0],
-        time: parts[1],
-        place: parts[2],
+/**
+ * Returns a function which maps a column name to the appropriate index.
+ * @private
+ */
+const makeUnderscore = function (result) {
+    return function (column) {
+        return result[0]['columns'].indexOf(column);
     };
 };
 
 /**
- * /api/dates
+ * /api/productions
  *
- * Returns available show dates in format DD.MM.YYYY and in ascending order.
+ * Returns a list of productions.
  */
-app.get('/api/dates', (req, res) => {
-    return res.json(Object.keys(data)
-        .sort((a, b) => {
-            return a - b;
-        })
-        .map((unix) => {
-            return moment.unix(unix).format('DD.MM.YYYY');
-        })
-    );
-});
-
-/**
- * /api/shows?date=<DD.MM.YYYY>
- */
-app.get('/api/shows', (req, res) => {
-    const date = req.query.date;
-    if (!date) {
-        res.json({
-            'error': 'Missing required parameter.'
-        });
-        return;
+app.get('/api/productions', (req, res) => {
+    const result = db.exec('SELECT START, END, LOCATION, THEATER FROM PRODUCTION ORDER BY DATE( START ) ASC, DATE( END ) ASC');
+    if (!result[0]) {
+        return res.json({});
     }
 
-    var shows = data[moment(date, "DD.MM.YYYY").unix()] || [];
-
-    return res.json(shows.map((show) => {
+    let _ = makeUnderscore(result);
+    return res.json(result[0]['values'].map((production) => {
         return {
-            'id': toId(show),
-            'date': show['date'],
-            'place': show['place'],
-            'time': show['time'],
-            'unix': show['unix'],
+            'start': production[_('START')],
+            'end': production[_('END')],
+            'location': production[_('LOCATION')],
+            'theater': production[_('THEATER')],
         };
     }));
 });
 
 /**
- * /api/cast?id=<id>
+ * /api/shows/dates
  *
- * Returns the entire cast information for a show.
+ * Returns a (sorted) list of dates (YYYY-MM-DD) for which information is available for
+ * at least one show on that day.
  */
-app.get('/api/cast', (req, res) => {
-    const id = req.query.id;
-    if (!id) {
-        res.json({
-            'error': 'Missing required parameter.'
-        });
-        return;
+app.get('/api/shows/dates', (req, res) => {
+    const result = db.exec('SELECT DISTINCT( DATE( DAY ) ) AS DAY FROM SHOW ORDER BY DATE( DAY ) ASC');
+    if (!result[0]) {
+        return res.json({});
     }
 
-    var parts = fromId(id);
-    if (!parts) {
-        res.json({
-            'error': 'Invalid ID.'
+    let _ = makeUnderscore(result);
+    return res.json(result[0]['values'].map((value) => {
+        return value[_('DAY')];
+    }));
+});
+
+/**
+ * /api/shows/:year/:month/:day
+ *
+ * Returns all shows on the specified day.
+ */
+app.get('/api/shows/:year/:month/:day', (req, res) => {
+    const { year, month, day } = req.params;
+
+    const showStatement = db.prepare(`
+        SELECT
+            "SHOW".ID,
+            "SHOW".DAY,
+            "SHOW".TIME,
+            "SHOW".TYPE,
+            "PRODUCTION".LOCATION,
+            "PRODUCTION".THEATER
+        FROM "SHOW"
+        INNER JOIN "PRODUCTION" ON "SHOW".PRODUCTION_ID = "PRODUCTION".ID
+        WHERE DATE( "SHOW".DAY ) = :day
+        ORDER BY DATETIME( "SHOW".TIME ) ASC, "SHOW".TYPE ASC
+    `);
+
+    const castStatement = db.prepare(`
+        SELECT
+            "PERSON".ID,
+            "CAST".ROLE,
+            "PERSON".NAME
+        FROM "CAST"
+        INNER JOIN PERSON ON "CAST".PERSON_ID = "PERSON".ID
+        WHERE "CAST".SHOW_ID = :show
+        ORDER BY "CAST".ROLE ASC, "PERSON".NAME ASC
+    `);
+
+    let result = [];
+    try {
+        showStatement.bind({
+            ':day': [year, month, day].join('-'),
         });
-        return;
-    }
 
-    const { date, place, time } = parts;
-    var shows = data[moment(date, "DD.MM.YYYY").unix()] || [];
+        while (showStatement.step()) {
+            let show = showStatement.getAsObject();
 
-    for (var i = 0; i < shows.length; i++) {
-        const show = shows[i];
-        if (show['date'] !== date || show['place'] !== place || show['time'] !== time) {
-            continue;
+            let cast = {};
+            castStatement.bind({
+                ':show': show['ID'],
+            });
+            while (castStatement.step()) {
+                let person = castStatement.getAsObject();
+                cast[person['ROLE']] = cast[person['ROLE']] || [];
+                cast[person['ROLE']].push({
+                    'id': person['ID'],
+                    'name': person['NAME'],
+                });
+            }
+
+            result.push({
+                'id': show['ID'],
+                'day': show['DAY'],
+                'time': show['TIME'],
+                'type': show['TYPE'],
+                'location': show['LOCATION'],
+                'theater': show['THEATER'],
+                'cast': cast,
+            });
         }
-
-        return res.json(show);
+    } finally {
+        showStatement.free();
+        castStatement.free();
     }
 
-    return res.json({
-        'error': 'Show not found.'
-    });
+    return res.json(result);
 });
 
 app.listen(app.get('port'), () => {
