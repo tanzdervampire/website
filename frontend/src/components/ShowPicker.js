@@ -7,6 +7,7 @@ import { red500, grey50 } from 'material-ui/styles/colors';
 
 import RaisedButton from 'material-ui/RaisedButton';
 import DatePicker from 'material-ui/DatePicker';
+import Paper from 'material-ui/Paper';
 import { List, ListItem } from 'material-ui/List';
 import CircularProgress from 'material-ui/CircularProgress';
 
@@ -108,6 +109,12 @@ class ShowPicker extends React.Component {
             return (<div />);
         }
 
+        if (showsOnSelectedDate.length === 0) {
+            return (
+                <p>Für diesen Tag gibt es aktuell leider keine Informationen.</p>
+            );
+        }
+
         return showsOnSelectedDate.map((show) => {
             return this.renderItem(show);
         });
@@ -134,9 +141,11 @@ class ShowPicker extends React.Component {
         };
 
         return (
+            <Paper>
             <List style={styles.showList}>
                 {this.renderItems()}
             </List>
+            </Paper>
         );
     };
 

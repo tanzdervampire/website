@@ -92,6 +92,8 @@ class App extends React.Component {
     };
 
     content() {
+        const { currentShow } = this.state;
+
         const styles = {
             root: {
                 backgroundColor: grey50,
@@ -102,7 +104,9 @@ class App extends React.Component {
 
         return (
             <div style={styles.root}>
-                <CastList />
+                <CastList
+                    show={currentShow}
+                />
             </div>
         );
     };
