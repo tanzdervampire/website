@@ -50,7 +50,7 @@ class CastList extends React.Component {
                 disabled={true}
                 primaryText={actor}
                 secondaryText={role}
-                leftAvatar={<Avatar src="images/avatar.jpg" />}
+                leftAvatar={<Avatar src="images/avatar.png" />}
             />
         );
     }
