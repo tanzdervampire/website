@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import moment from 'moment';
 
 import FullWidthSection from './FullWidthSection';
 import typography from 'material-ui/styles/typography';
@@ -24,7 +25,8 @@ injectTapEventPlugin();
 class App extends Component {
 
     state = {
-        showShowPicker: false
+        showShowPicker: false,
+        show: null,
     };
 
     handleSearchCast = () => {
@@ -40,7 +42,15 @@ class App extends Component {
             showShowPicker: false,
         });
 
-        // TODO Handle this
+        fetch("api/cast?id=" + show, {
+            accept: "application/json"
+        }).then((response) => {
+            return response.json();
+        }).then((data) => {
+            this.setState({
+                show: data,
+            });
+        });
     };
 
     introductionPanel() {
@@ -135,13 +145,22 @@ class App extends Component {
     }
 
     render() {
+        const { show } = this.state;
+        const { date, place, time, cast } = show || {};
+        const showDate = (date) ? moment(date, "DD.MM.YYYY").toDate() : null;
+
         return (
             <MuiThemeProvider>
                 <div id="app-container">
                     {this.introductionPanel()}
                     {this.searchPanel()}
 
-                    <CastList />
+                    <CastList
+                        date={showDate}
+                        place={place}
+                        time={time}
+                        cast={cast}
+                    />
 
                     {this.footer()}
                 </div>

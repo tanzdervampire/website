@@ -20,9 +20,27 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'));
 }
 
+var toId = function(show) {
+    return show['date'] + '|' + show['time'] + '|' + show['place'];
+};
+
+var fromId = function(id) {
+    const parts = id.split(/\|/);
+    if (parts.length !== 3) {
+        return null;
+    }
+
+    return {
+        date: parts[0],
+        time: parts[1],
+        place: parts[2],
+    };
+};
+
 /**
  * /api/dates
- *   Returns available show dates in format DD.MM.YYYY and in ascending order.
+ *
+ * Returns available show dates in format DD.MM.YYYY and in ascending order.
  */
 app.get('/api/dates', (req, res) => {
     return res.json(Object.keys(data)
@@ -49,14 +67,54 @@ app.get('/api/shows', (req, res) => {
 
     var shows = data[moment(date, "DD.MM.YYYY").unix()] || [];
 
-    var id = 1;
     return res.json(shows.map((show) => {
-        show["id"] = id++;
-        /* This call doesn't need the entire cast. */
-        delete show["cast"];
-
-        return show;
+        return {
+            'id': toId(show),
+            'date': show['date'],
+            'place': show['place'],
+            'time': show['time'],
+            'unix': show['unix'],
+        };
     }));
+});
+
+/**
+ * /api/cast?id=<id>
+ *
+ * Returns the entire cast information for a show.
+ */
+app.get('/api/cast', (req, res) => {
+    const id = req.query.id;
+    if (!id) {
+        res.json({
+            'error': 'Missing required parameter.'
+        });
+        return;
+    }
+
+    var parts = fromId(id);
+    if (!parts) {
+        res.json({
+            'error': 'Invalid ID.'
+        });
+        return;
+    }
+
+    const { date, place, time } = parts;
+    var shows = data[moment(date, "DD.MM.YYYY").unix()] || [];
+
+    for (var i = 0; i < shows.length; i++) {
+        const show = shows[i];
+        if (show['date'] !== date || show['place'] !== place || show['time'] !== time) {
+            continue;
+        }
+
+        return res.json(show);
+    }
+
+    return res.json({
+        'error': 'Show not found.'
+    });
 });
 
 app.listen(app.get('port'), () => {

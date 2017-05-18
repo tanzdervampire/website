@@ -17,90 +17,16 @@ class CastList extends React.Component {
 
     static propTypes = {
         /* The date on which the show was. */
-        date: PropTypes.instanceOf(Date).isRequired,
+        date: PropTypes.instanceOf(Date),
 
         /* Where the show was. */
-        place: PropTypes.string.isRequired,
+        place: PropTypes.string,
 
         /* Which show of the day. Can be a time, e.g., "14:30 Uhr", or something like "Matinée". */
-        time: PropTypes.string.isRequired,
+        time: PropTypes.string,
 
         /* The cast list. */
-        cast: PropTypes.object.isRequired,
-    };
-
-    // TODO Dummy data, remove it.
-    static defaultProps = {
-        date: new Date(),
-        place: "Stuttgart",
-        time: "Matinée",
-        cast: {
-            "Graf von Krolock": [
-                "Felix Martin"
-            ],
-            "Alfred": [
-                "Max Niemeyer"
-            ],
-            "Professor Abronsius": [
-                "Stefan Poslovski"
-            ],
-            "Sarah": [
-                "Henriette Grawwert"
-            ],
-            "Chagal": [
-                "Jerzy Jeszke"
-            ],
-            "Magda": [
-                "Franziska Forster"
-            ],
-            "Rebecca": [
-                "Simone Pohl"
-            ],
-            "Herbert": [
-                "Tim Reichwein"
-            ],
-            "Koukol": [
-                "Stefan Büdenbender"
-            ],
-            "Solotänzer": [
-                "Peter Horemans",
-                "Kevin Foster",
-                "Silvano Marraffa",
-                "Leigh-Anne Vizer",
-                "Kerstin Zwanzig"
-            ],
-            "Gesangsensemble": [
-                "Paul Walthaus",
-                "Alexander di Capri",
-                "Michel Driesse",
-                "Manuel Stoff",
-                "Veit Schäfermeier",
-                "Paul Erkamp",
-                "Kati Heidebrecht",
-                "Lillemor Spitzer",
-                "Katrin Löbbert",
-                "Femke Soetenga",
-                "Stephanie H. Tschöppe",
-                "Sonja Schatz"
-            ],
-            "Tanzensemble": [
-                "Leigh-Anne Vizer",
-                "Kerstin Zwanzig",
-                "Peter Horemans",
-                "Kevin Foster",
-                "Silvano Marraffa",
-                "Daniel Ruiz",
-                "Phillip Kempster",
-                "Michael Eckel",
-                "Silvia Lambertoni",
-                "Maria Anna Russo",
-                "Kym Boyson",
-                "Kelly Edwards"
-            ],
-            "Dirigent": [
-                "Carsten Paap"
-            ]
-        },
+        cast: PropTypes.object,
     };
 
     createDivider(group) {
@@ -132,6 +58,10 @@ class CastList extends React.Component {
     createItems() {
         const { cast } = this.props;
         let items = [];
+
+        if (!cast) {
+            return items;
+        }
 
         // TODO Deal with undefineds
         items.push(this.createDivider("Hauptrollen"));
@@ -206,6 +136,13 @@ class CastList extends React.Component {
     }
 
     render() {
+        const { date } = this.props;
+        if (!date) {
+            return (
+                <div />
+            );
+        }
+
         const styles = {
             content: {
                 backgroundColor: lightWhite,
