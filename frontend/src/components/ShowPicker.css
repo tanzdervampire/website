@@ -1,0 +1,4 @@
+/* DatePicker doesn't allow setting the style inline via JSX. :-( */
+#show-picker-date-picker input {
+    text-align: center;
+}
