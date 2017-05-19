@@ -114,7 +114,7 @@ class ShowPicker extends React.Component {
     renderItem(show) {
         let formattedTitle = show.type;
         if (show.time) {
-            formattedTitle += ', ' + show.time;
+            formattedTitle += ', ' + show.time + ' Uhr';
         }
 
         let formattedLocation = show.location;
