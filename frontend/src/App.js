@@ -13,6 +13,7 @@ import CastList from './components/CastList';
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
 const muiTheme = getMuiTheme({
     datePicker: {
+        color: red500,
         selectColor: red500,
     },
     flatButton: {
