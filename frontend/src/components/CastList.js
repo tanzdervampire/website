@@ -64,11 +64,18 @@ class CastList extends React.Component {
         ];
     };
 
-    renderEnsembleGroup(group) {
+    renderEnsembleGroup(label, key) {
         const { show } = this.props;
-        return show.cast[group].map((person) => {
-            return this.renderItem('', person);
-        });
+        if (!show.cast[key] || show.cast[key].length === 0) {
+            return [];
+        }
+
+        const divider = this.renderDivider(label);
+        return [divider].concat(
+            show.cast[key].map((person) => {
+                return this.renderItem('', person);
+            })
+        );
     };
 
     renderEnsembleList() {
@@ -79,16 +86,12 @@ class CastList extends React.Component {
             );
         }
 
-        // TODO FIXME Deal with absent types
-        // TODO FIXME Add Gesangssolisten
         const cast = show.cast;
         return [
-            this.renderDivider('Tanzsolisten'),
-            ...this.renderEnsembleGroup('Solotänzer'),
-            this.renderDivider('Tanzensemble'),
-            ...this.renderEnsembleGroup('Tanzensemble'),
-            this.renderDivider('Gesangsensemble'),
-            ...this.renderEnsembleGroup('Gesangsensemble'),
+            ...this.renderEnsembleGroup('Tanzsolisten', 'Solotänzer'),
+            ...this.renderEnsembleGroup('Gesangssolisten', 'Gesangssolisten'),
+            ...this.renderEnsembleGroup('Tanzensemble', 'Tanzensemble'),
+            ...this.renderEnsembleGroup('Gesangsensemble', 'Gesangsensemble'),
         ];
     };
 
