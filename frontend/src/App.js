@@ -4,7 +4,7 @@ import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import typography from 'material-ui/styles/typography';
-import { red500, grey50, grey900, lightWhite } from 'material-ui/styles/colors';
+import { red500, grey50, grey900, lightWhite, white } from 'material-ui/styles/colors';
 
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
@@ -82,6 +82,11 @@ class App extends React.Component {
                 <div>
                     <p style={styles.p}>
                         Created by Ingo Bürk, 2017.
+                    </p>
+                    <p style={styles.p}>
+                        <IconButton href="https://github.com/tdv-casts/">
+                            <GithubIcon color={white} />
+                        </IconButton>
                     </p>
                 </div>
             </FullWidthSection>
