@@ -75,6 +75,7 @@ class ShowPicker extends React.Component {
             return response.json();
         }).then((shows) => {
             this.setState({ showsOnSelectedDate: shows });
+            this.onShowSelected(shows[0]);
         });
     };
 
