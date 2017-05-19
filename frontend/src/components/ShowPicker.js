@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { red500, grey50 } from 'material-ui/styles/colors';
+import withWidth, {LARGE} from 'material-ui/utils/withWidth';
 
 import RaisedButton from 'material-ui/RaisedButton';
 import DatePicker from 'material-ui/DatePicker';
@@ -226,7 +227,7 @@ class ShowPicker extends React.Component {
         return (
             <div id="show-picker-date-picker" style={styles.root}>
                 <DatePicker
-                    mode="landscape"
+                    mode={this.props.width == LARGE ? "landscape" : "portrait"}
                     okLabel="OK"
                     cancelLabel="Abbrechen"
                     hintText="Wähle das Datum der Vorstellung"
@@ -246,4 +247,4 @@ class ShowPicker extends React.Component {
 
 }
 
-export default ShowPicker;
+export default withWidth()(ShowPicker);
