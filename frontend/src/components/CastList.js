@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import { red500 } from 'material-ui/styles/colors';
 
 import Paper from 'material-ui/Paper';
 import { Tabs, Tab } from 'material-ui/Tabs';
@@ -28,7 +29,11 @@ class CastList extends React.Component {
     renderAvatar(person) {
         const initial = person.name[0].toUpperCase();
         return (
-            <Avatar>{initial}</Avatar>
+            <Avatar
+                backgroundColor={red500}
+            >
+                {initial}
+            </Avatar>
         );
     };
 
@@ -60,13 +65,12 @@ class CastList extends React.Component {
 
     renderMainCastList() {
         const { show } = this.props;
-        if (!show || !show.cast) {
+        if (!show) {
             return (
                 <div />
             );
         }
 
-        const cast = show.cast;
         return [
             this.renderDivider('Hauptrollen'),
             ...this.renderMainCastItemsForRole('Graf von Krolock'),
@@ -100,13 +104,12 @@ class CastList extends React.Component {
 
     renderEnsembleList() {
         const { show } = this.props;
-        if (!show || !show.cast) {
+        if (!show) {
             return (
                 <div />
             );
         }
 
-        const cast = show.cast;
         return [
             ...this.renderEnsembleGroup('Tanzsolisten', 'Solotänzer'),
             ...this.renderEnsembleGroup('Gesangssolisten', 'Gesangssolisten'),

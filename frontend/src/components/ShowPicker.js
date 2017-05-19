@@ -9,6 +9,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import DatePicker from 'material-ui/DatePicker';
 import Paper from 'material-ui/Paper';
 import { List, ListItem } from 'material-ui/List';
+import Avatar from 'material-ui/Avatar';
 import CircularProgress from 'material-ui/CircularProgress';
 
 import './ShowPicker.css';
@@ -32,6 +33,8 @@ class ShowPicker extends React.Component {
 
         selectedDate: null,
         showsOnSelectedDate: null,
+
+        selectedShow: null,
     };
 
     componentDidMount() {
@@ -61,7 +64,10 @@ class ShowPicker extends React.Component {
     };
 
     onDateSelected = (_, date) => {
-        this.setState({ selectedDate: date });
+        this.setState({
+            selectedDate: date,
+            selectedShow: null,
+        });
 
         fetch('/api/shows/' + moment(date).format('YYYY/MM/DD'), {
             accept: 'application/json',
@@ -82,6 +88,7 @@ class ShowPicker extends React.Component {
     };
 
     onShowSelected = (show) => {
+        this.setState({ selectedShow: show.id });
         this.props.onChange(show);
     };
 
@@ -100,11 +107,23 @@ class ShowPicker extends React.Component {
             formattedLocation += ', ' + show.theater;
         }
 
+        const avatarLabel = formattedTitle[0].toUpperCase();
+        const isSelected = (show.id === this.state.selectedShow);
+        const avatar = (
+            <Avatar
+                color={isSelected ? grey50 : red500}
+                backgroundColor={isSelected ? red500 : grey50}
+            >
+                {avatarLabel}
+            </Avatar>
+        );
+
         return (
             <ListItem
                 key={show.id}
                 primaryText={formattedTitle}
                 secondaryText={formattedLocation}
+                leftAvatar={avatar}
                 onTouchTap={() => this.onShowSelected(show)}
             />
         );
