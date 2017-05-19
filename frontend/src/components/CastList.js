@@ -4,7 +4,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Paper from 'material-ui/Paper';
-import {List, ListItem} from 'material-ui/List';
+import { Tabs, Tab } from 'material-ui/Tabs';
+import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Avatar from 'material-ui/Avatar';
 
@@ -36,7 +37,7 @@ class CastList extends React.Component {
         );
     };
 
-    renderItems() {
+    renderMainCastList() {
         const { show } = this.props;
         if (!show || !show.cast) {
             return (
@@ -46,7 +47,6 @@ class CastList extends React.Component {
 
         // TODO FIXME Be more flexible in terms of number of elements
         // TODO FIXME Deal with absent information
-        // TODO FIXME All other roles
         const cast = show.cast;
         return [
             this.renderDivider('Hauptrollen'),
@@ -59,15 +59,37 @@ class CastList extends React.Component {
             this.renderItem('Rebecca', cast['Rebecca'][0]),
             this.renderItem('Herbert', cast['Herbert'][0]),
             this.renderItem('Koukol', cast['Koukol'][0]),
+            this.renderDivider('Dirigent'),
+            this.renderItem('Dirigent', cast['Dirigent'][0]),
         ];
     };
 
-    renderList() {
-        return (
-            <List>
-                {this.renderItems()}
-            </List>
-        );
+    renderEnsembleGroup(group) {
+        const { show } = this.props;
+        return show.cast[group].map((person) => {
+            return this.renderItem('', person);
+        });
+    };
+
+    renderEnsembleList() {
+        const { show } = this.props;
+        if (!show || !show.cast) {
+            return (
+                <div />
+            );
+        }
+
+        // TODO FIXME Deal with absent types
+        // TODO FIXME Add Gesangssolisten
+        const cast = show.cast;
+        return [
+            this.renderDivider('Tanzsolisten'),
+            ...this.renderEnsembleGroup('Solotänzer'),
+            this.renderDivider('Tanzensemble'),
+            ...this.renderEnsembleGroup('Tanzensemble'),
+            this.renderDivider('Gesangsensemble'),
+            ...this.renderEnsembleGroup('Gesangsensemble'),
+        ];
     };
 
     render() {
@@ -90,7 +112,18 @@ class CastList extends React.Component {
         return (
             <div style={styles.root}>
                 <Paper>
-                    {this.renderList()}
+                    <Tabs>
+                        <Tab label="Besetzung">
+                            <List>
+                                {this.renderMainCastList()}
+                            </List>
+                        </Tab>
+                        <Tab label="Ensemble & Solisten">
+                            <List>
+                                {this.renderEnsembleList()}
+                            </List>
+                        </Tab>
+                    </Tabs>
                 </Paper>
             </div>
         );
