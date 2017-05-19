@@ -25,6 +25,13 @@ class CastList extends React.Component {
         );
     }
 
+    renderAvatar(person) {
+        const initial = person.name[0].toUpperCase();
+        return (
+            <Avatar>{initial}</Avatar>
+        );
+    };
+
     renderItem(role, person) {
         return (
             <ListItem
@@ -32,7 +39,7 @@ class CastList extends React.Component {
                 disabled={true}
                 primaryText={person.name}
                 secondaryText={role}
-                leftAvatar={<Avatar src="images/avatar.png" />}
+                leftAvatar={this.renderAvatar(person)}
             />
         );
     };
