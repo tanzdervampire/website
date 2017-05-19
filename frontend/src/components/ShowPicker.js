@@ -97,7 +97,7 @@ class ShowPicker extends React.Component {
 
         let formattedLocation = show.location;
         if (show.theater) {
-            formattedLocation += + ', ' + show.theater;
+            formattedLocation += ', ' + show.theater;
         }
 
         return (
