@@ -28,6 +28,8 @@ class ShowPicker extends React.Component {
     state = {
         open: false,
 
+        numberOfShows: null,
+
         availableDates: null,
         minDate: null,
         maxDate: null,
@@ -39,9 +41,13 @@ class ShowPicker extends React.Component {
     };
 
     componentDidMount() {
-        if (this.state.availableDates) {
-            return;
-        }
+        fetch('/api/shows/stats', {
+            accept: 'application/json',
+        }).then((response) => {
+            return response.json();
+        }).then((stats) => {
+            this.setState({ numberOfShows: stats['count'] });
+        });
 
         fetch('/api/shows/dates', {
             accept: 'application/json',
@@ -199,13 +205,14 @@ class ShowPicker extends React.Component {
     };
 
     render() {
-        const { open, minDate, maxDate } = this.state;
+        const { open, numberOfShows, minDate, maxDate } = this.state;
+        const displayedNumberOfShows = numberOfShows ? 100 * Math.floor(numberOfShows / 100) : 2000;
 
         if (!open) {
             return (
                 <div>
                     <p>
-                        Wähle aus über 2.400 Vorstellungen und finde heraus, welcher Cast an einem bestimmten Tag gespielt hat.
+                        Wähle aus {displayedNumberOfShows.toLocaleString()}+ Vorstellungen und finde heraus, welcher Cast an einem bestimmten Tag gespielt hat.
                     </p>
                     <RaisedButton
                         label="Cast finden"

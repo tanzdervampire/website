@@ -53,6 +53,23 @@ app.get('/api/productions', (req, res) => {
 });
 
 /**
+ * /api/shows/stats
+ *
+ * Returns statistics about the dataset of shows.
+ */
+app.get('/api/shows/stats', (req, res) => {
+    const result = db.exec('SELECT COUNT( * ) AS CNT FROM SHOW');
+    if (!result[0]) {
+        return res.json({});
+    }
+
+    let _ = makeUnderscore(result);
+    return res.json({
+        'count': result[0]['values'][0][_('CNT')],
+    });
+});
+
+/**
  * /api/shows/dates
  *
  * Returns a (sorted) list of dates (YYYY-MM-DD) for which information is available for
