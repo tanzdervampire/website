@@ -6,9 +6,12 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import typography from 'material-ui/styles/typography';
 import { red500, grey50, grey900, lightWhite } from 'material-ui/styles/colors';
 
+import AppBar from 'material-ui/AppBar';
+import IconButton from 'material-ui/IconButton';
 import FullWidthSection from './FullWidthSection';
 import ShowPicker from './components/ShowPicker';
 import CastList from './components/CastList';
+import GithubIcon from './components/GithubIcon';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
 const muiTheme = getMuiTheme({
@@ -123,10 +126,33 @@ class App extends React.Component {
         );
     };
 
+    appBar() {
+        const styles = {
+            appBar: {
+                backgroundColor: red500,
+            },
+        };
+
+        return (
+            <AppBar
+                zDepth={0}
+                style={styles.appBar}
+                showMenuIconButton={false}
+                iconElementRight={
+                    <IconButton href="https://github.com/tdv-casts/">
+                        <GithubIcon />
+                    </IconButton>
+                }
+            />
+        );
+    };
+
     render() {
         return (
             <MuiThemeProvider muiTheme={muiTheme}>
                 <div>
+                    {this.appBar()}
+
                     {this.header()}
                     {this.search()}
                     {this.content()}
