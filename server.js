@@ -5,11 +5,7 @@ const fs = require('fs');
 
 const app = express();
 
-const dbBuffer = fs.readFileSync('data.sqlite', (err) => {
-    if (err) {
-        throw err;
-    }
-});
+const dbBuffer = fs.readFileSync('data.sqlite');
 const db = new sql.Database(dbBuffer);
 
 app.set('port', (process.env.PORT || 3001));
