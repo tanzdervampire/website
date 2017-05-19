@@ -89,14 +89,21 @@ class ShowPicker extends React.Component {
         return moment(date).locale('de').format('dddd, DD.MM.YYYY');
     };
 
-    // TODO FIXME Deal with various absent information.
     renderItem(show) {
-        const formattedLocation = show.location + ', ' + show.theater;
+        let formattedTitle = show.type;
+        if (show.time) {
+            formattedTitle += ', ' + show.time;
+        }
+
+        let formattedLocation = show.location;
+        if (show.theater) {
+            formattedLocation += + ', ' + show.theater;
+        }
 
         return (
             <ListItem
                 key={show.id}
-                primaryText={show.type}
+                primaryText={formattedTitle}
                 secondaryText={formattedLocation}
                 onTouchTap={() => this.onShowSelected(show)}
             />
@@ -149,7 +156,6 @@ class ShowPicker extends React.Component {
         );
     };
 
-    // TODO FIXME shouldDisableDate
     render() {
         const { open, minDate, maxDate } = this.state;
 
