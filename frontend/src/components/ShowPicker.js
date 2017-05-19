@@ -89,6 +89,12 @@ class ShowPicker extends React.Component {
     };
 
     onShowSelected = (show) => {
+        const { selectedShow } = this.state;
+        if (selectedShow === show.id) {
+            /* Ignore tapping it multiple times. */
+            return;
+        }
+
         this.setState({ selectedShow: show.id });
         this.props.onChange(show);
     };
@@ -126,6 +132,7 @@ class ShowPicker extends React.Component {
                 secondaryText={formattedLocation}
                 leftAvatar={avatar}
                 onTouchTap={() => this.onShowSelected(show)}
+                disabled={isSelected}
             />
         );
     };
@@ -162,6 +169,9 @@ class ShowPicker extends React.Component {
         }
 
         const styles = {
+            p: {
+                paddingTop: 20,
+            },
             showList: {
                 textAlign: 'left',
             },
@@ -169,9 +179,15 @@ class ShowPicker extends React.Component {
 
         return (
             <Paper>
-            <List style={styles.showList}>
-                {this.renderItems()}
-            </List>
+                { showsOnSelectedDate.length === 1 && (
+                    <p style={styles.p}>An diesem Tag fand folgende Vorstellung statt</p>
+                ) }
+                { showsOnSelectedDate.length > 1 && (
+                    <p style={styles.p}>Wähle eine der Vorstellungen an diesem Tag</p>
+                ) }
+                <List style={styles.showList}>
+                    {this.renderItems()}
+                </List>
             </Paper>
         );
     };
