@@ -125,6 +125,10 @@ class ShowPicker extends React.Component {
             </Avatar>
         );
 
+        const style = {
+            userSelect: 'none',
+        };
+
         return (
             <ListItem
                 key={show.id}
@@ -133,6 +137,7 @@ class ShowPicker extends React.Component {
                 leftAvatar={avatar}
                 onTouchTap={() => this.onShowSelected(show)}
                 disabled={isSelected}
+                style={style}
             />
         );
     };
@@ -197,12 +202,17 @@ class ShowPicker extends React.Component {
 
         if (!open) {
             return (
-                <RaisedButton
-                    label="Suchen"
-                    onTouchTap={this.onGetStartedTapped}
-                    backgroundColor={red500}
-                    labelColor={grey50}
-                />
+                <div>
+                    <p>
+                        Wähle aus über 2.400 Vorstellungen und finde heraus, welcher Cast an einem bestimmten Tag gespielt hat.
+                    </p>
+                    <RaisedButton
+                        label="Cast finden"
+                        onTouchTap={this.onGetStartedTapped}
+                        backgroundColor={red500}
+                        labelColor={grey50}
+                    />
+                </div>
             );
         }
 

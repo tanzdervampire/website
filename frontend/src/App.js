@@ -44,7 +44,7 @@ class App extends React.Component {
                 fontSize: 48,
             },
             h2: {
-                fontSize: 32,
+                fontSize: 24,
             },
         };
 
@@ -56,7 +56,7 @@ class App extends React.Component {
                     Tanz der Vampire
                 </h1>
                 <h2 style={styles.h2}>
-                    Besetzungslisten
+                    Castlisten
                 </h2>
             </FullWidthSection>
         );
