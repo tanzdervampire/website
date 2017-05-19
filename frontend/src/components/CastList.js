@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { red500 } from 'material-ui/styles/colors';
+import { red500, grey50 } from 'material-ui/styles/colors';
 
 import Paper from 'material-ui/Paper';
 import { Tabs, Tab } from 'material-ui/Tabs';
@@ -133,12 +133,18 @@ class CastList extends React.Component {
                 paddingBottom: '2em',
                 textAlign: 'left',
             },
+            tabs: {
+                backgroundColor: red500,
+            },
+            inkBar: {
+                backgroundColor: grey50,
+            },
         };
 
         return (
             <div style={styles.root}>
                 <Paper>
-                    <Tabs>
+                    <Tabs tabItemContainerStyle={styles.tabs} inkBarStyle={styles.inkBar}>
                         <Tab label="Besetzung">
                             <List>
                                 {this.renderMainCastList()}
