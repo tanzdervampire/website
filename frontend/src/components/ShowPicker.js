@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import areIntlLocalesSupported from 'intl-locales-supported';
 import moment from 'moment';
 import { red500, grey50 } from 'material-ui/styles/colors';
 import withWidth, {LARGE} from 'material-ui/utils/withWidth';
@@ -224,6 +225,15 @@ class ShowPicker extends React.Component {
             );
         }
 
+        let DateTimeFormat;
+        if (areIntlLocalesSupported(['de'])) {
+            DateTimeFormat = global.Intl.DateTimeFormat;
+        } else {
+            const IntlPolyfill = require('intl');
+            DateTimeFormat = IntlPolyfill.DateTimeFormat;
+            require('intl/locale-data/jsonp/de');
+        }
+
         const styles = {
             root: {
                 maxWidth: 400,
@@ -240,7 +250,7 @@ class ShowPicker extends React.Component {
                     hintText="Wähle das Datum der Vorstellung"
                     autoOk={true}
                     formatDate={this.formatDate}
-                    DateTimeFormat={global.Intl.DateTimeFormat}
+                    DateTimeFormat={DateTimeFormat}
                     locale="de-DE"
                     minDate={minDate}
                     maxDate={maxDate}
