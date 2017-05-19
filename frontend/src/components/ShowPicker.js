@@ -234,7 +234,7 @@ class ShowPicker extends React.Component {
         return (
             <div id="show-picker-date-picker" style={styles.root}>
                 <DatePicker
-                    mode={this.props.width == LARGE ? "landscape" : "portrait"}
+                    mode={this.props.width === LARGE ? "landscape" : "portrait"}
                     okLabel="OK"
                     cancelLabel="Abbrechen"
                     hintText="Wähle das Datum der Vorstellung"
