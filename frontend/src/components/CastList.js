@@ -37,6 +37,20 @@ class CastList extends React.Component {
         );
     };
 
+    renderMainCastItemsForRole(role) {
+        const { show } = this.props;
+        if (!show.cast[role] || show.cast[role].length === 0) {
+            return [this.renderItem(role, {
+                'id': role + Math.random(),
+                'name': 'Unbekannt',
+            })];
+        }
+
+        return show.cast[role].map((person) => {
+            return this.renderItem(role, person);
+        });
+    };
+
     renderMainCastList() {
         const { show } = this.props;
         if (!show || !show.cast) {
@@ -45,22 +59,21 @@ class CastList extends React.Component {
             );
         }
 
-        // TODO FIXME Be more flexible in terms of number of elements
-        // TODO FIXME Deal with absent information
         const cast = show.cast;
         return [
             this.renderDivider('Hauptrollen'),
-            this.renderItem('Graf von Krolock', cast['Graf von Krolock'][0]),
-            this.renderItem('Alfred', cast['Alfred'][0]),
-            this.renderItem('Professor Abronsius', cast['Professor Abronsius'][0]),
-            this.renderItem('Sarah', cast['Sarah'][0]),
-            this.renderItem('Chagal', cast['Chagal'][0]),
-            this.renderItem('Magda', cast['Magda'][0]),
-            this.renderItem('Rebecca', cast['Rebecca'][0]),
-            this.renderItem('Herbert', cast['Herbert'][0]),
-            this.renderItem('Koukol', cast['Koukol'][0]),
+            ...this.renderMainCastItemsForRole('Graf von Krolock'),
+            ...this.renderMainCastItemsForRole('Alfred'),
+            ...this.renderMainCastItemsForRole('Professor Abronsius'),
+            ...this.renderMainCastItemsForRole('Sarah'),
+            ...this.renderMainCastItemsForRole('Chagal'),
+            ...this.renderMainCastItemsForRole('Magda'),
+            ...this.renderMainCastItemsForRole('Rebecca'),
+            ...this.renderMainCastItemsForRole('Herbert'),
+            ...this.renderMainCastItemsForRole('Koukol'),
+
             this.renderDivider('Dirigent'),
-            this.renderItem('Dirigent', cast['Dirigent'][0]),
+            ...this.renderMainCastItemsForRole('Dirigent'),
         ];
     };
 
