@@ -2,12 +2,23 @@
 
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import typography from 'material-ui/styles/typography';
 import { red500, grey50, grey900, lightWhite } from 'material-ui/styles/colors';
 
 import FullWidthSection from './FullWidthSection';
 import ShowPicker from './components/ShowPicker';
 import CastList from './components/CastList';
+
+/* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
+const muiTheme = getMuiTheme({
+    datePicker: {
+        selectColor: red500,
+    },
+    flatButton: {
+        primaryTextColor: red500,
+    },
+});
 
 class App extends React.Component {
 
@@ -113,7 +124,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <MuiThemeProvider>
+            <MuiThemeProvider muiTheme={muiTheme}>
                 <div>
                     {this.header()}
                     {this.search()}
