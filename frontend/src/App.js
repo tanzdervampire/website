@@ -83,11 +83,9 @@ class App extends React.Component {
                     <p style={styles.p}>
                         Created by Ingo Bürk, 2017.
                     </p>
-                    <p style={styles.p}>
-                        <IconButton href="https://github.com/tdv-casts/">
-                            <GithubIcon color={white} />
-                        </IconButton>
-                    </p>
+                    <IconButton href="https://github.com/tdv-casts/">
+                        <GithubIcon color={white} />
+                    </IconButton>
                 </div>
             </FullWidthSection>
         );
