@@ -1,5 +1,4 @@
 const express = require('express');
-const moment = require('moment');
 const sql = require('sql.js');
 const fs = require('fs');
 
@@ -49,6 +48,23 @@ app.get('/api/productions', (req, res) => {
             'location': production[_('LOCATION')],
             'theater': production[_('THEATER')],
         };
+    }));
+});
+
+/**
+ * /api/actors
+ *
+ * Returns a list of all actors.
+ */
+app.get('/api/actors', (req, res) => {
+    const result = db.exec('SELECT NAME FROM PERSON ORDER BY NAME ASC');
+    if (!result[0]) {
+        return res.json({});
+    }
+
+    let _ = makeUnderscore(result);
+    return res.json(result[0]['values'].map((actor) => {
+        return actor[_('NAME')];
     }));
 });
 
