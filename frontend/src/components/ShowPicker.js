@@ -54,7 +54,9 @@ class ShowPicker extends React.Component {
             accept: 'application/json',
         }).then((response) => {
             return response.json();
-        }).then((dates) => {
+        }).then((response) => {
+            const dates = Object.keys(response);
+
             const l = dates.length;
             const minDate = (dates && dates[0]) ? moment(dates[0], 'YYYY-MM-DD').toDate() : null;
             const maxDate = (dates && dates[l-1]) ? moment(dates[l-1], 'YYYY-MM-DD').toDate() : null;

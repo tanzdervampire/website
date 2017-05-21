@@ -57,15 +57,20 @@ app.get('/api/productions', (req, res) => {
  * Returns a list of all actors.
  */
 app.get('/api/actors', (req, res) => {
-    const result = db.exec('SELECT NAME FROM PERSON ORDER BY NAME ASC');
+    const result = db.exec('SELECT ID, NAME FROM PERSON ORDER BY NAME ASC');
     if (!result[0]) {
         return res.json({});
     }
 
     let _ = makeUnderscore(result);
-    return res.json(result[0]['values'].map((actor) => {
-        return actor[_('NAME')];
-    }));
+    let response = {};
+    result[0]['values'].forEach((row) => {
+        response[row[_('NAME')]] = {
+            'id': row[_('ID')],
+        };
+    });
+
+    return res.json(response);
 });
 
 /**
@@ -92,15 +97,20 @@ app.get('/api/shows/stats', (req, res) => {
  * at least one show on that day.
  */
 app.get('/api/shows/dates', (req, res) => {
-    const result = db.exec('SELECT DISTINCT( DATE( DAY ) ) AS DAY FROM SHOW ORDER BY DATE( DAY ) ASC');
+    const result = db.exec('SELECT DATE( DAY ) AS DAY, COUNT( * ) AS COUNT FROM SHOW GROUP BY DATE( DAY ) ORDER BY DATE( DAY ) ASC');
     if (!result[0]) {
         return res.json({});
     }
 
     let _ = makeUnderscore(result);
-    return res.json(result[0]['values'].map((value) => {
-        return value[_('DAY')];
-    }));
+    let response = {};
+    result[0]['values'].forEach((row) => {
+        response[row[_('DAY')]] = {
+            'numberOfShows': row[_('COUNT')],
+        };
+    });
+
+    return res.json(response);
 });
 
 /**
