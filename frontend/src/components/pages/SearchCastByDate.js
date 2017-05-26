@@ -46,7 +46,7 @@ class SearchCastByDate extends React.Component {
         }
     };
 
-    loadShows(location, day, month, year, time) {
+    loadShows(location, day, month, year, time, callback = () => {}) {
         fetch(`/api/shows/${year}/${month}/${day}`, {
             accept: 'application/json',
         }).then(response => {
@@ -61,6 +61,8 @@ class SearchCastByDate extends React.Component {
                 selectedDate: moment(`${day}.${month}.${year}`, 'DD.MM.YYYY').toDate(),
                 selectedShow: this.getShowToSelect(shows, location, time),
             });
+
+            callback();
         }).catch(err => {
             console.log(`Failed to get shows on ${day}.${month}.${year}, error message: ${err.message}`);
         });
@@ -73,7 +75,16 @@ class SearchCastByDate extends React.Component {
             selectedShow: null,
         });
         const [ day, month, year ] = moment(date).format('DD.MM.YYYY').split(/\./);
-        this.loadShows(null, day, month, year, null);
+        this.loadShows(null, day, month, year, null, () => {
+            /* If we're not coming from a URL request, redirect properly after loading the shows so that the URL
+             * is changed. */
+            if (!this.props.match.params.year && this.state.selectedShow) {
+                const { selectedShow } = this.state;
+                const { location, time } = selectedShow;
+                const [ year, month, day ] = selectedShow['day'].split(/-/);
+                this.props.history.push(`/show/${location}/${day}/${month}/${year}/${time}`);
+            }
+        });
     };
 
     getShowToSelect(shows, location, time) {
