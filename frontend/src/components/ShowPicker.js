@@ -31,7 +31,7 @@ class ShowPicker extends React.Component {
 
         numberOfShows: null,
 
-        availableDates: null,
+        productions: null,
         minDate: null,
         maxDate: null,
 
@@ -50,19 +50,25 @@ class ShowPicker extends React.Component {
             this.setState({ numberOfShows: stats['count'] });
         });
 
-        fetch('/api/shows/dates', {
+        fetch('/api/productions', {
             accept: 'application/json',
         }).then((response) => {
             return response.json();
-        }).then((response) => {
-            const dates = Object.keys(response);
+        }).then((productions) => {
+            const minDate = moment(productions.sort((a, b) => {
+                const startA = moment(a['start'], 'YYYY-MM-DD');
+                const startB = moment(b['start'], 'YYYY-MM-DD');
+                return startB.isAfter(startA) ? -1 : +1;
+            })[0]['start'], 'YYYY-MM-DD').toDate();
 
-            const l = dates.length;
-            const minDate = (dates && dates[0]) ? moment(dates[0], 'YYYY-MM-DD').toDate() : null;
-            const maxDate = (dates && dates[l-1]) ? moment(dates[l-1], 'YYYY-MM-DD').toDate() : null;
+            const maxDate = moment(productions.sort((a, b) => {
+                const startA = moment(a['end'], 'YYYY-MM-DD');
+                const startB = moment(b['end'], 'YYYY-MM-DD');
+                return startB.isAfter(startA) ? +1 : -1;
+            })[0]['end'], 'YYYY-MM-DD').toDate();
 
             this.setState({
-                availableDates: dates,
+                productions: productions,
                 minDate: minDate,
                 maxDate: maxDate,
             });
@@ -159,8 +165,14 @@ class ShowPicker extends React.Component {
         }
 
         if (showsOnSelectedDate.length === 0) {
+            const styles = {
+                p: {
+                    padding: 20,
+                },
+            };
+
             return (
-                <p>Für diesen Tag gibt es aktuell leider keine Informationen.</p>
+                <p style={styles.p}>Für diesen Tag gibt es aktuell leider keine Informationen.</p>
             );
         }
 
