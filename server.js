@@ -97,7 +97,7 @@ app.get('/api/shows/stats', (req, res) => {
  * at least one show on that day.
  */
 app.get('/api/shows/dates', (req, res) => {
-    const result = db.exec('SELECT DATE( DAY ), COUNT( * ) AS COUNT AS DAY FROM SHOW GROUP BY DATE( DAY ) ORDER BY DATE( DAY ) ASC');
+    const result = db.exec('SELECT DATE( DAY ) AS DAY, COUNT( * ) AS COUNT FROM SHOW GROUP BY DATE( DAY ) ORDER BY DATE( DAY ) ASC');
     if (!result[0]) {
         return res.json({});
     }
@@ -105,7 +105,9 @@ app.get('/api/shows/dates', (req, res) => {
     let _ = makeUnderscore(result);
     let response = {};
     result[0]['values'].forEach(row => {
-        response[row] = {};
+        response[row[_('DAY')]] = {
+            'count': row[_('COUNT')],
+        };
     });
 
     return res.json(response);
@@ -122,7 +124,7 @@ app.get('/api/shows/:year/:month/:day', (req, res) => {
     const showStatement = db.prepare(`
         SELECT
             "SHOW".ID,
-            "SHOW".DAY,
+            DATE( "SHOW".DAY ) AS DAY,
             "SHOW".TIME,
             "SHOW".TYPE,
             "PRODUCTION".LOCATION,
@@ -182,6 +184,78 @@ app.get('/api/shows/:year/:month/:day', (req, res) => {
     }
 
     return res.json(result);
+});
+
+/**
+ * /api/show/:location/:year/:month/:day/:time
+ *
+ * Returns a specific show.
+ */
+app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
+    const { location, year, month, day, time } = req.params;
+
+    const showStatement = db.prepare(`
+        SELECT
+            "SHOW".ID,
+            DATE( "SHOW".DAY ) AS DAY,
+            "SHOW".TIME,
+            "SHOW".TYPE,
+            "PRODUCTION".LOCATION,
+            "PRODUCTION".THEATER
+        FROM "SHOW"
+        INNER JOIN "PRODUCTION" ON "SHOW".PRODUCTION_ID = "PRODUCTION".ID
+        WHERE DATE( "SHOW".DAY ) = :date
+            AND "SHOW".TIME = :time
+            AND "PRODUCTION".LOCATION = :location
+    `);
+
+    const castStatement = db.prepare(`
+        SELECT
+            "PERSON".ID,
+            "CAST".ROLE,
+            "PERSON".NAME
+        FROM "CAST"
+        INNER JOIN PERSON ON "CAST".PERSON_ID = "PERSON".ID
+        WHERE "CAST".SHOW_ID = :show
+        ORDER BY "CAST".ROLE ASC, "PERSON".NAME ASC
+    `);
+
+    let result = [];
+    try {
+        let show = showStatement.getAsObject({
+            ':date': [year, month, day].join('-'),
+            ':time': time,
+            ':location': location,
+        });
+
+        let cast = {};
+        castStatement.bind({
+            ':show': show['ID'],
+        });
+        while (castStatement.step()) {
+            let person = castStatement.getAsObject();
+            cast[person['ROLE']] = cast[person['ROLE']] || [];
+            cast[person['ROLE']].push({
+                'id': person['ID'],
+                'name': person['NAME'],
+            });
+        }
+
+        return res.json({
+            'id': show['ID'],
+            'day': show['DAY'],
+            'time': show['TIME'],
+            'type': show['TYPE'],
+            'location': show['LOCATION'],
+            'theater': show['THEATER'],
+            'cast': cast,
+        });
+    } finally {
+        showStatement.free();
+        castStatement.free();
+    }
+
+    return res.json({ 'error': 'Unknown error.' });
 });
 
 app.listen(app.get('port'), () => {
