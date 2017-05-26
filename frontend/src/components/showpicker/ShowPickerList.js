@@ -33,9 +33,16 @@ class ShowPickerList extends React.Component {
     };
 
     loadShows(date) {
-        fetch('/api/shows/' + moment(date).format('YYYY/MM/DD'), {
+        const formatted = moment(date).format('YYYY/MM/DD');
+        const [ year, month, day ] = formatted.split(/\//);
+
+        fetch(`/api/shows/${year}/${month}/${day}`, {
             accept: 'application/json',
         }).then((response) => {
+            if (!response.ok) {
+                throw new Error();
+            }
+
             return response.json();
         }).then((shows) => {
             this.setState({
@@ -44,6 +51,12 @@ class ShowPickerList extends React.Component {
             });
 
             this.onShowSelected(shows ? shows[0] : null);
+        }).catch((err) => {
+            console.log(`Failed to get show on ${formatted}, error message: ${err.message}`);
+            this.setState({
+                shows: null,
+                selectedShow: null,
+            });
         });
     };
 

@@ -39,6 +39,10 @@ class ShowPickerDatePicker extends React.Component {
         fetch('/api/productions', {
             accept: 'application/json',
         }).then((response) => {
+            if (!response.ok) {
+                throw new Error();
+            }
+
             return response.json();
         }).then((productions) => {
             const minDate = moment(productions.sort((a, b) => {
@@ -57,6 +61,13 @@ class ShowPickerDatePicker extends React.Component {
                 productions: productions,
                 minDate: minDate,
                 maxDate: maxDate,
+            });
+        }).catch((err) => {
+            console.log(`Failed to get information about available productions, error message: ${err.message}`);
+            this.setState({
+                productions: null,
+                minDate: null,
+                maxDate: null,
             });
         });
     };
