@@ -10,6 +10,8 @@ import IconButton from 'material-ui/IconButton';
 import FullWidthSection from './FullWidthSection';
 import GithubIcon from './components/GithubIcon';
 
+import { Switch, Route } from 'react-router-dom';
+
 import SearchCastByDate from './components/pages/SearchCastByDate';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
@@ -78,7 +80,9 @@ class App extends React.Component {
                 <div>
                     {this.appBar()}
 
-                    <SearchCastByDate />
+                    <Switch>
+                        <Route exact path="/" component={SearchCastByDate} />
+                    </Switch>
 
                     {this.footer()}
                 </div>
