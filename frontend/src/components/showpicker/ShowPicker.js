@@ -25,15 +25,15 @@ class ShowPicker extends React.Component {
     componentDidMount() {
         fetch('/api/shows/stats', {
             accept: 'application/json',
-        }).then((response) => {
+        }).then(response => {
             if (!response.ok) {
                 throw new Error();
             }
 
             return response.json();
-        }).then((stats) => {
+        }).then(stats => {
             this.setState({ numberOfShows: stats['count'] });
-        }).catch((err) => {
+        }).catch(err => {
             console.log(`Failed to get current show statistics, error message: ${err.message}`);
         });
     };

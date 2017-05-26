@@ -41,7 +41,7 @@ app.get('/api/productions', (req, res) => {
     }
 
     let _ = makeUnderscore(result);
-    return res.json(result[0]['values'].map((production) => {
+    return res.json(result[0]['values'].map(production => {
         return {
             'start': production[_('START')],
             'end': production[_('END')],
@@ -64,7 +64,7 @@ app.get('/api/actors', (req, res) => {
 
     let _ = makeUnderscore(result);
     let response = {};
-    result[0]['values'].forEach((row) => {
+    result[0]['values'].forEach(row => {
         response[row[_('NAME')]] = {
             'id': row[_('ID')],
         };
@@ -88,6 +88,27 @@ app.get('/api/shows/stats', (req, res) => {
     return res.json({
         'count': result[0]['values'][0][_('CNT')],
     });
+});
+
+/**
+ * /api/shows/dates
+ *
+ * Returns a (sorted) list of dates (YYYY-MM-DD) for which information is available for
+ * at least one show on that day.
+ */
+app.get('/api/shows/dates', (req, res) => {
+    const result = db.exec('SELECT DATE( DAY ), COUNT( * ) AS COUNT AS DAY FROM SHOW GROUP BY DATE( DAY ) ORDER BY DATE( DAY ) ASC');
+    if (!result[0]) {
+        return res.json({});
+    }
+
+    let _ = makeUnderscore(result);
+    let response = {};
+    result[0]['values'].forEach(row => {
+        response[row] = {};
+    });
+
+    return res.json(response);
 });
 
 /**

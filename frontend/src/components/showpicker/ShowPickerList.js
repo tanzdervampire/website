@@ -38,20 +38,20 @@ class ShowPickerList extends React.Component {
 
         fetch(`/api/shows/${year}/${month}/${day}`, {
             accept: 'application/json',
-        }).then((response) => {
+        }).then(response => {
             if (!response.ok) {
                 throw new Error();
             }
 
             return response.json();
-        }).then((shows) => {
+        }).then(shows => {
             this.setState({
                 shows: shows,
                 selectedShow: null,
             });
 
             this.onShowSelected(shows ? shows[0] : null);
-        }).catch((err) => {
+        }).catch(err => {
             console.log(`Failed to get show on ${formatted}, error message: ${err.message}`);
             this.setState({
                 shows: null,

@@ -21,7 +21,7 @@ class CastList extends React.Component {
         slideIndex: 0,
     };
 
-    handleChange = (value) => {
+    handleChange = value => {
         this.setState({ slideIndex: value });
     };
 
@@ -70,9 +70,7 @@ class CastList extends React.Component {
             })];
         }
 
-        return show.cast[role].map((person) => {
-            return this.renderItem(role, person);
-        });
+        return show.cast[role].map(person => this.renderItem(role, person));
     };
 
     renderMainCastList() {
@@ -108,9 +106,7 @@ class CastList extends React.Component {
 
         const divider = this.renderDivider(label);
         return [divider].concat(
-            show.cast[key].map((person) => {
-                return this.renderItem(key, person, true);
-            })
+            show.cast[key].map(person => this.renderItem(key, person, true))
         );
     };
 

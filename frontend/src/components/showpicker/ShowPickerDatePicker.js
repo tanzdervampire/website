@@ -38,13 +38,13 @@ class ShowPickerDatePicker extends React.Component {
     componentDidMount() {
         fetch('/api/productions', {
             accept: 'application/json',
-        }).then((response) => {
+        }).then(response => {
             if (!response.ok) {
                 throw new Error();
             }
 
             return response.json();
-        }).then((productions) => {
+        }).then(productions => {
             const minDate = moment(productions.sort((a, b) => {
                 const startA = moment(a['start'], 'YYYY-MM-DD');
                 const startB = moment(b['start'], 'YYYY-MM-DD');
@@ -62,7 +62,7 @@ class ShowPickerDatePicker extends React.Component {
                 minDate: minDate,
                 maxDate: maxDate,
             });
-        }).catch((err) => {
+        }).catch(err => {
             console.log(`Failed to get information about available productions, error message: ${err.message}`);
             this.setState({
                 productions: null,
@@ -72,11 +72,11 @@ class ShowPickerDatePicker extends React.Component {
         });
     };
 
-    formatDate = (date) => {
+    formatDate = date => {
         return moment(date).locale('de').format('dddd, DD.MM.YYYY');
     };
 
-    shouldDisableDate = (date) => {
+    shouldDisableDate = date => {
         const { productions, minDate, maxDate } = this.state;
         const currentDate = moment(date);
 
