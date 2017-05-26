@@ -78,7 +78,7 @@ class ShowPickerDatePicker extends React.Component {
     };
 
     shouldDisableDate = date => {
-        const { productions, minDate, maxDate } = this.state;
+        const { productions } = this.state;
         const currentDate = moment(date);
 
         /* If we have no data yet, allow all dates. */
