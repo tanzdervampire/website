@@ -164,6 +164,7 @@ class CastList extends React.Component {
                     <SwipeableViews
                         index={this.state.slideIndex}
                         onChangeIndex={this.handleChange}
+                        animateHeight={true}
                         resistance={true}
                         enableMouseEvents={true}
                     >
