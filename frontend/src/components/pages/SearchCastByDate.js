@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react';
+import moment from 'moment';
 import typography from 'material-ui/styles/typography';
 import { red500, grey50 } from 'material-ui/styles/colors';
 
@@ -11,11 +12,88 @@ import CastList from '../castlist/CastList';
 class SearchCastByDate extends React.Component {
 
     state = {
-        currentShow: null,
+        shows: null,
+        selectedDate: null,
+        selectedShow: null,
     };
 
-    onShowSelected = (show) => {
-        this.setState({ currentShow: show });
+    componentDidMount() {
+        const { location, day, month, year, time } = this.props.match.params;
+        if (location && day && month && year && time) {
+            this.loadShows(location, day, month, year, time);
+        }
+    };
+
+    componentWillReceiveProps(nextProps) {
+        const { location, day, month, year, time } = nextProps.match.params;
+        if (this.state.selectedDate && [day, month, year].join('.') === moment(this.state.selectedDate).format('DD.MM.YYYY')) {
+            this.setState({ selectedShow: this.findShow(location, time) });
+            return;
+        }
+
+        this.setState({ shows: null, selectedShow: null });
+        if (location && day && month && year && time) {
+            this.loadShows(location, day, month, year, time);
+        }
+    };
+
+    loadShows(location, day, month, year, time) {
+        fetch(`/api/shows/${year}/${month}/${day}`, {
+            accept: 'application/json',
+        }).then(response => {
+            if (!response.ok) {
+                throw new Error();
+            }
+
+            return response.json();
+        }).then(shows => {
+            this.setState({
+                shows: shows,
+                selectedDate: moment(`${day}.${month}.${year}`, 'DD.MM.YYYY').toDate(),
+            });
+
+            this.setState({ selectedShow: this.findShow(location, time) });
+        }).catch(err => {
+            console.log(`Failed to get shows on ${day}.${month}.${year}, error message: ${err.message}`);
+        });
+    };
+
+    onDateChange = date => {
+        this.setState({
+            shows: null,
+            selectedDate: date,
+            selectedShow: null,
+        });
+        const [ day, month, year ] = moment(date).format('DD.MM.YYYY').split(/\./);
+        this.loadShows(null, day, month, year, null);
+    };
+
+    findShow(location, time) {
+        /* If we have no shows yet, there's nothing to select. */
+        if (!this.state.shows || this.state.shows.length === 0) {
+            return null;
+        }
+
+        /* When we're not coming from a URL we have no location and time, so just select the first one. */
+        if (!location || !time) {
+            return this.state.shows[0];
+        }
+
+        /* We're coming from a URL, so try and select the correct show. */
+        const filtered = this.state.shows.filter(show => {
+            return show['location'] === location && show['time'] === time;
+        });
+
+        if (filtered.length === 1) {
+            /* This is what we'd usually expect. */
+            return filtered[0];
+        } else if (filtered.length === 0) {
+            console.log('Could not find any show matching all given criteria.');
+            return this.state.shows[0];
+        } else {
+            console.log('Found more than one show matching the given criteria.');
+            return filtered[0];
+        }
     };
 
     header() {
@@ -60,15 +138,18 @@ class SearchCastByDate extends React.Component {
 
         return (
             <FullWidthSection style={styles.root}>
-                <ShowPicker
-                    onChange={this.onShowSelected}
+                <ShowPicker {...this.props}
+                    shows={this.state.shows}
+                    selectedDate={this.state.selectedDate}
+                    selectedShow={this.state.selectedShow}
+                    onDateSelected={this.onDateChange}
                 />
             </FullWidthSection>
         );
     };
 
     content() {
-        const { currentShow } = this.state;
+        const { selectedShow } = this.state;
 
         const styles = {
             root: {
@@ -81,7 +162,7 @@ class SearchCastByDate extends React.Component {
         return (
             <div style={styles.root}>
                 <CastList
-                    show={currentShow}
+                    show={selectedShow}
                 />
             </div>
         );

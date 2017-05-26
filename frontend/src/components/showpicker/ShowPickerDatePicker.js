@@ -14,6 +14,7 @@ import './ShowPickerDatePicker.css';
 class ShowPickerDatePicker extends React.Component {
 
     static propTypes = {
+        selectedDate: PropTypes.instanceOf(Date),
         onDateSelected: PropTypes.func.isRequired,
     };
 
@@ -111,6 +112,7 @@ class ShowPickerDatePicker extends React.Component {
                     maxDate={this.state.maxDate && this.state.maxDate.toDate()}
                     onChange={this.props.onDateSelected}
                     shouldDisableDate={this.shouldDisableDate}
+                    value={this.props.selectedDate}
                 />
             </div>
         );

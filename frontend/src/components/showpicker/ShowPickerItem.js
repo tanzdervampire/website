@@ -11,7 +11,7 @@ class ShowPickerItem extends React.Component {
 
     static propTypes = {
         show: PropTypes.object.isRequired,
-        selected: PropTypes.bool.isRequired,
+        selected: PropTypes.bool,
         onShowSelected: PropTypes.func.isRequired,
     };
 

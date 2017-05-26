@@ -13,16 +13,22 @@ import ShowPickerList from './ShowPickerList';
 class ShowPicker extends React.Component {
 
     static propTypes = {
-        onChange: PropTypes.func.isRequired,
+        shows: PropTypes.array,
+        selectedDate: PropTypes.instanceOf(Date),
+        selectedShow: PropTypes.object,
+        onDateSelected: PropTypes.func,
     };
 
     state = {
         open: false,
         numberOfShows: null,
-        selectedDate: null,
     };
 
     componentDidMount() {
+        if (this.props.match.params.year) {
+            this.setState({ open: true });
+        }
+
         fetch('/api/shows/stats', {
             accept: 'application/json',
         }).then(response => {
@@ -43,8 +49,7 @@ class ShowPicker extends React.Component {
     };
 
     onDateSelected = (_, date) => {
-        this.setState({ selectedDate: date });
-        this.props.onChange(null);
+        this.props.onDateSelected(date);
     };
 
     render() {
@@ -76,14 +81,13 @@ class ShowPicker extends React.Component {
 
         return (
             <div style={styles.root}>
-                <ShowPickerDatePicker
+                <ShowPickerDatePicker {...this.props}
                     onDateSelected={this.onDateSelected}
                 />
 
-                { this.state.selectedDate && (
-                    <ShowPickerList
-                        date={this.state.selectedDate}
-                        onChange={this.props.onChange}
+                { this.props.selectedDate && (
+                    <ShowPickerList {...this.props}
+                        date={this.props.selectedDate}
                     />
                 ) }
             </div>

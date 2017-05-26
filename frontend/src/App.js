@@ -82,6 +82,7 @@ class App extends React.Component {
 
                     <Switch>
                         <Route exact path="/" component={SearchCastByDate} />
+                        <Route path="/show/:location/:day/:month/:year/:time" component={SearchCastByDate} />
                     </Switch>
 
                     {this.footer()}

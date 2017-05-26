@@ -2,7 +2,6 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import moment from 'moment';
 
 import { red500 } from 'material-ui/styles/colors';
 import Paper from 'material-ui/Paper';
@@ -13,66 +12,19 @@ import ShowPickerItem from './ShowPickerItem';
 class ShowPickerList extends React.Component {
 
     static propTypes = {
+        shows: PropTypes.array,
+        selectedShow: PropTypes.object,
         date: PropTypes.instanceOf(Date).isRequired,
-        onChange: PropTypes.func.isRequired,
-    };
-
-    state = {
-        shows: null,
-        selectedShow: null,
-    };
-
-    componentDidMount() {
-        this.loadShows(this.props.date);
-    };
-
-    componentWillReceiveProps(nextProps) {
-        if (this.props.date !== nextProps.date) {
-            this.loadShows(nextProps.date);
-        }
-    };
-
-    loadShows(date) {
-        const formatted = moment(date).format('YYYY/MM/DD');
-        const [ year, month, day ] = formatted.split(/\//);
-
-        fetch(`/api/shows/${year}/${month}/${day}`, {
-            accept: 'application/json',
-        }).then(response => {
-            if (!response.ok) {
-                throw new Error();
-            }
-
-            return response.json();
-        }).then(shows => {
-            this.setState({
-                shows: shows,
-                selectedShow: null,
-            });
-
-            this.onShowSelected(shows ? shows[0] : null);
-        }).catch(err => {
-            console.log(`Failed to get show on ${formatted}, error message: ${err.message}`);
-            this.setState({
-                shows: null,
-                selectedShow: null,
-            });
-        });
     };
 
     onShowSelected = (show) => {
-        const { selectedShow } = this.state;
-        if (!show || selectedShow === show.id) {
-            /* Ignore tapping it multiple times. */
-            return;
-        }
-
-        this.setState({ selectedShow: show.id });
-        this.props.onChange(show);
+        const { location, time } = show;
+        const [ year, month, day ] = show['day'].split(/-/);
+        this.props.history.push(`/show/${location}/${day}/${month}/${year}/${time}`);
     };
 
     renderItems() {
-        const { shows } = this.state;
+        const { shows } = this.props;
         if (!shows) {
             return (<div />);
         }
@@ -94,7 +46,7 @@ class ShowPickerList extends React.Component {
                 <ShowPickerItem
                     key={show.id}
                     show={show}
-                    selected={show.id === this.state.selectedShow}
+                    selected={this.props.selectedShow && show.id === this.props.selectedShow.id}
                     onShowSelected={this.onShowSelected}
                 />
             );
@@ -102,7 +54,7 @@ class ShowPickerList extends React.Component {
     };
 
     render() {
-        const { shows } = this.state;
+        const { shows } = this.props;
         if (!this.props.date) {
             return (<div />);
         }
