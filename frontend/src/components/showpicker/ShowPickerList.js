@@ -14,7 +14,7 @@ class ShowPickerList extends React.Component {
     static propTypes = {
         shows: PropTypes.array,
         selectedShow: PropTypes.object,
-        date: PropTypes.instanceOf(Date).isRequired,
+        selectedDate: PropTypes.instanceOf(Date).isRequired,
     };
 
     onShowSelected = (show) => {
@@ -55,7 +55,7 @@ class ShowPickerList extends React.Component {
 
     render() {
         const { shows } = this.props;
-        if (!this.props.date) {
+        if (!this.props.selectedDate) {
             return (<div />);
         }
 

@@ -157,9 +157,10 @@ class SearchCastByDate extends React.Component {
 
         return (
             <FullWidthSection style={styles.root}>
-                <ShowPicker {...this.props}
-                    shows={this.state.shows}
+                <ShowPicker
+                    {...this.props}
                     selectedDate={this.state.selectedDate}
+                    shows={this.state.shows}
                     selectedShow={this.state.selectedShow}
                     onDateSelected={this.onDateChange}
                 />

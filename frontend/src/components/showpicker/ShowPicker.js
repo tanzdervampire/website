@@ -82,13 +82,17 @@ class ShowPicker extends React.Component {
 
         return (
             <div style={styles.root}>
-                <ShowPickerDatePicker {...this.props}
+                <ShowPickerDatePicker
+                    selectedDate={this.props.selectedDate}
                     onDateSelected={(_, date) => this.props.onDateSelected(date)}
                 />
 
                 { this.props.selectedDate && (
-                    <ShowPickerList {...this.props}
-                        date={this.props.selectedDate}
+                    <ShowPickerList
+                        history={this.props.history}
+                        selectedDate={this.props.selectedDate}
+                        shows={this.props.shows}
+                        selectedShow={this.props.selectedShow}
                     />
                 ) }
             </div>
