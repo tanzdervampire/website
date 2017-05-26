@@ -37,13 +37,16 @@ class CastList extends React.Component {
         );
     };
 
-    renderItem(role, person) {
+    renderItem(role, person, hideRole = false) {
+        /* The same person can appear in more than one role, so mix both keys. */
+        const key = role + person.name;
+
         return (
             <ListItem
-                key={person.id}
+                key={key}
                 disabled={true}
                 primaryText={person.name}
-                secondaryText={role}
+                secondaryText={hideRole ? null : role}
                 leftAvatar={this.renderAvatar(person)}
             />
         );
@@ -53,7 +56,7 @@ class CastList extends React.Component {
         const { show } = this.props;
         if (!show.cast[role] || show.cast[role].length === 0) {
             return [this.renderItem(role, {
-                'id': role + Math.random(),
+                'id': 0,
                 'name': 'Unbekannt',
             })];
         }
@@ -97,7 +100,7 @@ class CastList extends React.Component {
         const divider = this.renderDivider(label);
         return [divider].concat(
             show.cast[key].map((person) => {
-                return this.renderItem('', person);
+                return this.renderItem(key, person, true);
             })
         );
     };

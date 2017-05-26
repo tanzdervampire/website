@@ -9,8 +9,8 @@ import { red500, grey50, grey900, lightWhite, white } from 'material-ui/styles/c
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import FullWidthSection from './FullWidthSection';
-import ShowPicker from './components/ShowPicker';
-import CastList from './components/CastList';
+import ShowPicker from './components/showpicker/ShowPicker';
+import CastList from './components/castlist/CastList';
 import GithubIcon from './components/GithubIcon';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
