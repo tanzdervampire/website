@@ -9,11 +9,20 @@ import { Tabs, Tab } from 'material-ui/Tabs';
 import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Avatar from 'material-ui/Avatar';
+import SwipeableViews from 'react-swipeable-views';
 
 class CastList extends React.Component {
 
     static propTypes = {
         show: PropTypes.object,
+    };
+
+    state = {
+        slideIndex: 0,
+    };
+
+    handleChange = (value) => {
+        this.setState({ slideIndex: value });
     };
 
     renderDivider(title) {
@@ -147,18 +156,30 @@ class CastList extends React.Component {
         return (
             <div style={styles.root}>
                 <Paper>
-                    <Tabs tabItemContainerStyle={styles.tabs} inkBarStyle={styles.inkBar}>
-                        <Tab label="Besetzung">
+                    <Tabs
+                        onChange={this.handleChange}
+                        value={this.state.slideIndex}
+                        tabItemContainerStyle={styles.tabs}
+                        inkBarStyle={styles.inkBar}
+                    >
+                        <Tab label="Besetzung" value={0} />
+                        <Tab label="Ensemble & Solisten" value={1} />
+                    </Tabs>
+                    <SwipeableViews
+                        index={this.state.slideIndex}
+                        onChangeIndex={this.handleChange}
+                    >
+                        <div>
                             <List>
                                 {this.renderMainCastList()}
                             </List>
-                        </Tab>
-                        <Tab label="Ensemble & Solisten">
+                        </div>
+                        <div>
                             <List>
                                 {this.renderEnsembleList()}
                             </List>
-                        </Tab>
-                    </Tabs>
+                        </div>
+                    </SwipeableViews>
                 </Paper>
             </div>
         );
