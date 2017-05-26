@@ -81,14 +81,12 @@ class ShowPickerDatePicker extends React.Component {
         const { productions, minDate, maxDate } = this.state;
         const currentDate = moment(date);
 
-        if (currentDate.isBefore(minDate) || currentDate.isAfter(maxDate)) {
-            return true;
-        }
-
+        /* If we have no data yet, allow all dates. */
         if (!productions) {
             return false;
         }
 
+        /* Only allow dates which fall within the period of at least one production. */
         return productions.every((production) => {
             const startDate = moment(production['start'], 'YYYY-MM-DD');
             const endDate = moment(production['end'], 'YYYY-MM-DD');

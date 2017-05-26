@@ -12,13 +12,18 @@ import CastList from '../castlist/CastList';
 class SearchCastByDate extends React.Component {
 
     state = {
-        shows: null,
+        /* The selected date in the date picker. */
         selectedDate: null,
+        /* The list of shows available for the selected date. */
+        shows: null,
+        /* The show selected from the list. */
         selectedShow: null,
     };
 
     componentDidMount() {
         const { location, day, month, year, time } = this.props.match.params;
+
+        /* If a show was given in the URL, make sure we load all information right away. */
         if (location && day && month && year && time) {
             this.loadShows(location, day, month, year, time);
         }
@@ -26,8 +31,12 @@ class SearchCastByDate extends React.Component {
 
     componentWillReceiveProps(nextProps) {
         const { location, day, month, year, time } = nextProps.match.params;
+
+        /* If the date itself doesn't change we don't need to fetch the shows again; however, we do need to set the
+         * selected show anyway (think switching between the available shows). We compare against our selected date
+          * rather than the previous props because the latter are only available on URL-driven requests. */
         if (this.state.selectedDate && [day, month, year].join('.') === moment(this.state.selectedDate).format('DD.MM.YYYY')) {
-            this.setState({ selectedShow: this.findShow(location, time) });
+            this.setState({ selectedShow: this.getShowToSelect(this.state.shows, location, time) });
             return;
         }
 
@@ -50,9 +59,8 @@ class SearchCastByDate extends React.Component {
             this.setState({
                 shows: shows,
                 selectedDate: moment(`${day}.${month}.${year}`, 'DD.MM.YYYY').toDate(),
+                selectedShow: this.getShowToSelect(shows, location, time),
             });
-
-            this.setState({ selectedShow: this.findShow(location, time) });
         }).catch(err => {
             console.log(`Failed to get shows on ${day}.${month}.${year}, error message: ${err.message}`);
         });
@@ -68,19 +76,19 @@ class SearchCastByDate extends React.Component {
         this.loadShows(null, day, month, year, null);
     };
 
-    findShow(location, time) {
+    getShowToSelect(shows, location, time) {
         /* If we have no shows yet, there's nothing to select. */
-        if (!this.state.shows || this.state.shows.length === 0) {
+        if (!shows || shows.length === 0) {
             return null;
         }
 
         /* When we're not coming from a URL we have no location and time, so just select the first one. */
         if (!location || !time) {
-            return this.state.shows[0];
+            return shows[0];
         }
 
         /* We're coming from a URL, so try and select the correct show. */
-        const filtered = this.state.shows.filter(show => {
+        const filtered = shows.filter(show => {
             return show['location'] === location && show['time'] === time;
         });
 
@@ -89,7 +97,7 @@ class SearchCastByDate extends React.Component {
             return filtered[0];
         } else if (filtered.length === 0) {
             console.log('Could not find any show matching all given criteria.');
-            return this.state.shows[0];
+            return shows[0];
         } else {
             console.log('Found more than one show matching the given criteria.');
             return filtered[0];

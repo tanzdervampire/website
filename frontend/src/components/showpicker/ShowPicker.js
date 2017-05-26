@@ -25,6 +25,8 @@ class ShowPicker extends React.Component {
     };
 
     componentDidMount() {
+        /* Skip the button if we get here from a URL. */
+        // TODO FIXME Use a dedicated prop instead of guessing it from the presence of the year parameter.
         if (this.props.match.params.year) {
             this.setState({ open: true });
         }
@@ -46,14 +48,13 @@ class ShowPicker extends React.Component {
 
     onGetStartedTapped = () => {
         this.setState({ open: true });
-    };
-
-    onDateSelected = (_, date) => {
-        this.props.onDateSelected(date);
+        // TODO FIXME Immediately open the calendar. Why wait?
     };
 
     render() {
         const { open, numberOfShows } = this.state;
+
+        /* Make the number look a bit nicer. Nobody cares about total precision. */
         const displayedNumberOfShows = numberOfShows ? 100 * Math.floor(numberOfShows / 100) : 2000;
 
         if (!open) {
@@ -82,7 +83,7 @@ class ShowPicker extends React.Component {
         return (
             <div style={styles.root}>
                 <ShowPickerDatePicker {...this.props}
-                    onDateSelected={this.onDateSelected}
+                    onDateSelected={(_, date) => this.props.onDateSelected(date)}
                 />
 
                 { this.props.selectedDate && (
