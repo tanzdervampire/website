@@ -168,6 +168,8 @@ class CastList extends React.Component {
                     <SwipeableViews
                         index={this.state.slideIndex}
                         onChangeIndex={this.handleChange}
+                        resistance={true}
+                        enableMouseEvents={true}
                     >
                         <div>
                             <List>
