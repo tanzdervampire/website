@@ -120,6 +120,7 @@ class CastList extends React.Component {
 
         return [
             ...this.renderEnsembleGroup('Tanzsolisten', 'Solotänzer'),
+            ...this.renderEnsembleGroup('Tanzsolisten', 'Tanzsolisten'),
             ...this.renderEnsembleGroup('Gesangssolisten', 'Gesangssolisten'),
             ...this.renderEnsembleGroup('Tanzensemble', 'Tanzensemble'),
             ...this.renderEnsembleGroup('Gesangsensemble', 'Gesangsensemble'),
