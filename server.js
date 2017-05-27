@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const sql = require('sql.js');
 const fs = require('fs');
 
@@ -257,6 +258,13 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
 
     return res.json({ 'error': 'Unknown error.' });
 });
+
+/* Route everything else to index.html */
+if (process.env.NODE_ENV === 'production') {
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
+    });
+}
 
 app.listen(app.get('port'), () => {
     console.log(`Find the server at: http://localhost:${app.get('port')}/`);
