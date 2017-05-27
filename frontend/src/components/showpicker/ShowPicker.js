@@ -22,6 +22,7 @@ class ShowPicker extends React.Component {
     state = {
         open: false,
         numberOfShows: null,
+        requestOpenDialog: false,
     };
 
     componentDidMount() {
@@ -47,32 +48,33 @@ class ShowPicker extends React.Component {
     };
 
     onGetStartedTapped = () => {
-        this.setState({ open: true });
-        // TODO FIXME Immediately open the calendar. Why wait?
+        this.setState({
+            open: true,
+            requestOpenDialog: true
+        });
     };
 
-    render() {
-        const { open, numberOfShows } = this.state;
-
+    renderGetStartedComponent() {
+        const { numberOfShows } = this.state;
         /* Make the number look a bit nicer. Nobody cares about total precision. */
         const displayedNumberOfShows = numberOfShows ? 100 * Math.floor(numberOfShows / 100) : 2000;
 
-        if (!open) {
-            return (
-                <div>
-                    <p>
-                        Wähle aus {displayedNumberOfShows.toLocaleString()}+ Vorstellungen und finde heraus, welcher Cast an einem bestimmten Tag gespielt hat.
-                    </p>
-                    <RaisedButton
-                        label="Cast finden"
-                        onTouchTap={this.onGetStartedTapped}
-                        backgroundColor={red500}
-                        labelColor={grey50}
-                    />
-                </div>
-            );
-        }
+        return (
+            <div>
+                <p>
+                    Wähle aus {displayedNumberOfShows.toLocaleString()}+ Vorstellungen und finde heraus, welcher Cast an einem bestimmten Tag gespielt hat.
+                </p>
+                <RaisedButton
+                    label="Cast finden"
+                    onTouchTap={this.onGetStartedTapped}
+                    backgroundColor={red500}
+                    labelColor={grey50}
+                />
+            </div>
+        );
+    };
 
+    renderMainComponent() {
         const styles = {
             root: {
                 maxWidth: 400,
@@ -85,6 +87,7 @@ class ShowPicker extends React.Component {
                 <ShowPickerDatePicker
                     selectedDate={this.props.selectedDate}
                     onDateSelected={(_, date) => this.props.onDateSelected(date)}
+                    openDialog={this.state.requestOpenDialog}
                 />
 
                 { this.props.selectedDate && (
@@ -95,6 +98,17 @@ class ShowPicker extends React.Component {
                         selectedShow={this.props.selectedShow}
                     />
                 ) }
+            </div>
+        );
+    };
+
+    render() {
+        const { open } = this.state;
+
+        return (
+            <div>
+                {!open && this.renderGetStartedComponent()}
+                {open && this.renderMainComponent()}
             </div>
         );
     };

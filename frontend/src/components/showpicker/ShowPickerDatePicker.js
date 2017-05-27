@@ -16,6 +16,7 @@ class ShowPickerDatePicker extends React.Component {
     static propTypes = {
         selectedDate: PropTypes.instanceOf(Date),
         onDateSelected: PropTypes.func.isRequired,
+        openDialog: PropTypes.bool,
     };
 
     state = {
@@ -37,6 +38,15 @@ class ShowPickerDatePicker extends React.Component {
     };
 
     componentDidMount() {
+        /* Open the date picker dialog more directly for convenience. We try-catch this in case the interface breaks. */
+        if (this.props.openDialog) {
+            try {
+                this.datePickerRef.openDialog();
+            } catch (e) {
+                console.log('Failed to open the dialog.');
+            }
+        }
+
         fetch('/api/productions', {
             accept: 'application/json',
         }).then(response => {
@@ -111,6 +121,7 @@ class ShowPickerDatePicker extends React.Component {
                     onChange={this.props.onDateSelected}
                     shouldDisableDate={this.shouldDisableDate}
                     value={this.props.selectedDate}
+                    ref={(element) => { this.datePickerRef = element; }}
                 />
             </div>
         );
