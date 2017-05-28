@@ -14,7 +14,8 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
-    "client": "node start-client.js"
+    "client": "node start-client.js",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
