@@ -21,6 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/tdv-casts/website.git"
   },
+  "engines": {
+      "node": "7.10.0"
+  },
   "author": "Ingo Bürk",
   "license": "MIT",
   "bugs": {
