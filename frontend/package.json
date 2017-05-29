@@ -15,7 +15,10 @@
     "react-scripts": "1.0.7"
   },
   "devDependencies": {
-    "flow-bin": "^0.46.0"
+    "enzyme": "^2.8.2",
+    "flow-bin": "^0.46.0",
+    "jest-enzyme": "^2.1.2",
+    "react-test-renderer": "^15.5.4"
   },
   "scripts": {
     "start": "react-scripts start",
