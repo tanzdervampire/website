@@ -3,6 +3,7 @@
 import React from 'react';
 import moment from 'moment';
 import typography from 'material-ui/styles/typography';
+import spacing from 'material-ui/styles/spacing';
 import { red500, grey50 } from 'material-ui/styles/colors';
 
 import FullWidthSection from '../../FullWidthSection';
@@ -121,6 +122,8 @@ class SearchCastByDate extends React.Component {
                 textAlign: 'center',
                 backgroundColor: red500,
                 overflow: 'hidden',
+                paddingTop: 0.5 * spacing.desktopGutter,
+                paddingBottom: spacing.desktopGutter * 2,
             },
             h1: {
                 color: grey50,

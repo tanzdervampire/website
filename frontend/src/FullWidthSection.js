@@ -72,9 +72,9 @@ class FullWidthSection extends Component {
                 {...other}
                 style={Object.assign(
                     styles.root,
-                    style,
                     width === SMALL && styles.rootWhenSmall,
-                    width === LARGE && styles.rootWhenLarge)}
+                    width === LARGE && styles.rootWhenLarge,
+                    style)}
             >
                 {content}
             </ClearFix>
