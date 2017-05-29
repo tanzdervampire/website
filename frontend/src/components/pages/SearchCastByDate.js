@@ -174,16 +174,8 @@ class SearchCastByDate extends React.Component {
     content() {
         const { selectedShow } = this.state;
 
-        const styles = {
-            root: {
-                backgroundColor: grey50,
-                overflow: 'hidden',
-                textAlign: 'center',
-            },
-        };
-
         return (
-            <div style={styles.root}>
+            <div>
                 <CastList
                     show={selectedShow}
                 />

@@ -3,7 +3,7 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import { red500, grey900, lightWhite, white } from 'material-ui/styles/colors';
+import { red500, grey50, grey900, lightWhite, white } from 'material-ui/styles/colors';
 
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
@@ -13,6 +13,7 @@ import GithubIcon from './components/GithubIcon';
 import { Switch, Route } from 'react-router-dom';
 
 import SearchCastByDate from './components/pages/SearchCastByDate';
+import Error404 from './components/pages/Error404';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
 const muiTheme = getMuiTheme({
@@ -75,15 +76,26 @@ class App extends React.Component {
     };
 
     render() {
+        const styles = {
+            content: {
+                backgroundColor: grey50,
+                overflow: 'hidden',
+                textAlign: 'center',
+            },
+        };
+
         return (
             <MuiThemeProvider muiTheme={muiTheme}>
                 <div>
                     {this.appBar()}
 
-                    <Switch>
-                        <Route exact path="/" component={SearchCastByDate} />
-                        <Route path="/show/:location/:day/:month/:year/:time" component={SearchCastByDate} />
-                    </Switch>
+                    <div style={styles.content}>
+                        <Switch>
+                            <Route exact path="/" component={SearchCastByDate} />
+                            <Route path="/show/:location/:day/:month/:year/:time" component={SearchCastByDate} />
+                            <Route component={Error404} />
+                        </Switch>
+                    </div>
 
                     {this.footer()}
                 </div>
