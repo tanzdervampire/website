@@ -21,6 +21,13 @@ class CastList extends React.Component {
         slideIndex: 0,
     };
 
+    componentWillReceiveProps(nextProps) {
+        /* Select the first tab if the date has changed. */
+        if (!this.props.show || !nextProps.show || this.props.show.day !== nextProps.show.day) {
+            this.setState({ slideIndex: 0 });
+        }
+    };
+
     handleChange = value => {
         this.setState({ slideIndex: value });
     };
