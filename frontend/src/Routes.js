@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Switch, Redirect, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import SearchCastByDate from './components/pages/SearchCastByDate';
 import EnterCast from './components/pages/EnterCast';
