@@ -6,10 +6,11 @@ import { red500, grey50 } from 'material-ui/styles/colors';
 
 import Paper from 'material-ui/Paper';
 import { Tabs, Tab } from 'material-ui/Tabs';
-import { List, ListItem } from 'material-ui/List';
+import { List } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
-import Avatar from 'material-ui/Avatar';
 import SwipeableViews from 'react-swipeable-views';
+
+import CastListItem from './CastListItem';
 
 class CastList extends React.Component {
 
@@ -42,42 +43,19 @@ class CastList extends React.Component {
         );
     }
 
-    renderAvatar(person) {
-        const initial = person.name[0].toUpperCase();
-        return (
-            <Avatar
-                backgroundColor={red500}
-            >
-                {initial}
-            </Avatar>
-        );
-    };
-
-    renderItem(role, person, hideRole = false) {
+    getItemKey(role, person) {
         /* The same person can appear in more than one role, so mix both keys. */
-        const key = role + person.name;
-
-        return (
-            <ListItem
-                key={key}
-                disabled={true}
-                primaryText={person.name}
-                secondaryText={hideRole ? null : role}
-                leftAvatar={this.renderAvatar(person)}
-            />
-        );
+        return role + person.name;
     };
 
     renderMainCastItemsForRole(role) {
         const { show } = this.props;
-        if (!show.cast[role] || show.cast[role].length === 0) {
-            return [this.renderItem(role, {
-                'id': 0,
-                'name': 'Unbekannt',
-            })];
-        }
+        const persons = (show.cast[role] && show.cast[role].length !== 0) ? show.cast[role] : [{
+            id: 0,
+            name: 'Unbekannt',
+        }];
 
-        return show.cast[role].map(person => this.renderItem(role, person));
+        return persons.map(person => <CastListItem key={this.getItemKey(role, person)} role={role} displayRole={true} person={person} />);
     };
 
     renderMainCastList() {
@@ -113,7 +91,7 @@ class CastList extends React.Component {
 
         const divider = this.renderDivider(label);
         return [divider].concat(
-            show.cast[key].map(person => this.renderItem(key, person, true))
+            show.cast[key].map(person => <CastListItem key={this.getItemKey(key, person)} role={key} displayRole={false} person={person} />)
         );
     };
 
