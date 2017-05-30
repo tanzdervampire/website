@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+    - 7
+    - node
+cache:
+    directories:
+        - node_modules
+        - frontend/node_modules
+install:
+    - npm install
+    - cd frontend/ && npm install && cd ../
+script:
+    - cd frontend/
+    - npm test
+    - npm run build
