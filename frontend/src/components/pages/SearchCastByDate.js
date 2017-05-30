@@ -83,7 +83,7 @@ class SearchCastByDate extends React.Component {
                 const { selectedShow } = this.state;
                 const { location, time } = selectedShow;
                 const [ year, month, day ] = selectedShow['day'].split(/-/);
-                this.props.history.push(`/show/${location}/${day}/${month}/${year}/${time}`);
+                this.props.history.push(`/shows/${location}/${day}/${month}/${year}/${time}`);
             }
         });
     };

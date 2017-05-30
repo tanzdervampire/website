@@ -20,7 +20,7 @@ class ShowPickerList extends React.Component {
     onShowSelected = (show) => {
         const { location, time } = show;
         const [ year, month, day ] = show['day'].split(/-/);
-        this.props.history.push(`/show/${location}/${day}/${month}/${year}/${time}`);
+        this.props.history.push(`/shows/${location}/${day}/${month}/${year}/${time}`);
     };
 
     renderItems() {

@@ -5,11 +5,18 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { red500, grey50, grey900, lightWhite, white } from 'material-ui/styles/colors';
 
+import Drawer from 'material-ui/Drawer';
+import Divider from 'material-ui/Divider';
+import MenuItem from 'material-ui/MenuItem';
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import FullWidthSection from './FullWidthSection';
-import GithubIcon from './components/GithubIcon';
 
+import GithubIcon from './components/GithubIcon';
+import Search from 'material-ui/svg-icons/action/search';
+import NoteAdd from 'material-ui/svg-icons/action/note-add';
+
+import { Link } from 'react-router-dom';
 import Routes from './Routes';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
@@ -25,6 +32,18 @@ const muiTheme = getMuiTheme({
 
 class App extends React.Component {
 
+    state = {
+        drawerIsOpen: false,
+    };
+
+    toggleDrawer = () => {
+        this.setState({ drawerIsOpen: !this.state.drawerIsOpen });
+    }
+
+    closeDrawer = () => {
+        this.setState({ drawerIsOpen: false });
+    }
+
     appBar() {
         const styles = {
             appBar: {
@@ -36,7 +55,7 @@ class App extends React.Component {
             <AppBar
                 zDepth={0}
                 style={styles.appBar}
-                showMenuIconButton={false}
+                onLeftIconButtonTouchTap={this.toggleDrawer}
                 iconElementRight={
                     <IconButton href="https://github.com/tdv-casts/">
                         <GithubIcon />
@@ -85,6 +104,30 @@ class App extends React.Component {
             <MuiThemeProvider muiTheme={muiTheme}>
                 <div>
                     {this.appBar()}
+
+                    <Drawer
+                        docked={false}
+                        open={this.state.drawerIsOpen}
+                        onRequestChange={(drawerIsOpen) => this.setState({ drawerIsOpen })}
+                    >
+                        <MenuItem
+                            leftIcon={<Search />}
+                            onTouchTap={this.closeDrawer}
+                            containerElement={<Link to="/shows" />}
+                        >
+                            Cast suchen
+                        </MenuItem>
+
+                        <Divider />
+
+                        <MenuItem
+                            leftIcon={<NoteAdd />}
+                            onTouchTap={this.closeDrawer}
+                            containerElement={<Link to="/shows/new" />}
+                        >
+                            Castliste hinzufügen
+                        </MenuItem>
+                    </Drawer>
 
                     <div style={styles.content}>
                         <Routes />
