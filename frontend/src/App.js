@@ -10,10 +10,7 @@ import IconButton from 'material-ui/IconButton';
 import FullWidthSection from './FullWidthSection';
 import GithubIcon from './components/GithubIcon';
 
-import { Switch, Route } from 'react-router-dom';
-
-import SearchCastByDate from './components/pages/SearchCastByDate';
-import Error404 from './components/pages/Error404';
+import Routes from './Routes';
 
 /* See http://stackoverflow.com/questions/37400648/cant-style-datepiker-popup-dialog */
 const muiTheme = getMuiTheme({
@@ -90,11 +87,7 @@ class App extends React.Component {
                     {this.appBar()}
 
                     <div style={styles.content}>
-                        <Switch>
-                            <Route exact path="/" component={SearchCastByDate} />
-                            <Route path="/show/:location/:day/:month/:year/:time" component={SearchCastByDate} />
-                            <Route component={Error404} />
-                        </Switch>
+                        <Routes />
                     </div>
 
                     {this.footer()}
