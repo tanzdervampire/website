@@ -30,6 +30,7 @@ class CastListItem extends React.Component {
 
         return (
             <ListItem
+                style={{ cursor: 'default' }}
                 disabled={true}
                 primaryText={person.name}
                 secondaryText={displayRole ? role : null}
