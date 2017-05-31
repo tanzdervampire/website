@@ -109,6 +109,7 @@ class ShowPickerDatePicker extends React.Component {
         return (
             <div id="show-picker-date-picker">
                 <DatePicker
+                    name="showDatePicker"
                     mode={this.props.width === LARGE ? "landscape" : "portrait"}
                     okLabel="OK"
                     cancelLabel="Abbrechen"
