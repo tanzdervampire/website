@@ -17,7 +17,7 @@ class CastListItem extends React.Component {
 
     renderAvatar() {
         const { person } = this.props;
-        const initial = person.name[0].toUpperCase();
+        const initial = (person.name[0] || '?').toUpperCase();
         return (
             <Avatar backgroundColor={red500}>
                 {initial}
