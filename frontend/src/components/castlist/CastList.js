@@ -61,7 +61,16 @@ class CastList extends React.Component {
             name: missingMainCastName,
         }];
 
-        return persons.map(person => <CastListItem key={this.getItemKey(role, person)} role={role} displayRole={true} person={person} />);
+        return persons.map(person => {
+            return (
+                <CastListItem
+                    key={this.getItemKey(role, person)}
+                    role={role}
+                    displayRole={true}
+                    person={person}
+                />
+            );
+        });
     };
 
     renderMainCastList() {
@@ -97,7 +106,16 @@ class CastList extends React.Component {
 
         const divider = this.renderDivider(label);
         return [divider].concat(
-            show.cast[key].map(person => <CastListItem key={this.getItemKey(key, person)} role={key} displayRole={false} person={person} />)
+            show.cast[key].map(person => {
+                return (
+                    <CastListItem
+                        key={this.getItemKey(key, person)}
+                        role={key}
+                        displayRole={false}
+                        person={person}
+                    />
+                );
+            })
         );
     };
 
