@@ -16,10 +16,15 @@ class CastList extends React.Component {
 
     static propTypes = {
         show: PropTypes.object,
+        missingMainCastName: PropTypes.string,
     };
 
     state = {
         slideIndex: 0,
+    };
+
+    defaultProps = {
+        missingMainCastName: 'Unbekannt',
     };
 
     componentWillReceiveProps(nextProps) {
@@ -49,10 +54,10 @@ class CastList extends React.Component {
     };
 
     renderMainCastItemsForRole(role) {
-        const { show } = this.props;
+        const { show, missingMainCastName } = this.props;
         const persons = (show.cast[role] && show.cast[role].length !== 0) ? show.cast[role] : [{
             id: 0,
-            name: 'Unbekannt',
+            name: missingMainCastName,
         }];
 
         return persons.map(person => <CastListItem key={this.getItemKey(role, person)} role={role} displayRole={true} person={person} />);
