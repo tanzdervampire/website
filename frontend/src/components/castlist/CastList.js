@@ -119,12 +119,18 @@ class CastList extends React.Component {
         );
     };
 
+    renderEmptyEnsembleList() {
+        return (
+            <div style={{ textAlign: 'center' }}>
+                <p>Für das Ensemble liegen keine Informationen vor.</p>
+            </div>
+        );
+    };
+
     renderEnsembleList() {
         const { show } = this.props;
         if (!show) {
-            return (
-                <div />
-            );
+            return this.renderEmptyEnsembleList();
         }
 
         const ensemble = [
@@ -136,11 +142,7 @@ class CastList extends React.Component {
         ];
 
         if (ensemble.length === 0) {
-            return (
-                <div style={{ textAlign: 'center' }}>
-                    <p>Für das Ensemble liegen keine Informationen vor.</p>
-                </div>
-            );
+            return this.renderEmptyEnsembleList();
         }
 
         return ensemble;
