@@ -15,9 +15,16 @@ import './ShowPickerDatePicker.css';
 class ShowPickerDatePicker extends React.Component {
 
     static propTypes = {
-        selectedDate: PropTypes.instanceOf(Date),
         onDateSelected: PropTypes.func.isRequired,
+        selectedDate: PropTypes.instanceOf(Date),
         openDialog: PropTypes.bool,
+        hintText: PropTypes.string,
+    };
+
+    static defaultProps = {
+        selectedDate: undefined,
+        openDialog: false,
+        hintText: 'DD.MM.YYYY',
     };
 
     state = {
@@ -113,7 +120,8 @@ class ShowPickerDatePicker extends React.Component {
                     mode={this.props.width === LARGE ? "landscape" : "portrait"}
                     okLabel="OK"
                     cancelLabel="Abbrechen"
-                    hintText="Wähle das Datum der Vorstellung"
+                    hintText={this.props.hintText}
+                    hintStyle={{ width: '100%', textAlign: 'center' }}
                     autoOk={true}
                     formatDate={this.formatDate}
                     DateTimeFormat={this.dateTimeFormat}
