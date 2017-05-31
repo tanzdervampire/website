@@ -39,9 +39,10 @@ class CastList extends React.Component {
     };
 
     renderDivider(title) {
+        const key = `divider-${title}`;
         return (
             <Subheader
-                key={title}
+                key={key}
             >
                 {title}
             </Subheader>
