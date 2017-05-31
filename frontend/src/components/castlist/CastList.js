@@ -127,13 +127,23 @@ class CastList extends React.Component {
             );
         }
 
-        return [
+        const ensemble = [
             ...this.renderEnsembleGroup('Tanzsolisten', 'Solotänzer'),
             ...this.renderEnsembleGroup('Tanzsolisten', 'Tanzsolisten'),
             ...this.renderEnsembleGroup('Gesangssolisten', 'Gesangssolisten'),
             ...this.renderEnsembleGroup('Tanzensemble', 'Tanzensemble'),
             ...this.renderEnsembleGroup('Gesangsensemble', 'Gesangsensemble'),
         ];
+
+        if (ensemble.length === 0) {
+            return (
+                <div style={{ textAlign: 'center' }}>
+                    <p>Für das Ensemble liegen keine Informationen vor.</p>
+                </div>
+            );
+        }
+
+        return ensemble;
     };
 
     render() {
