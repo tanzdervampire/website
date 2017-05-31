@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import moment from 'moment';
+import 'moment/locale/de';
 import areIntlLocalesSupported from 'intl-locales-supported';
 import withWidth, {LARGE} from 'material-ui/utils/withWidth';
 
