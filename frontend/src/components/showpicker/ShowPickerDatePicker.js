@@ -128,7 +128,7 @@ class ShowPickerDatePicker extends React.Component {
                     locale="de-DE"
                     minDate={this.state.minDate && this.state.minDate.toDate()}
                     maxDate={this.state.maxDate && this.state.maxDate.toDate()}
-                    onChange={this.props.onDateSelected}
+                    onChange={(_, date) => this.props.onDateSelected(date)}
                     shouldDisableDate={this.shouldDisableDate}
                     value={this.props.selectedDate}
                     ref={(element) => { this.datePickerRef = element; }}

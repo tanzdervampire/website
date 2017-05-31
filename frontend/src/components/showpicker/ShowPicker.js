@@ -86,7 +86,7 @@ class ShowPicker extends React.Component {
             <div style={styles.root}>
                 <ShowPickerDatePicker
                     selectedDate={this.props.selectedDate}
-                    onDateSelected={(_, date) => this.props.onDateSelected(date)}
+                    onDateSelected={this.props.onDateSelected}
                     openDialog={this.state.requestOpenDialog}
                     hintText="Wähle das Datum der Vorstellung"
                 />
