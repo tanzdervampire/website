@@ -23,7 +23,7 @@ class CastList extends React.Component {
         slideIndex: 0,
     };
 
-    defaultProps = {
+    static defaultProps = {
         missingMainCastName: 'Unbekannt',
     };
 
