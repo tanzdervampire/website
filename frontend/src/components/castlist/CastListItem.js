@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { red500 } from 'material-ui/styles/colors';
+import { red500, grey50 } from 'material-ui/styles/colors';
 
 import { ListItem } from 'material-ui/List';
 import Avatar from 'material-ui/Avatar';
@@ -17,9 +17,15 @@ class CastListItem extends React.Component {
 
     renderAvatar() {
         const { person } = this.props;
-        const initial = (person.name[0] || '?').toUpperCase();
+
+        const hasName = person.name && person.name.length !== 0;
+
+        const initial = hasName ? person.name[0].toUpperCase() : '?';
         return (
-            <Avatar backgroundColor={red500}>
+            <Avatar
+                color={hasName ? grey50 : red500}
+                backgroundColor={hasName ? red500 : grey50}
+            >
                 {initial}
             </Avatar>
         );
