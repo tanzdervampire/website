@@ -1,0 +1,4 @@
+/* TimePicker doesn't allow setting the style inline via JSX. :-( */
+#show-time-picker input {
+    text-align: center;
+}

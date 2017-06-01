@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 
 import { red500, grey50 } from 'material-ui/styles/colors';
 import { ListItem } from 'material-ui/List';
@@ -11,14 +12,26 @@ class ShowPickerItem extends React.Component {
 
     static propTypes = {
         show: PropTypes.object.isRequired,
-        selected: PropTypes.bool,
         onShowSelected: PropTypes.func.isRequired,
+        displayDate: PropTypes.bool,
+        selected: PropTypes.bool,
+    };
+
+    static defaultProps = {
+        displayDate: false,
+        selected: false,
     };
 
     formatTitle() {
-        const { show } = this.props;
+        const { show, displayDate } = this.props;
 
-        let formattedTitle = show.type;
+        let formattedTitle = '';
+        if (displayDate) {
+            const formattedDate = moment(show.day, 'YYYY-MM-DD').format('DD.MM.YYYY');
+            formattedTitle += formattedDate + ', ';
+        }
+
+        formattedTitle += show.type;
         if (show.time) {
             formattedTitle += ', ' + show.time + ' Uhr';
         }
@@ -38,8 +51,8 @@ class ShowPickerItem extends React.Component {
     };
 
     formatAvatar() {
-        const { selected } = this.props;
-        const avatarLabel = this.formatTitle()[0].toUpperCase();
+        const { show, selected } = this.props;
+        const avatarLabel = show.type[0].toUpperCase();
 
         return (
             <Avatar

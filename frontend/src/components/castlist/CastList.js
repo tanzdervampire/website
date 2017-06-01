@@ -68,6 +68,7 @@ class CastList extends React.Component {
                     role={role}
                     displayRole={true}
                     person={person}
+                    missingNamePlaceholder={missingMainCastName}
                 />
             );
         });

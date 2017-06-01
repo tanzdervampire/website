@@ -13,12 +13,15 @@ class CastListItem extends React.Component {
         role: PropTypes.string.isRequired,
         displayRole: PropTypes.bool.isRequired,
         person: PropTypes.object.isRequired,
+        missingNamePlaceholder: PropTypes.string,
     };
 
     renderAvatar() {
-        const { person } = this.props;
+        const { person, missingNamePlaceholder } = this.props;
 
-        const hasName = person.name && person.name.length !== 0;
+        const hasName = person.name
+            && person.name.length !== 0
+            && person.name !== missingNamePlaceholder;
 
         const initial = hasName ? person.name[0].toUpperCase() : '?';
         return (

@@ -25,8 +25,16 @@ const muiTheme = getMuiTheme({
         color: red500,
         selectColor: red500,
     },
+    timePicker: {
+        accentColor: red500,
+        headerColor: red500,
+        selectColor: red500,
+    },
     flatButton: {
         primaryTextColor: red500,
+    },
+    raisedButton: {
+        primaryColor: red500,
     },
 });
 
