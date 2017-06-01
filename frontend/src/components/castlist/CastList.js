@@ -89,8 +89,8 @@ class CastList extends React.Component {
             ...this.renderMainCastItemsForRole('Sarah'),
             ...this.renderMainCastItemsForRole('Chagal'),
             ...this.renderMainCastItemsForRole('Magda'),
-            ...this.renderMainCastItemsForRole('Rebecca'),
             ...this.renderMainCastItemsForRole('Herbert'),
+            ...this.renderMainCastItemsForRole('Rebecca'),
             ...this.renderMainCastItemsForRole('Koukol'),
 
             this.renderDivider('Dirigent'),
