@@ -60,9 +60,15 @@ class CastRoleAutoComplete extends React.Component {
         }
 
         this.props.onSubmit(name);
-        if (this.input) {
-            this.input.focus();
+        this.focus();
+    };
+
+    focus() {
+        if (!this.input) {
+            return;
         }
+
+        this.input.focus();
     };
 
     /**
@@ -117,6 +123,7 @@ class CastRoleAutoComplete extends React.Component {
                     searchText={this.state.userInput}
                     maxSearchResults={5}
                     ref={(input) => { this.input = input; }}
+                    autoFocus
                 />
             </div>
         );

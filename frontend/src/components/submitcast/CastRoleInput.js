@@ -91,7 +91,7 @@ class CastRoleInput extends React.Component {
         const {actors} = this.state;
         const filtered = actors.filter(actor => this.toChipKey(actor) !== key);
         this.setState({ actors: filtered });
-        // TODO FIXME Focus input again
+        this.input.focus();
     };
 
     getHeaderSubtitle() {
@@ -187,6 +187,7 @@ class CastRoleInput extends React.Component {
                         dataSource={this.getFilteredDataSource()}
                         onSubmit={this.handleAutoCompletion}
                         onUpdate={this.handleUpdate}
+                        ref={element => this.input = element}
                     />
 
                     {this.renderChips()}
