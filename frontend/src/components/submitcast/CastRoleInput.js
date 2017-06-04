@@ -83,7 +83,7 @@ class CastRoleInput extends React.Component {
 
     handleUpdate = (searchText, dataSource, params) => {
         if (!this.doesAllowMultipleActors()) {
-            this.setState({actors: []});
+            this.setState({ actors: [] });
         }
     };
 
@@ -91,7 +91,9 @@ class CastRoleInput extends React.Component {
         const {actors} = this.state;
         const filtered = actors.filter(actor => this.toChipKey(actor) !== key);
         this.setState({ actors: filtered });
-        this.input.focus();
+        if (this.input) {
+            this.input.focus();
+        }
     };
 
     getHeaderSubtitle() {
@@ -118,10 +120,30 @@ class CastRoleInput extends React.Component {
         );
     };
 
+    renderInput() {
+        const { role } = this.props;
+        if (!this.doesAllowMultipleActors() && this.state.actors.length > 0) {
+            return (
+                <div />
+            );
+        }
+
+        return (
+            <CastRoleAutoComplete
+                role={role}
+                allowsMultipleEntries={this.doesAllowMultipleActors()}
+                dataSource={this.getFilteredDataSource()}
+                onSubmit={this.handleAutoCompletion}
+                onUpdate={this.handleUpdate}
+                ref={element => this.input = element}
+            />
+        );
+    };
+
     renderChips() {
         const { actors } = this.state;
 
-        if (actors.length === 0 || !this.doesAllowMultipleActors()) {
+        if (actors.length === 0) {
             return (
                 <div />
             );
@@ -175,22 +197,14 @@ class CastRoleInput extends React.Component {
 
     // TODO FIXME Display green / icon when name is entered and "Next" can be clicked.
     render() {
-        const { role, cardStyle } = this.props;
+        const { cardStyle } = this.props;
 
         return (
             <Card style={cardStyle}>
                 {this.renderHeader()}
 
                 <CardText>
-                    <CastRoleAutoComplete
-                        role={role}
-                        allowsMultipleEntries={this.doesAllowMultipleActors()}
-                        dataSource={this.getFilteredDataSource()}
-                        onSubmit={this.handleAutoCompletion}
-                        onUpdate={this.handleUpdate}
-                        ref={element => this.input = element}
-                    />
-
+                    {this.renderInput()}
                     {this.renderChips()}
                 </CardText>
 

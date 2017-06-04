@@ -45,12 +45,15 @@ class CastRoleAutoComplete extends React.Component {
     };
 
     handleNewRequest = (name, index) => {
-        const { allowsMultipleEntries } = this.props;
+        const { dataSource, allowsMultipleEntries } = this.props;
+        const names = dataSource.map(person => person.name);
 
-        // TODO FIXME Look up name in data source in case it was entered manually (but correctly)
+        const nameWasAutoCompleted = index !== -1;
+        const nameIsAllowed = nameWasAutoCompleted || names.includes(name);
+
         // TODO FIXME Allow entering new names.
         // Note that this requires a few changes to, e.g., the key used for chips etc.
-        if (index === -1) {
+        if (!nameIsAllowed) {
             this.setState({ errorText: 'Nur bereits bekannte Darsteller dürfen eingegeben werden!' });
             return;
         }
@@ -59,7 +62,8 @@ class CastRoleAutoComplete extends React.Component {
             this.setState({ userInput: '' });
         }
 
-        this.props.onSubmit(name);
+        const person = nameWasAutoCompleted ? name : dataSource[names.indexOf(name)];
+        this.props.onSubmit(person);
         this.focus();
     };
 

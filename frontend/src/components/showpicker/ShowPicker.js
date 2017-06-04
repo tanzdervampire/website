@@ -27,7 +27,6 @@ class ShowPicker extends React.Component {
 
     componentDidMount() {
         /* Skip the button if we get here from a URL. */
-        // TODO FIXME Use a dedicated prop instead of guessing it from the presence of the year parameter.
         if (this.props.match.params.year) {
             this.setState({ open: true });
         }
