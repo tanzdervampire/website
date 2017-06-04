@@ -41,10 +41,11 @@ class SearchCastByDate extends React.Component {
             return;
         }
 
-        this.setState({ shows: null, selectedShow: null });
-        if (location && day && month && year && time) {
-            this.loadShows(location, day, month, year, time);
-        }
+        this.setState({ shows: null, selectedShow: null }, () => {
+            if (location && day && month && year && time) {
+                this.loadShows(location, day, month, year, time);
+            }
+        });
     };
 
     loadShows(location, day, month, year, time, callback = () => {}) {
@@ -61,9 +62,7 @@ class SearchCastByDate extends React.Component {
                 shows: shows,
                 selectedDate: moment(`${day}.${month}.${year}`, 'DD.MM.YYYY').toDate(),
                 selectedShow: this.getShowToSelect(shows, location, time),
-            });
-
-            callback();
+            }, callback);
         }).catch(err => {
             console.log(`Failed to get shows on ${day}.${month}.${year}, error message: ${err.message}`);
         });
@@ -74,17 +73,18 @@ class SearchCastByDate extends React.Component {
             shows: null,
             selectedDate: date,
             selectedShow: null,
-        });
-        const [ day, month, year ] = moment(date).format('DD.MM.YYYY').split(/\./);
-        this.loadShows(null, day, month, year, null, () => {
-            /* If we're not coming from a URL request, redirect properly after loading the shows so that the URL
-             * is changed. */
-            if (!this.props.match.params.year && this.state.selectedShow) {
-                const { selectedShow } = this.state;
-                const { location, time } = selectedShow;
-                const [ year, month, day ] = selectedShow['day'].split(/-/);
-                this.props.history.push(`/shows/${location}/${day}/${month}/${year}/${time}`);
-            }
+        }, () => {
+            const [ day, month, year ] = moment(date).format('DD.MM.YYYY').split(/\./);
+            this.loadShows(null, day, month, year, null, () => {
+                /* If we're not coming from a URL request, redirect properly after loading the shows so that the URL
+                 * is changed. */
+                if (!this.props.match.params.year && this.state.selectedShow) {
+                    const { selectedShow } = this.state;
+                    const { location, time } = selectedShow;
+                    const [ year, month, day ] = selectedShow['day'].split(/-/);
+                    this.props.history.push(`/shows/${location}/${day}/${month}/${year}/${time}`);
+                }
+            });
         });
     };
 
