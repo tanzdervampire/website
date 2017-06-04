@@ -192,7 +192,6 @@ class EnterCast extends React.Component {
             return (<div />);
         }
 
-        // TODO FIXME Move this stuff into CastRoleInput
         const styles = getStyles();
         return (
             <div>

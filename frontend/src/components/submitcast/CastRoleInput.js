@@ -173,6 +173,7 @@ class CastRoleInput extends React.Component {
         );
     };
 
+    // TODO FIXME Display green / icon when name is entered and "Next" can be clicked.
     render() {
         const { role, cardStyle } = this.props;
 
