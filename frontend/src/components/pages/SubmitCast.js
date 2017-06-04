@@ -132,8 +132,27 @@ class EnterCast extends React.Component {
     };
 
     handleSubmitShow = () => {
-        // TODO FIXME
-        global.window.alert(JSON.stringify(this.convertToShow()));
+        const data = JSON.stringify(this.convertToShow());
+
+        fetch('/api/shows', {
+            method: 'POST',
+            accept: 'application/json',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: data,
+        }).then(response => {
+            if (!response.ok) {
+                throw new Error();
+            }
+
+            return response.json();
+        }).then(response => {
+            // TODO FIXME …/new/done page.
+            this.props.history.push('/');
+        }).catch(err => {
+            // TODO FIXME
+        });
     };
 
     transitionToNextRole() {

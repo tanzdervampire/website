@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.2",
     "fs": "0.0.1-security",
     "moment": "^2.18.1",
@@ -22,7 +23,7 @@
     "url": "git+https://github.com/tdv-casts/website.git"
   },
   "engines": {
-      "node": "7.10.0"
+    "node": "7.10.0"
   },
   "author": "Ingo Bürk",
   "license": "MIT",

@@ -1,9 +1,11 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const path = require('path');
 const sql = require('sql.js');
 const fs = require('fs');
 
 const app = express();
+app.use(bodyParser.json());
 
 const dbBuffer = fs.readFileSync('db.sqlite');
 const db = new sql.Database(dbBuffer);
@@ -257,6 +259,12 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
     }
 
     return res.json({ 'error': 'Unknown error.' });
+});
+
+app.post('/api/shows', (req, res) => {
+    const data = req.body;
+    // TODO FIXME
+    return res.json({});
 });
 
 /* Route everything else to index.html */
