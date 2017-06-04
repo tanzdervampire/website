@@ -32,6 +32,14 @@ class SearchCastByDate extends React.Component {
 
     componentWillReceiveProps(nextProps) {
         const { location, day, month, year, time } = nextProps.match.params;
+        if (!(location && day && month && year && time)) {
+            this.setState({
+                selectedDate: null,
+                shows: null,
+                selectedShow: null,
+            });
+            return;
+        }
 
         /* If the date itself doesn't change we don't need to fetch the shows again; however, we do need to set the
          * selected show anyway (think switching between the available shows). We compare against our selected date
