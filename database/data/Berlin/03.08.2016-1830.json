@@ -1,0 +1,68 @@
+{
+    "day": "03.08.2016",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Alexandros Diamantis"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Sander van Wissen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Kirill Zolygin"
+        ],
+        "Rebecca": [
+            "Fleur Alders"
+        ],
+        "Koukol": [
+            "Alex Hyne"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Máté Gyenei",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Michael Anzalone",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "Thomas Höfner",
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Samantha Harris-Hughes",
+            "Veronika Enders",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Andrew Chadwick",
+            "Sanne Buskermolen",
+            "Noah Wili",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Astrid Gollob",
+            "Pamela Zottele"
+        ]
+    }
+}

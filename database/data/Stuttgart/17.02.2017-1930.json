@@ -1,0 +1,66 @@
+{
+    "day": "17.02.2017",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Bob Edwards"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Gonzalo Campos"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Milan van Waardenburg"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Jacob Fearey",
+            "Veronika Enders",
+            "Samantha Harris-Hughes",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Máté Gyenei",
+            "Thijs Kobes",
+            "Kevin Hudson",
+            "Pascal Höwing",
+            "Sanne Buskermolen",
+            "Fleur Alders"
+        ]
+    }
+}

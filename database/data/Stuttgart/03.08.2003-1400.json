@@ -1,0 +1,46 @@
+{
+    "day": "03.08.2003",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Jurko van Veenendaal"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Marion Furtner"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Dominika Szymanska"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Ben Kazlauskas",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

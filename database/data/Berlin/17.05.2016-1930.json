@@ -1,0 +1,68 @@
+{
+    "day": "17.05.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Robert Emery"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Noah Wili"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Pamela Zottele"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Torsten Ankert",
+            "Alex Hyne",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders",
+            "Samantha Harris-Hughes"
+        ]
+    }
+}

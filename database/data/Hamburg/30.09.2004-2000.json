@@ -1,0 +1,46 @@
+{
+    "day": "30.09.2004",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Patrick Mares"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Wolf Bader",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

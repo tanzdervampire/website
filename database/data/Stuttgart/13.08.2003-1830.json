@@ -1,0 +1,47 @@
+{
+    "day": "13.08.2003",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Michael Nicholson"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Ben Kazlauskas",
+            "Margherita Huisman",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

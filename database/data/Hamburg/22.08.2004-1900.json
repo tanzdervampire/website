@@ -1,0 +1,46 @@
+{
+    "day": "22.08.2004",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jesse Webb"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Christopher Tölle",
+            "Andrew Chadwick",
+            "Robert Johansson",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

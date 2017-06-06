@@ -1,0 +1,67 @@
+{
+    "day": "15.02.2017",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Sander van Wissen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Fleur Alders"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Stefan Mosonyi",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Kirill Zolygin",
+            "Milan van Waardenburg"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Jacob Fearey",
+            "Nicola Trazzi",
+            "Sanne Buskermolen",
+            "Astrid Gollob",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Máté Gyenei",
+            "Thijs Kobes",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Samantha Harris-Hughes"
+        ]
+    }
+}

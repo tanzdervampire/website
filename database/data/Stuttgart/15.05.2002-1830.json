@@ -1,0 +1,47 @@
+{
+    "day": "15.05.2002",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Marion Furtner"
+        ],
+        "Chagal": [
+            "Steven Loss"
+        ],
+        "Magda": [
+            "Fawn Arnold"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Thomas Kienast",
+            "Stéphane Le Breton",
+            "Jacqueline van der Pol",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

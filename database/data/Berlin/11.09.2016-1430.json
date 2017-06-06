@@ -1,0 +1,69 @@
+{
+    "day": "11.09.2016",
+    "time": "14:30",
+    "type": "Matinée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Anja Wendzel"
+        ],
+        "Alfred": [
+            "Noah Wili"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Milan van Waardenburg"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Samantha Harris-Hughes",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Torsten Ankert",
+            "Thomas Höfner",
+            "Pascal Höwing",
+            "Andrew Chadwick",
+            "Kevin Hudson",
+            "Sanne Buskermolen",
+            "Astrid Gollob",
+            "Fleur Alders",
+            "Pamela Zottele"
+        ]
+    }
+}

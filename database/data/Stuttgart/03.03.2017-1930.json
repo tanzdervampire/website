@@ -1,0 +1,67 @@
+{
+    "day": "03.03.2017",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Max Meister",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Astrid Gollob"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Thijs Kobes",
+            "Sanne Buskermolen",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders"
+        ]
+    }
+}

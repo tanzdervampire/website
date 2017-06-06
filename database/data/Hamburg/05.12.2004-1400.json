@@ -1,0 +1,46 @@
+{
+    "day": "05.12.2004",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Stefan Stara"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Frank Winkels"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Stephanie Sturm"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Silvia Diletto"
+        ],
+        "Dirigent": [
+            "Robert Paul"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "day": "15.09.2001",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Raymond Sepe"
+        ],
+        "Alfred": [
+            "Norbert Kohler"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Martha Koltai"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Marc Bollmeyer",
+            "Vanni Viscusi",
+            "Tiziana Doneda",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Christoph Wohlleben"
+        ]
+    }
+}

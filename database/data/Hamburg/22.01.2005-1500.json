@@ -1,0 +1,47 @@
+{
+    "day": "22.01.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Philipp Hägeli"
+        ],
+        "Solotänzer": [
+            "Wolf Bader",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Kym Boyson",
+            "Silvia Lambertoni"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

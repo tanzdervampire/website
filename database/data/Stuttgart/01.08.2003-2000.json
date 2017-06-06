@@ -1,0 +1,47 @@
+{
+    "day": "01.08.2003",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Carl van Wegberg"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Ben Kazlauskas",
+            "Margherita Huisman",
+            "Jacqueline van der Pol"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

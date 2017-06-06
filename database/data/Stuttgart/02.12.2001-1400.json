@@ -1,0 +1,46 @@
+{
+    "day": "02.12.2001",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Martin Berger"
+        ],
+        "Alfred": [
+            "Norbert Kohler"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Martha Koltai"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "David Hartland",
+            "Stéphane Le Breton",
+            "Thomas Kienast",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

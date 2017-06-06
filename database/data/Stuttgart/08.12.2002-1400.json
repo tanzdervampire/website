@@ -1,0 +1,47 @@
+{
+    "day": "08.12.2002",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Alfred": [
+            "Rutger Bulsing"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Marion Furtner"
+        ],
+        "Chagal": [
+            "Steven Loss"
+        ],
+        "Magda": [
+            "Jessie Roggemann"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Thomas Klotz",
+            "Stéphane Le Breton",
+            "Thomas Kienast",
+            "Margherita Huisman",
+            "Jacqueline van der Pol"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

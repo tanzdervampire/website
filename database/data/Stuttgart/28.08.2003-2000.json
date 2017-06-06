@@ -1,0 +1,47 @@
+{
+    "day": "28.08.2003",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Michael Nicholson"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Matthias Dressel"
+        ],
+        "Magda": [
+            "Danielle Veneman"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Vanni Viscusi",
+            "Margherita Huisman",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

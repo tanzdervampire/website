@@ -1,0 +1,66 @@
+{
+    "day": "17.05.2017",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Thijs Kobes"
+        ],
+        "Professor Abronsius": [
+            "Pascal Höwing"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Lynsey Reid",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Kevin Hudson",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders"
+        ]
+    }
+}

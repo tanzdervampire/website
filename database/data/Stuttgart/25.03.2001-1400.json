@@ -1,0 +1,47 @@
+{
+    "day": "25.03.2001",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Christoph Trauth"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Marjan Shaki-Pätzoldt"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Maaike Schuurmans"
+        ],
+        "Rebecca": [
+            "Anne Welte"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Jeroen Mosselman"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Thomas Kienast",
+            "Liane Maynard",
+            "Tiziana Doneda"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

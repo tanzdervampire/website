@@ -1,0 +1,46 @@
+{
+    "day": "05.05.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Philipp Hägeli"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

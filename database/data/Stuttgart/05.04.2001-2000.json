@@ -1,0 +1,47 @@
+{
+    "day": "05.04.2001",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fritz Schmid"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Marjan Shaki-Pätzoldt"
+        ],
+        "Chagal": [
+            "Raymond Sepe"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "HG Schramm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Gary Jackman",
+            "Vanni Viscusi",
+            "Margherita Huisman",
+            "Liane Maynard"
+        ],
+        "Dirigent": [
+            "Christoph Wohlleben"
+        ]
+    }
+}

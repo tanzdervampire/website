@@ -1,0 +1,47 @@
+{
+    "day": "22.08.2001",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Marcel Kucera"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Vanni Viscusi",
+            "Tiziana Doneda",
+            "Selma Rudalics"
+        ],
+        "Dirigent": [
+            "Christoph Wohlleben"
+        ]
+    }
+}

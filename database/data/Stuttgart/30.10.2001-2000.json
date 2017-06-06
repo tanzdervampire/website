@@ -1,0 +1,47 @@
+{
+    "day": "30.10.2001",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Norbert Kohler"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Jonathan Tilley"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Marc Bollmeyer",
+            "Vanni Viscusi",
+            "Tiziana Doneda",
+            "Melanie Gemeiner"
+        ],
+        "Dirigent": [
+            "Christoph Wohlleben"
+        ]
+    }
+}

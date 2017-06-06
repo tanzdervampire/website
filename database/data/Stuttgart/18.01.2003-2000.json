@@ -1,0 +1,46 @@
+{
+    "day": "18.01.2003",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Steven Loss"
+        ],
+        "Magda": [
+            "Jessie Roggemann"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Marc Bollmeyer",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

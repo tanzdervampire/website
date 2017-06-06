@@ -1,0 +1,47 @@
+{
+    "day": "31.03.2000",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Aris Sas"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Maaike Schuurmans"
+        ],
+        "Rebecca": [
+            "Anne Welte"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Torsten Flach"
+        ],
+        "Solotänzer": [
+            "Philip Ranson",
+            "Witalij Kühne",
+            "Akos Tihanyi",
+            "Tiziana Doneda",
+            "Liane Maynard"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

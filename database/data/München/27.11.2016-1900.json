@@ -1,0 +1,66 @@
+{
+    "day": "27.11.2016",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Fleur Alders"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Alex Hyne",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Torsten Ankert",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Noah Wili"
+        ]
+    }
+}

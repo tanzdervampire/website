@@ -1,0 +1,47 @@
+{
+    "day": "30.01.2005",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Veit Schäfermeier"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Henriette Grawwert"
+        ],
+        "Chagal": [
+            "Philipp Hägeli"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kym Boyson"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

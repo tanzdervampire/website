@@ -1,0 +1,46 @@
+{
+    "day": "01.10.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Henriette Grawwert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Stephanie Sturm"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kerstin Zwanzig",
+            "Michael Eckel",
+            "Kevin Foster",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

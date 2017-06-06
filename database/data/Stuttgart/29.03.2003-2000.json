@@ -1,0 +1,47 @@
+{
+    "day": "29.03.2003",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Matthias Dressel"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Vanni Viscusi",
+            "Vanni Viscusi",
+            "Margherita Huisman",
+            "Jacqueline van der Pol"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

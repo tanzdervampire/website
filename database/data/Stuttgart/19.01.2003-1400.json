@@ -1,0 +1,47 @@
+{
+    "day": "19.01.2003",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Michael Nicholson"
+        ],
+        "Alfred": [
+            "Christoph Trauth"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Cornelius Baltus"
+        ],
+        "Magda": [
+            "Jessie Roggemann"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Marc Bollmeyer",
+            "Margherita Huisman",
+            "Liane Maynard"
+        ],
+        "Dirigent": [
+            "John Thrower"
+        ]
+    }
+}

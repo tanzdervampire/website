@@ -1,0 +1,46 @@
+{
+    "day": "10.02.2002",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Espen Nowacki"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Eric Thomé",
+            "Tiziana Doneda"
+        ],
+        "Dirigent": [
+            "Carsten Bowien"
+        ]
+    }
+}

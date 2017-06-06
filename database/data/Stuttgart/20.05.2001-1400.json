@@ -1,0 +1,44 @@
+{
+    "day": "20.05.2001",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Martin Berger"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Marc Bollmeyer",
+            "Tiziana Doneda",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

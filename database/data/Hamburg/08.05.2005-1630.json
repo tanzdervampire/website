@@ -1,0 +1,46 @@
+{
+    "day": "08.05.2005",
+    "time": "16:30",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Paul Walthaus"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Sarah": [
+            "Sonja Schatz"
+        ],
+        "Chagal": [
+            "Philipp Hägeli"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Horst Kulmbrein",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

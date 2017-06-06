@@ -1,0 +1,47 @@
+{
+    "day": "09.01.2005",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kym Boyson"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

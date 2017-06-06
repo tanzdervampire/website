@@ -1,0 +1,46 @@
+{
+    "day": "06.02.2005",
+    "time": "16:30",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Manuel Stoff"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Philipp Hägeli"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

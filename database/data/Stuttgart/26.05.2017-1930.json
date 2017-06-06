@@ -1,0 +1,67 @@
+{
+    "day": "26.05.2017",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Bob Edwards"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Sander van Wissen"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Jacob Fearey",
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Máté Gyenei",
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "day": "26.06.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Shay Cohen"
+        ],
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Marina Maniglio"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Sander van Wissen"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Michel Driesse"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Stefan Mosonyi",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Astrid Gollob",
+            "Sanne Buskermolen",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Thomas Höfner",
+            "Andrew Chadwick",
+            "Noah Wili",
+            "Pascal Höwing",
+            "Samantha Harris-Hughes",
+            "Anja Wendzel",
+            "Fleur Alders",
+            "Pamela Zottele"
+        ]
+    }
+}

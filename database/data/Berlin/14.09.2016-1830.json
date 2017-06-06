@@ -1,0 +1,69 @@
+{
+    "day": "14.09.2016",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Torsten Ankert"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Sander van Wissen"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Alex Hyne",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Samantha Harris-Hughes",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Andrew Chadwick",
+            "Kevin Hudson",
+            "Noah Wili",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Sanne Buskermolen",
+            "Fleur Alders",
+            "Pamela Zottele"
+        ]
+    }
+}

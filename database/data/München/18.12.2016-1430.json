@@ -1,0 +1,65 @@
+{
+    "day": "18.12.2016",
+    "time": "14:30",
+    "type": "Matinée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Torsten Ankert"
+        ],
+        "Sarah": [
+            "Anja Wendzel"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "David Baranya",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Samantha Harris-Hughes",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Alex Hyne",
+            "Pascal Höwing",
+            "Noah Wili",
+            "Karolin Konert",
+            "Kevin Hudson"
+        ]
+    }
+}

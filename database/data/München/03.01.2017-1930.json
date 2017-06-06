@@ -1,0 +1,66 @@
+{
+    "day": "03.01.2017",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Krisztián Balassa"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Fleur Alders"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Alex Hyne",
+            "Nicola Trazzi",
+            "Samantha Harris-Hughes",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Michael Anzalone",
+            "Kevin Hudson",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Sanne Buskermolen"
+        ]
+    }
+}

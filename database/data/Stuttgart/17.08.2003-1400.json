@@ -1,0 +1,46 @@
+{
+    "day": "17.08.2003",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Michael Nicholson"
+        ],
+        "Alfred": [
+            "Jurko van Veenendaal"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Dominika Szymanska"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Thomas Klotz",
+            "Stéphane Le Breton",
+            "Ben Kazlauskas",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

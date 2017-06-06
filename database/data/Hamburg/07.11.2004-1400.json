@@ -1,0 +1,45 @@
+{
+    "day": "07.11.2004",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Horst Kulmbrein"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Mona Graw"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

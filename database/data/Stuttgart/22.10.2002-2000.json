@@ -1,0 +1,45 @@
+{
+    "day": "22.10.2002",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Rutger Bulsing"
+        ],
+        "Professor Abronsius": [
+            "Peter Stassen"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Cornelius Baltus"
+        ],
+        "Magda": [
+            "Jessie Roggemann"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Carl van Wegberg"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Torsten Moll",
+            "Vanni Viscusi",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

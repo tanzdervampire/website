@@ -1,0 +1,67 @@
+{
+    "day": "04.11.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Krisztián Balassa"
+        ],
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Torsten Ankert"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Kirill Zolygin"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Máté Gyenei",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Alex Hyne",
+            "Stefan Mosonyi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Noah Wili",
+            "Pascal Höwing",
+            "Kevin Hudson",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders"
+        ]
+    }
+}

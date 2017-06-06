@@ -1,0 +1,47 @@
+{
+    "day": "12.03.2003",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Michael Nicholson"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Matthias Dressel"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Thomas Kienast",
+            "Margherita Huisman",
+            "Jacqueline van der Pol"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

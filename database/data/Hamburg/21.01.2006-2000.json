@@ -1,0 +1,75 @@
+{
+    "day": "21.01.2006",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Alexander di Capri"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Paul Walthaus"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Erkamp",
+            "Stephanie Tschöppe",
+            "Horst Kulmbrein",
+            "Patrick Mares",
+            "Michel Driesse",
+            "Wolf Bader",
+            "Veit Schäfermeier",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Henriette Grawwert",
+            "Katrin Löbbert",
+            "Lillemor Spitzer"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Daniel Ruiz",
+            "Phillip Kempster",
+            "Christopher Tölle",
+            "Lucy Costelloe",
+            "Maria Anna Russo",
+            "Julie Newman",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "day": "26.03.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Veit Schäfermeier"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

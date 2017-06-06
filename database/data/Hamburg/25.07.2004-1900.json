@@ -1,0 +1,46 @@
+{
+    "day": "25.07.2004",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Frank Winkels"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Christopher Tölle",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

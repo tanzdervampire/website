@@ -1,0 +1,47 @@
+{
+    "day": "25.08.2002",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Ian Jon Bourg"
+        ],
+        "Alfred": [
+            "Thomas Klotz"
+        ],
+        "Professor Abronsius": [
+            "Andreas Bühring"
+        ],
+        "Sarah": [
+            "Christina Brückner"
+        ],
+        "Chagal": [
+            "Steven Loss"
+        ],
+        "Magda": [
+            "Fawn Arnold"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Torsten Moll",
+            "Vanni Viscusi",
+            "Marc Bollmeyer",
+            "Jacqueline van der Pol",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}

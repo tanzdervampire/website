@@ -1,0 +1,47 @@
+{
+    "day": "14.03.2001",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Raymond Sepe"
+        ],
+        "Alfred": [
+            "Fritz Schmid"
+        ],
+        "Professor Abronsius": [
+            "Norbert Kohler"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Maaike Schuurmans"
+        ],
+        "Rebecca": [
+            "Anne Welte"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Jeroen Mosselman"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Thomas Kienast",
+            "Liane Maynard",
+            "Tiziana Doneda"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

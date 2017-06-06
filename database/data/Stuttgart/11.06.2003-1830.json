@@ -1,0 +1,47 @@
+{
+    "day": "11.06.2003",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Matthias Dressel"
+        ],
+        "Sarah": [
+            "Marion Furtner"
+        ],
+        "Chagal": [
+            "Cornelius Baltus"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Marc Bollmeyer",
+            "Margherita Huisman",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "day": "17.04.2004",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Patrick Mares"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Frank Winkels"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Wolf Bader",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

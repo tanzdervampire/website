@@ -1,0 +1,46 @@
+{
+    "day": "03.12.2004",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Bettina Oswald"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Lyndsey Stokes",
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Robert Paul"
+        ]
+    }
+}

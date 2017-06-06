@@ -1,0 +1,75 @@
+{
+    "day": "08.11.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Philipp Hägeli",
+            "Michel Driesse",
+            "Manuel Stoff",
+            "Veit Schäfermeier",
+            "Patrick Mares",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Henriette Grawwert",
+            "Lillemor Spitzer",
+            "Wolf Bader",
+            "Sonja Schatz"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Horst Kulmbrein",
+            "Michael Eckel",
+            "Phillip Kempster",
+            "Lucy Costelloe",
+            "Silvia Lambertoni",
+            "Kym Boyson",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

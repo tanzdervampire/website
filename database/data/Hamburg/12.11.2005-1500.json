@@ -1,0 +1,75 @@
+{
+    "day": "12.11.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Veit Schäfermeier"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Henriette Grawwert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Philipp Hägeli",
+            "Michel Driesse",
+            "Manuel Stoff",
+            "Patrick Mares",
+            "Horst Kulmbrein",
+            "Wolf Bader",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Kati Heidebrecht",
+            "Femke Soetenga",
+            "Katrin Löbbert"
+        ],
+        "Tanzensemble": [
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Daniel Ruiz",
+            "Christopher Tölle",
+            "Phillip Kempster",
+            "Lucy Costelloe",
+            "Julie Newman",
+            "Kym Boyson",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

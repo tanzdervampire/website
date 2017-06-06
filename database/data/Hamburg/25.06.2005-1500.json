@@ -1,0 +1,46 @@
+{
+    "day": "25.06.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Alexander di Capri"
+        ],
+        "Alfred": [
+            "Manuel Stoff"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Leigh-Anne Vizer",
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Leigh-Anne Vizer"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

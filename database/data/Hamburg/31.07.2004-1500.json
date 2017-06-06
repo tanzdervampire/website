@@ -1,0 +1,46 @@
+{
+    "day": "31.07.2004",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Patrick Mares"
+        ],
+        "Professor Abronsius": [
+            "Norbert Kohler"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Frank Winkels"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Silvia Diletto"
+        ],
+        "Dirigent": [
+            "Robert Paul"
+        ]
+    }
+}

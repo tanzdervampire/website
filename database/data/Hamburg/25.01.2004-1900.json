@@ -1,0 +1,46 @@
+{
+    "day": "25.01.2004",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Stefan Stara"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Yousef Sheikh"
+        ],
+        "Solotänzer": [
+            "Wolf Bader",
+            "Kevin Foster",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "day": "11.03.2001",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Marcel Kucera"
+        ],
+        "Alfred": [
+            "Fritz Schmid"
+        ],
+        "Professor Abronsius": [
+            "Norbert Kohler"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Natalie Sindern"
+        ],
+        "Rebecca": [
+            "Isabella Prühs"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Jeroen Mosselman"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Witalij Kühne",
+            "Thomas Kienast",
+            "Melanie Gemeiner",
+            "Tiziana Doneda"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

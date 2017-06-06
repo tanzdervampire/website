@@ -1,0 +1,47 @@
+{
+    "day": "31.01.2002",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Marjan Shaki-Pätzoldt"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Vanni Viscusi",
+            "Tiziana Doneda",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Carsten Bowien"
+        ]
+    }
+}

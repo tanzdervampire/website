@@ -1,0 +1,47 @@
+{
+    "day": "27.05.2001",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Raymond Sepe"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Martha Koltai"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Stéphane Le Breton",
+            "Vanni Viscusi",
+            "Tiziana Doneda",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Holger Kolodziej"
+        ]
+    }
+}

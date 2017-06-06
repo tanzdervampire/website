@@ -1,0 +1,47 @@
+{
+    "day": "20.02.2002",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Martin Berger"
+        ],
+        "Alfred": [
+            "Christoph Trauth"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Maike Switzer"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Cornelius Baltus"
+        ],
+        "Solotänzer": [
+            "Vanni Viscusi",
+            "Gary Jackman",
+            "David Hartland",
+            "Tiziana Doneda",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

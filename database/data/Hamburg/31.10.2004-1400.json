@@ -1,0 +1,75 @@
+{
+    "day": "31.10.2004",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Norbert Kohler"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Yousef Sheikh",
+            "Patrick Mares",
+            "Jesse Webb",
+            "Stefan Stara",
+            "Frank Winkels",
+            "Mona Graw",
+            "Katrin Löbbert",
+            "Bettina Oswald",
+            "Ute Geske",
+            "Stephanie Tschöppe",
+            "Lyndsey Stokes"
+        ],
+        "Tanzensemble": [
+            "Jacquie Biggs",
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Horst Kulmbrein",
+            "Wolf Bader",
+            "Robert Johansson",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Margherita Huisman",
+            "Silvia Diletto",
+            "Lucy Costelloe"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

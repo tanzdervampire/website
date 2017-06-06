@@ -1,0 +1,66 @@
+{
+    "day": "07.12.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Anja Wendzel"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Torsten Ankert"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Milan van Waardenburg",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "David Baranya",
+            "Stefan Mosonyi",
+            "Alex Hyne",
+            "Veronika Enders",
+            "Sanne Buskermolen",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Kevin Hudson",
+            "Noah Wili",
+            "Pascal Höwing",
+            "Astrid Gollob",
+            "Samantha Harris-Hughes",
+            "Fleur Alders"
+        ]
+    }
+}

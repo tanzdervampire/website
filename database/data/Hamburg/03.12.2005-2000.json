@@ -1,0 +1,74 @@
+{
+    "day": "03.12.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Michel Driesse"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Kym Boyson",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Erkamp",
+            "Alexander di Capri",
+            "Stefan Poslovski",
+            "Manuel Stoff",
+            "Philipp Hägeli",
+            "Mona Graw",
+            "Lillemor Spitzer",
+            "Henriette Grawwert",
+            "Femke Soetenga",
+            "Wolf Bader",
+            "Sonja Schatz"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Daniel Ruiz",
+            "Christopher Tölle",
+            "Phillip Kempster",
+            "Julie Newman",
+            "Horst Kulmbrein",
+            "Lucy Costelloe",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

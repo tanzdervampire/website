@@ -1,0 +1,46 @@
+{
+    "day": "24.02.2002",
+    "time": "14:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Marcel Kucera"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Maike Switzer"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Cornelius Baltus"
+        ],
+        "Solotänzer": [
+            "David Hartland",
+            "Marc Bollmeyer",
+            "Tiziana Doneda",
+            "Liane Maynard"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

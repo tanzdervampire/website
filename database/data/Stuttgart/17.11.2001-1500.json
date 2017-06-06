@@ -1,0 +1,47 @@
+{
+    "day": "17.11.2001",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Martin Berger"
+        ],
+        "Alfred": [
+            "René Roseburg"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Sarah": [
+            "Marjan Shaki-Pätzoldt"
+        ],
+        "Chagal": [
+            "James Sbano"
+        ],
+        "Magda": [
+            "Natalie Sindern"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Eric Thomé",
+            "Vanni Viscusi",
+            "Torie Bedwin",
+            "Margherita Huisman"
+        ],
+        "Dirigent": [
+            "Christoph Wohlleben"
+        ]
+    }
+}

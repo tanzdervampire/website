@@ -1,0 +1,68 @@
+[
+  {
+    "start": "1997-10-04",
+    "end": "2000-01-15",
+    "location": "Wien",
+    "theater": "Raimund Theater"
+  },
+  {
+    "start": "2000-03-31",
+    "end": "2003-08-31",
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater"
+  },
+  {
+    "start": "2003-12-07",
+    "end": "2006-01-22",
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora"
+  },
+  {
+    "start": "2006-12-10",
+    "end": "2008-03-30",
+    "location": "Berlin",
+    "theater": "Theater des Westens"
+  },
+  {
+    "start": "2008-11-07",
+    "end": "2010-01-31",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater"
+  },
+  {
+    "start": "2009-09-16",
+    "end": "2011-06-25",
+    "location": "Wien",
+    "theater": "Ronacher"
+  },
+  {
+    "start": "2010-02-25",
+    "end": "2011-10-16",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater"
+  },
+  {
+    "start": "2011-11-14",
+    "end": "2013-08-25",
+    "location": "Berlin",
+    "theater": "Theater des Westens"
+  },
+  {
+    "start": "2016-04-24",
+    "end": "2016-09-25",
+    "location": "Berlin",
+    "theater": "Theater des Westens"
+  },
+  {
+    "start": "2016-10-05",
+    "end": "2017-01-15",
+    "location": "München",
+    "theater": "Deutsches Theater München"
+  },
+  {
+    "start": "2017-01-26",
+    "end": "2017-09-03",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater"
+  }
+]

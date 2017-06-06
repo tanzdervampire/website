@@ -1,0 +1,47 @@
+{
+    "day": "09.07.2003",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Cornelius Baltus"
+        ],
+        "Magda": [
+            "Danielle Veneman"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Koukol": [
+            "Stéphane Le Breton"
+        ],
+        "Solotänzer": [
+            "Kevin Hudson",
+            "Vanni Viscusi",
+            "Vanni Viscusi",
+            "Margherita Huisman",
+            "Lyndsey Stokes"
+        ],
+        "Dirigent": [
+            "Adrian Werum"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "day": "31.01.2004",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Yousef Sheikh"
+        ],
+        "Solotänzer": [
+            "Thomas Huber",
+            "Christopher Tölle",
+            "Peter Horemans",
+            "Kerstin Zwanzig",
+            "Lyndsey Stokes"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

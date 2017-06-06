@@ -1,0 +1,75 @@
+{
+    "day": "14.10.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Stefan Poslovski"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Kym Boyson",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Philipp Hägeli",
+            "Stephanie Tschöppe",
+            "Max Niemeyer",
+            "Michel Driesse",
+            "Manuel Stoff",
+            "Veit Schäfermeier",
+            "Paul Erkamp",
+            "Mona Graw",
+            "Katrin Löbbert",
+            "Henriette Grawwert",
+            "Lillemor Spitzer",
+            "Sonja Schatz"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Daniel Ruiz",
+            "Michael Eckel",
+            "Phillip Kempster",
+            "Lucy Costelloe",
+            "Silvia Lambertoni",
+            "Julie Newman",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

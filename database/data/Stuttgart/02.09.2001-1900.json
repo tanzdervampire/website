@@ -1,0 +1,46 @@
+{
+    "day": "02.09.2001",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Raymond Sepe"
+        ],
+        "Alfred": [
+            "Stefan Poslovski"
+        ],
+        "Professor Abronsius": [
+            "Norbert Kohler"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "James Daniel Frost"
+        ],
+        "Magda": [
+            "Debby Boekema"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Herbert": [
+            "Thomas Mülner"
+        ],
+        "Koukol": [
+            "Stéphane Le Breton"
+        ],
+        "Solotänzer": [
+            "Dominik Büttner",
+            "Gary Jackman",
+            "Vanni Viscusi",
+            "Tiziana Doneda"
+        ],
+        "Dirigent": [
+            "Holger Kolodziej"
+        ]
+    }
+}

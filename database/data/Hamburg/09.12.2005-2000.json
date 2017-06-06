@@ -1,0 +1,76 @@
+{
+    "day": "09.12.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Stephanie Tschöppe"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Kati Heidebrecht",
+            "Alexander di Capri",
+            "Paul Walthaus",
+            "Michel Driesse",
+            "Manuel Stoff",
+            "Veit Schäfermeier",
+            "Max Niemeyer",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Henriette Grawwert",
+            "Femke Soetenga",
+            "Katrin Löbbert",
+            "Sonja Schatz"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Horst Kulmbrein",
+            "Michael Eckel",
+            "Phillip Kempster",
+            "Lucy Costelloe",
+            "Maria Anna Russo",
+            "Kym Boyson",
+            "Julie Newman"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

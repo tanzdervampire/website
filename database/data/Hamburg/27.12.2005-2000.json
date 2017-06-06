@@ -1,0 +1,75 @@
+{
+    "day": "27.12.2005",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Paul Walthaus"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Sonja Schatz"
+        ],
+        "Chagal": [
+            "Paul Erkamp"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Michel Driesse",
+            "Alexander di Capri",
+            "Stefan Poslovski",
+            "Manuel Stoff",
+            "Veit Schäfermeier",
+            "Patrick Mares",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Max Niemeyer",
+            "Lillemor Spitzer",
+            "Stephanie Tschöppe",
+            "Katrin Löbbert"
+        ],
+        "Tanzensemble": [
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Christopher Tölle",
+            "Phillip Kempster",
+            "Michael Eckel",
+            "Julie Newman",
+            "Silvia Lambertoni",
+            "Horst Kulmbrein",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

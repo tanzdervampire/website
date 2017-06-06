@@ -1,0 +1,74 @@
+{
+    "day": "21.01.2006",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Patrick Mares"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Femke Soetenga"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Paul Walthaus"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Leigh-Anne Vizer"
+        ],
+        "Gesangsensemble": [
+            "Paul Erkamp",
+            "Stephanie Tschöppe",
+            "Horst Kulmbrein",
+            "Michel Driesse",
+            "Wolf Bader",
+            "Veit Schäfermeier",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Henriette Grawwert",
+            "Lillemor Spitzer"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Leigh-Anne Vizer",
+            "Michael Eckel",
+            "Kevin Foster",
+            "Silvano Marraffa",
+            "Daniel Ruiz",
+            "Phillip Kempster",
+            "Christopher Tölle",
+            "Silvia Lambertoni",
+            "Julie Newman",
+            "Maria Anna Russo",
+            "Lucy Costelloe",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

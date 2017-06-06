@@ -1,0 +1,47 @@
+{
+    "day": "08.10.2000",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 2,
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Charles Fornara"
+        ],
+        "Alfred": [
+            "René Roseburg"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
+        "Chagal": [
+            "Alexander Wengel"
+        ],
+        "Magda": [
+            "Maaike Schuurmans"
+        ],
+        "Rebecca": [
+            "Anne Welte"
+        ],
+        "Herbert": [
+            "Sascha Th. G. Krebs"
+        ],
+        "Koukol": [
+            "HG Schramm"
+        ],
+        "Solotänzer": [
+            "Matteo Gastaldo",
+            "Witalij Kühne",
+            "Thomas Kienast",
+            "Tiziana Doneda",
+            "Liane Maynard"
+        ],
+        "Dirigent": [
+            "Claudia Born"
+        ]
+    }
+}

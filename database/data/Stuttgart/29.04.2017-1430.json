@@ -1,0 +1,66 @@
+{
+    "day": "29.04.2017",
+    "time": "14:30",
+    "type": "Matinée",
+    "production": 11,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Thijs Kobes"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Karolin Konert"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Máté Gyenei",
+            "Jacob Fearey",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Sanne Buskermolen"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Michael Anzalone",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Samantha Harris-Hughes",
+            "Fleur Alders"
+        ]
+    }
+}

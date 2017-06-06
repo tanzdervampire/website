@@ -1,0 +1,75 @@
+{
+    "day": "29.12.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Sonja Schatz"
+        ],
+        "Chagal": [
+            "Veit Schäfermeier"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Philipp Hägeli"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Alexander di Capri",
+            "Michel Driesse",
+            "Wolf Bader",
+            "Patrick Mares",
+            "Paul Erkamp",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Lillemor Spitzer",
+            "Julie Newman",
+            "Stephanie Tschöppe",
+            "Katrin Löbbert"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Christopher Tölle",
+            "Phillip Kempster",
+            "Michael Eckel",
+            "Silvia Lambertoni",
+            "Maria Anna Russo",
+            "Kym Boyson",
+            "Horst Kulmbrein"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

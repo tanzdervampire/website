@@ -1,0 +1,66 @@
+{
+    "day": "26.11.2016",
+    "time": "14:30",
+    "type": "Matinée",
+    "production": 10,
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ],
+        "Graf von Krolock": [
+            "Torsten Ankert"
+        ],
+        "Sarah": [
+            "Marina Maniglio"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Karolin Konert"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Joe Nolan",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "David Baranya",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Vicki Douglas",
+            "Sanne Buskermolen",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Michael Anzalone",
+            "Alex Hyne",
+            "Pascal Höwing",
+            "Noah Wili",
+            "Anja Wendzel",
+            "Astrid Gollob",
+            "Fleur Alders"
+        ]
+    }
+}

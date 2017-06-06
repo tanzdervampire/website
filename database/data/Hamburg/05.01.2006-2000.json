@@ -1,0 +1,75 @@
+{
+    "day": "05.01.2006",
+    "time": "20:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Philipp Hägeli"
+        ],
+        "Magda": [
+            "Mona Graw"
+        ],
+        "Rebecca": [
+            "Stephanie Sturm"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Michel Driesse"
+        ],
+        "Solotänzer": [
+            "Christopher Tölle",
+            "Kevin Foster",
+            "Phillip Kempster",
+            "Leigh-Anne Vizer",
+            "Silvia Lambertoni"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Alexander di Capri",
+            "Stefan Poslovski",
+            "Manuel Stoff",
+            "Veit Schäfermeier",
+            "Patrick Mares",
+            "Horst Kulmbrein",
+            "Katrin Löbbert",
+            "Henriette Grawwert",
+            "Femke Soetenga",
+            "Stephanie Tschöppe",
+            "Sonja Schatz"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Silvia Lambertoni",
+            "Christopher Tölle",
+            "Kevin Foster",
+            "Phillip Kempster",
+            "Daniel Ruiz",
+            "Peter Horemans",
+            "Michael Eckel",
+            "Julie Newman",
+            "Maria Anna Russo",
+            "Kym Boyson",
+            "Lucy Costelloe"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}

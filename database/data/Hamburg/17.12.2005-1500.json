@@ -1,0 +1,74 @@
+{
+    "day": "17.12.2005",
+    "time": "15:00",
+    "type": "Matinée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Alexander di Capri"
+        ],
+        "Alfred": [
+            "Manuel Stoff"
+        ],
+        "Professor Abronsius": [
+            "Stefan Poslovski"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Kevin Foster",
+            "Phillip Kempster",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Erkamp",
+            "Philipp Hägeli",
+            "Patrick Mares",
+            "Horst Kulmbrein",
+            "Stephanie Sturm",
+            "Kati Heidebrecht",
+            "Mona Graw",
+            "Lillemor Spitzer",
+            "Sonja Schatz",
+            "Femke Soetenga",
+            "Stephanie Tschöppe"
+        ],
+        "Tanzensemble": [
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Phillip Kempster",
+            "Daniel Ruiz",
+            "Christopher Tölle",
+            "Michael Eckel",
+            "Lucy Costelloe",
+            "Julie Newman",
+            "Kym Boyson",
+            "Kelly Edwards"
+        ],
+        "Dirigent": [
+            "Bernd Ruf"
+        ]
+    }
+}

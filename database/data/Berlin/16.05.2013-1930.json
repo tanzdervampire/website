@@ -1,0 +1,68 @@
+{
+    "day": "16.05.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 8,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Tibor Nagy",
+            "Judit Szoboszlay",
+            "Matteo Vigna"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Dennis Jankowiak"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Nina Ungerer"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Conny Braun",
+            "Franz Frickel",
+            "Stéphane Le Breton",
+            "Anna Lopusny",
+            "Angelina Markiefka",
+            "Sven Prüwer",
+            "Claudie Reinhard"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}

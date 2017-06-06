@@ -1,0 +1,68 @@
+{
+    "day": "02.01.2007",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 4,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Lucy Scherer"
+        ],
+        "Alfred": [
+            "Alexander Klaws"
+        ],
+        "Professor Abronsius": [
+            "Mathias Schlung"
+        ],
+        "Chagal": [
+            "Ulrich Wiggers"
+        ],
+        "Magda": [
+            "Katja Berg"
+        ],
+        "Rebecca": [
+            "Maike Katrin Schmidt"
+        ],
+        "Herbert": [
+            "Haldor Laegreid"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Kevin Hudson",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Philipp Hägeli",
+            "Patric Scott"
+        ],
+        "Tanzensemble": [
+            "Milena Alaze",
+            "Hannah Carter",
+            "Andrew Chadwick",
+            "Tiziana Doneda",
+            "Silvia Lambertoni",
+            "Silvano Marraffa",
+            "Florian Theiler"
+        ],
+        "Gesangsensemble": [
+            "Kati Heidebrecht",
+            "Schirin Kazemi",
+            "Svenja Kühl",
+            "Christina Ogink",
+            "Jessica Oisson-Lantto",
+            "Matthias Stockinger",
+            "Christopher Tölle",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Ulrich Talle"
+        ]
+    }
+}

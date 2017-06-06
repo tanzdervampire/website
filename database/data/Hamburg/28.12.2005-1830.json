@@ -1,0 +1,76 @@
+{
+    "day": "28.12.2005",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Veit Schäfermeier"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Sonja Schatz"
+        ],
+        "Chagal": [
+            "Paul Erkamp"
+        ],
+        "Magda": [
+            "Franziska Forster"
+        ],
+        "Rebecca": [
+            "Simone Pohl"
+        ],
+        "Herbert": [
+            "Tim Reichwein"
+        ],
+        "Koukol": [
+            "Wolf Bader"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Alexander di Capri",
+            "Michel Driesse",
+            "Manuel Stoff",
+            "Stefan Poslovski",
+            "Philipp Hägeli",
+            "Mona Graw",
+            "Stephanie Sturm",
+            "Lillemor Spitzer",
+            "Patrick Mares",
+            "Stephanie Tschöppe",
+            "Katrin Löbbert"
+        ],
+        "Tanzensemble": [
+            "Kerstin Zwanzig",
+            "Kerstin Zwanzig",
+            "Peter Horemans",
+            "Daniel Ruiz",
+            "Silvano Marraffa",
+            "Christopher Tölle",
+            "Phillip Kempster",
+            "Michael Eckel",
+            "Julie Newman",
+            "Silvia Lambertoni",
+            "Maria Anna Russo",
+            "Kym Boyson",
+            "Horst Kulmbrein"
+        ],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}

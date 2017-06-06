@@ -1,0 +1,68 @@
+{
+    "day": "20.07.2016",
+    "time": "18:30",
+    "type": "Soirée",
+    "production": 9,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Dirigent": [
+            "Alexandros Diamantis"
+        ],
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Katie Allday"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Thomas Höfner",
+            "Nicola Trazzi",
+            "Sanne Buskermolen",
+            "Astrid Gollob",
+            "Vicki Douglas",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Alex Hyne",
+            "Noah Wili",
+            "Andrew Chadwick",
+            "Kevin Hudson",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders",
+            "Pamela Zottele"
+        ]
+    }
+}

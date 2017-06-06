@@ -1,0 +1,75 @@
+{
+    "day": "31.10.2004",
+    "time": "19:00",
+    "type": "Soirée",
+    "production": 3,
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Koukol": [
+            "Yousef Sheikh"
+        ],
+        "Solotänzer": [
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Michel Driesse",
+            "Patrick Mares",
+            "Jesse Webb",
+            "Oliver Heim",
+            "Stefan Stara",
+            "Mona Graw",
+            "Katrin Löbbert",
+            "Bettina Oswald",
+            "Ute Geske",
+            "Stephanie Tschöppe",
+            "Lyndsey Stokes"
+        ],
+        "Tanzensemble": [
+            "Jacquie Biggs",
+            "Peter Horemans",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Kevin Foster",
+            "Horst Kulmbrein",
+            "Wolf Bader",
+            "Robert Johansson",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Margherita Huisman",
+            "Silvia Diletto",
+            "Lucy Costelloe"
+        ],
+        "Dirigent": [
+            "Robert Paul"
+        ]
+    }
+}

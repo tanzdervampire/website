@@ -1,0 +1,68 @@
+{
+    "day": "10.11.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 8,
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Rebecca": [
+            "Claudie Reinhard"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Dennis Jankowiak",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Zoltán Fekete",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Elke Buyle",
+            "Franz Frickel",
+            "Laura Greer",
+            "Judith Jandl",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Helen Morris",
+            "Sven Prüwer"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}

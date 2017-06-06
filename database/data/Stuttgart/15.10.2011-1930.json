@@ -1,0 +1,68 @@
+{
+    "day": "15.10.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "production": 7,
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Judit Szoboszlay",
+            "Lucas Theisen",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Laura Greer",
+            "Zoltán Fekete",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Helen Morris",
+            "Raphaela Pekovsek",
+            "Thomas Schwein"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
