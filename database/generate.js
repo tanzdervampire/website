@@ -149,7 +149,7 @@ const nameToId = (() => {
 })();
 
 /* Store shows */
-const fnToDate = fn => moment(fn.replace(/\.json$/, ''), 'YYYY-MM-DD-HHmm');
+const fnToDate = fn => moment(fn.replace(/\.json$/, ''), 'DD.MM.YYYY-HHmm');
 fs.readdirSync('./data/')
     .map(location => fs.readdirSync(`./data/${location}/`).map(fn => { return { 'fn': fn, 'location': location }; }))
     .reduce((a,b) => [...a, ...b])
