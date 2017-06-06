@@ -160,7 +160,7 @@ fs.readdirSync('./data/')
         const day = moment(data.day, 'DD.MM.YYYY').format('YYYY-MM-DD 00:00:00.0000');
 
         console.log(`Inserting show ${day} / ${data.time}.`);
-        
+
         db.run('INSERT INTO SHOW (PRODUCTION_ID, DAY, TIME, TYPE) VALUES (?, ?, ?, ?);', [
             productionId,
             day,

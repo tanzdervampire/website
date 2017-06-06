@@ -16,6 +16,8 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
     "client": "node start-client.js",
+    "postinstall": "npm run generate-database",
+    "generate-database": "cd database && node generate.js && cd ../ && cp -f database/generated.sqlite db.sqlite",
     "heroku-postbuild": "cd frontend/ && npm install && npm run build"
   },
   "repository": {
