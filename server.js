@@ -289,6 +289,14 @@ app.post('/api/shows', (req, res) => {
         text: JSON.stringify(data, null, 4),
     };
 
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+
+        console.log('Message %s sent: %s', info.messageId, info.response);
+    });
+
     return res.json({});
 });
 
