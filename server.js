@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const sql = require('sql.js');
 const fs = require('fs');
+const nodemailer = require('nodemailer');
 
 const app = express();
 app.use(bodyParser.json());
@@ -263,7 +264,31 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
 
 app.post('/api/shows', (req, res) => {
     const data = req.body;
-    // TODO FIXME
+
+    // TODO FIXME Validation
+
+    if (process.env.NODE_ENV !== 'production') {
+        console.log(`Submitted: ${JSON.stringify(data, null, 4)}`);
+        return res.json({});
+    }
+
+    let transporter = nodemailer.createTransport({
+        host: process.env.SUBMIT_EMAIL_HOST,
+        port: process.env.SUBMIT_EMAIL_PORT,
+        secure: false,
+        auth: {
+            user: process.env.SUBMIT_EMAIL_USER,
+            pass: process.env.SUBMIT_EMAIL_PASSWORD,
+        }
+    });
+
+    let mailOptions = {
+        from: '"TanzDerVampire.info" <tdv-submit@airblader.de>',
+        to: 'admin@airblader.de',
+        subject: `TanzDerVampire.info – ${data.day} ${data.time}`,
+        text: JSON.stringify(data, null, 4),
+    };
+
     return res.json({});
 });
 
