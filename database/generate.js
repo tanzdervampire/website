@@ -151,7 +151,7 @@ fs.readdirSync('./data/')
         console.log(`Inserting show ${day} / ${data.time}.`);
 
         db.run('INSERT INTO SHOW (PRODUCTION_ID, DAY, TIME, TYPE) VALUES (?, ?, ?, ?);', [
-            getProductionId(data.day, data.location, productions),
+            getProductionId(day, data.location, productions),
             day,
             data.time,
             data.type,
