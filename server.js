@@ -6,7 +6,6 @@ const fs = require('fs');
 const nodemailer = require('nodemailer');
 
 const app = express();
-app.use(bodyParser.json());
 
 const dbBuffer = fs.readFileSync('db.sqlite');
 const db = new sql.Database(dbBuffer);
@@ -262,7 +261,8 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
     return res.json({ 'error': 'Unknown error.' });
 });
 
-app.post('/api/shows', (req, res) => {
+app.post('/api/shows', bodyParser.json(), (req, res) => {
+    console.log(JSON.stringify(req.headers));
     const data = req.body;
 
     // TODO FIXME Validation
