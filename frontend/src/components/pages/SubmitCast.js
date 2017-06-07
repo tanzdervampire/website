@@ -4,6 +4,7 @@ import React from 'react';
 import moment from 'moment';
 import { red500, grey50 } from 'material-ui/styles/colors';
 
+import Snackbar from 'material-ui/Snackbar';
 import CircularProgress from 'material-ui/CircularProgress';
 import Avatar from 'material-ui/Avatar';
 import Paper from 'material-ui/Paper';
@@ -69,6 +70,8 @@ class EnterCast extends React.Component {
         cast: {},
 
         step: Step.GENERAL,
+        snackbarOpen: false,
+        snackbarMessage: '',
     };
 
     componentDidMount() {
@@ -153,11 +156,21 @@ class EnterCast extends React.Component {
 
             return response.json();
         }).then(response => {
-            // TODO FIXME …/new/done page.
-            this.props.history.push('/');
+            this.setState({
+                snackbarOpen: true,
+                snackbarMessage: 'Die Castlist wurde erfolgreich eingereicht!',
+            });
         }).catch(err => {
-            // TODO FIXME
+            this.setState({
+                snackbarOpen: true,
+                snackbarMessage: 'Beim Versenden gab es einen Fehler!',
+            });
         });
+    };
+
+    handleSnackbarClose = () => {
+        this.setState({ snackbarOpen: false });
+        this.props.history.push('/');
     };
 
     transitionToNextRole() {
@@ -291,6 +304,13 @@ class EnterCast extends React.Component {
                 {this.renderShowData()}
                 {this.renderCast()}
                 {this.renderCheck()}
+
+                <Snackbar
+                    open={this.state.snackbarOpen}
+                    message={this.state.snackbarMessage}
+                    autoHideDuration={3000}
+                    onRequestClose={this.handleSnackbarClose}
+                />
             </div>
         );
     };
