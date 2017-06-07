@@ -262,7 +262,6 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
 });
 
 app.post('/api/shows', bodyParser.json(), (req, res) => {
-    console.log(JSON.stringify(req.headers));
     const data = req.body;
 
     // TODO FIXME Validation

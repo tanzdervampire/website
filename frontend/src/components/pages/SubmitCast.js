@@ -146,9 +146,9 @@ class EnterCast extends React.Component {
         fetch('/api/shows', {
             method: 'POST',
             accept: 'application/json',
-            headers: {
+            headers: new Headers({
                 'Content-Type': 'application/json',
-            },
+            }),
             body: data,
         }).then(response => {
             if (!response.ok) {
