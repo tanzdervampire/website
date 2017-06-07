@@ -291,6 +291,7 @@ class EnterCast extends React.Component {
                         icon={<DoneAll />}
                         primary={true}
                         onTouchTap={this.handleSubmitShow}
+                        disabled={this.state.snackbarOpen}
                     />
                 </div>
             </div>
