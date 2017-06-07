@@ -143,8 +143,6 @@ class EnterCast extends React.Component {
         });
 
         const data = JSON.stringify(show);
-        console.log(`Submitting data: ${data}`);
-
         fetch('/api/shows', {
             method: 'POST',
             accept: 'application/json',
