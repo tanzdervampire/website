@@ -113,7 +113,7 @@ class ShowInput extends React.Component {
     renderTimePicker() {
         const { selectedTime, step } = this.state;
         if (step < Step.TIME) {
-            return (<div />);
+            return null;
         }
 
         return (
@@ -128,7 +128,7 @@ class ShowInput extends React.Component {
     renderLocationPicker() {
         const { selectedLocation, filteredProductions, step } = this.state;
         if (step < Step.LOCATION) {
-            return (<div />);
+            return null;
         }
 
         if (filteredProductions.length === 0) {

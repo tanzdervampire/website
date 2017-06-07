@@ -211,7 +211,7 @@ class EnterCast extends React.Component {
     renderShowData() {
         const { step } = this.state;
         if (step !== Step.GENERAL) {
-            return (<div />);
+            return null;
         }
 
         const styles = getStyles();
@@ -226,7 +226,7 @@ class EnterCast extends React.Component {
     renderCast() {
         const { currentRole, actors, fetchFailed, step } = this.state;
         if (step !== Step.CAST) {
-            return (<div />);
+            return null;
         }
 
         const styles = getStyles();
@@ -255,7 +255,7 @@ class EnterCast extends React.Component {
     renderCheck() {
         const { step } = this.state;
         if (step !== Step.CHECK) {
-            return (<div />);
+            return null;
         }
 
         const show = this.convertToShow();

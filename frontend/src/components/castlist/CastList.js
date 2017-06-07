@@ -77,9 +77,7 @@ class CastList extends React.Component {
     renderMainCastList() {
         const { show } = this.props;
         if (!show) {
-            return (
-                <div />
-            );
+            return null;
         }
 
         return [
@@ -152,9 +150,7 @@ class CastList extends React.Component {
     render() {
         const { show } = this.props;
         if (!show) {
-            return (
-                <div />
-            );
+            return null;
         }
 
         const styles = {

@@ -26,7 +26,7 @@ class ShowPickerList extends React.Component {
     renderItems() {
         const { shows } = this.props;
         if (!shows) {
-            return (<div />);
+            return null;
         }
 
         if (shows.length === 0) {
@@ -56,7 +56,7 @@ class ShowPickerList extends React.Component {
     render() {
         const { shows } = this.props;
         if (!this.props.selectedDate) {
-            return (<div />);
+            return null;
         }
 
         if (!shows) {

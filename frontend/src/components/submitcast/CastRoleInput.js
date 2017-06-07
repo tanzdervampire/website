@@ -123,9 +123,7 @@ class CastRoleInput extends React.Component {
     renderInput() {
         const { role } = this.props;
         if (!this.doesAllowMultipleActors() && this.state.actors.length > 0) {
-            return (
-                <div />
-            );
+            return null;
         }
 
         return (
@@ -144,9 +142,7 @@ class CastRoleInput extends React.Component {
         const { actors } = this.state;
 
         if (actors.length === 0) {
-            return (
-                <div />
-            );
+            return null;
         }
 
         const chips = actors.map(actor => {
