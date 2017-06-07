@@ -2,7 +2,6 @@
     "day": "09.01.2002",
     "time": "18:30",
     "type": "Soirée",
-    "production": 2,
     "location": "Stuttgart",
     "theater": "Apollo-Theater",
     "cast": {

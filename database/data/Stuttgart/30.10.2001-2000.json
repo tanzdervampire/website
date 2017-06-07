@@ -2,7 +2,6 @@
     "day": "30.10.2001",
     "time": "20:00",
     "type": "Soirée",
-    "production": 2,
     "location": "Stuttgart",
     "theater": "Apollo-Theater",
     "cast": {

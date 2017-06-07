@@ -13,22 +13,12 @@ const slurpJson = fn => {
 };
 
 const toPersonId = (obj, nameToId) => {
-    if (typeof obj === 'number' && Object.values(nameToId).includes(obj)) {
-        return obj;
-    }
-
     if (typeof obj === 'string' && typeof nameToId[obj] === 'number') {
         return nameToId[obj];
     }
 
-    if (typeof obj === 'object') {
-        if (typeof obj.id === 'number') {
-            return toPersonId(obj.id);
-        }
-
-        if (typeof obj.name === 'string') {
-            return toPersonId(obj.name);
-        }
+    if (typeof obj === 'object' && typeof obj.name === 'string') {
+        return toPersonId(obj.name);
     }
 
     throw {
@@ -156,13 +146,12 @@ fs.readdirSync('./data/')
     .sort((a,b) => fnToDate(a.fn).diff(fnToDate(b.fn)))
     .forEach(show => {
         const data = slurpJson(`./data/${show.location}/${show.fn}`);
-        const productionId = data.production || getProductionId(data.day, data.location, productions);
         const day = moment(data.day, 'DD.MM.YYYY').format('YYYY-MM-DD 00:00:00.0000');
 
         console.log(`Inserting show ${day} / ${data.time}.`);
 
         db.run('INSERT INTO SHOW (PRODUCTION_ID, DAY, TIME, TYPE) VALUES (?, ?, ?, ?);', [
-            productionId,
+            getProductionId(data.day, data.location, productions),
             day,
             data.time,
             data.type,

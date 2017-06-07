@@ -267,6 +267,7 @@ app.post('/api/shows', (req, res) => {
 
     // TODO FIXME Validation
 
+    // TODO FIXME Create proper .env entries.
     if (process.env.NODE_ENV !== 'production') {
         console.log(`Submitted: ${JSON.stringify(data, null, 4)}`);
         return res.json({});

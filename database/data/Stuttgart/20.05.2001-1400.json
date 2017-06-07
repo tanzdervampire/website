@@ -2,7 +2,6 @@
     "day": "20.05.2001",
     "time": "14:00",
     "type": "Matinée",
-    "production": 2,
     "location": "Stuttgart",
     "theater": "Apollo-Theater",
     "cast": {
