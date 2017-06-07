@@ -9,3 +9,8 @@ body, html, #root {
   min-height: 100%;
   background-color: #212121;
 }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
