@@ -158,7 +158,7 @@ class EnterCast extends React.Component {
         }).then(response => {
             this.setState({
                 snackbarOpen: true,
-                snackbarMessage: 'Die Castlist wurde erfolgreich eingereicht!',
+                snackbarMessage: 'Die Castliste wurde erfolgreich eingereicht!',
             });
         }).catch(err => {
             this.setState({
