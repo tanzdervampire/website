@@ -148,6 +148,7 @@ class EnterCast extends React.Component {
             accept: 'application/json',
             headers: new Headers({
                 'Content-Type': 'application/json',
+                'content-type': 'application/json',
             }),
             body: data,
         }).then(response => {
