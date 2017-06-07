@@ -77,7 +77,7 @@ class CastRoleInput extends React.Component {
         if (this.doesAllowMultipleActors()) {
             this.setState({actors: this.state.actors.concat(person)});
         } else {
-            this.setState({actors: [person]});
+            this.setState({actors: [person]}, this.fireOnFinish);
         }
     };
 
@@ -141,7 +141,7 @@ class CastRoleInput extends React.Component {
     renderChips() {
         const { actors } = this.state;
 
-        if (actors.length === 0) {
+        if (actors.length === 0 || !this.doesAllowMultipleActors()) {
             return null;
         }
 
