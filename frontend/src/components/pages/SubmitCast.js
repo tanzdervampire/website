@@ -142,13 +142,16 @@ class EnterCast extends React.Component {
             show.cast[role] = show.cast[role].map(obj => obj.name);
         });
 
+        const data = JSON.stringify(show);
+        console.log(`Submitting data: ${data}`);
+
         fetch('/api/shows', {
             method: 'POST',
             accept: 'application/json',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(show),
+            body: data,
         }).then(response => {
             if (!response.ok) {
                 throw new Error();
