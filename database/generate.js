@@ -146,13 +146,13 @@ fs.readdirSync('./data/')
     .sort((a,b) => fnToDate(a.fn).diff(fnToDate(b.fn)))
     .forEach(show => {
         const data = slurpJson(`./data/${show.location}/${show.fn}`);
-        const day = moment(data.day, 'DD.MM.YYYY').format('YYYY-MM-DD 00:00:00.0000');
+        const day = moment(data.day, 'DD.MM.YYYY');
 
         console.log(`Inserting show ${day} / ${data.time}.`);
 
         db.run('INSERT INTO SHOW (PRODUCTION_ID, DAY, TIME, TYPE) VALUES (?, ?, ?, ?);', [
             getProductionId(day, data.location, productions),
-            day,
+            day.format('YYYY-MM-DD 00:00:00.0000'),
             data.time,
             data.type,
         ]);
