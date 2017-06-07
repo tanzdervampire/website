@@ -117,7 +117,7 @@ class EnterCast extends React.Component {
             type: this.convertToShowType(time),
             location: selectedLocation.location,
             theater: selectedLocation.theater,
-            cast,
+            cast: Object.assign({}, cast),
         };
     };
 
@@ -132,7 +132,12 @@ class EnterCast extends React.Component {
     };
 
     handleSubmitShow = () => {
-        const data = JSON.stringify(this.convertToShow());
+        let show = this.convertToShow();
+
+        /* Remove the person IDs since they might change, so we shouldn't have them in the submitted data. */
+        Object.keys(show.cast).forEach(role => {
+            show.cast[role] = show.cast[role].map(obj => obj.name);
+        });
 
         fetch('/api/shows', {
             method: 'POST',
@@ -140,7 +145,7 @@ class EnterCast extends React.Component {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: data,
+            body: JSON.stringify(show),
         }).then(response => {
             if (!response.ok) {
                 throw new Error();
