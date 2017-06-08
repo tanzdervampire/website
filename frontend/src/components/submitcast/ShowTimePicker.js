@@ -25,7 +25,6 @@ class ShowTimePicker extends React.Component {
         }
     };
 
-    // TODO FIXME minutesStep={30} once released
     render() {
         return (
             <div id="show-time-picker">
@@ -35,6 +34,7 @@ class ShowTimePicker extends React.Component {
                     cancelLabel="Abbrechen"
                     hintText="HH:MM"
                     format="24hr"
+                    minutesStep={15}
                     onChange={(_, time) => this.props.onTimeSelected(time)}
                     hintStyle={{ width: '100%', textAlign: 'center' }}
                     value={this.props.selectedTime}
