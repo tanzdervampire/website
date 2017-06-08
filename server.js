@@ -4,6 +4,9 @@ const path = require('path');
 const sql = require('sql.js');
 const fs = require('fs');
 const nodemailer = require('nodemailer');
+const uuid = require('uuid/v4');
+const octokat = require('octokat');
+const moment = require('moment');
 
 const app = express();
 
@@ -261,17 +264,52 @@ app.get('/api/show/:location/:year/:month/:day/:time', (req, res) => {
     return res.json({ 'error': 'Unknown error.' });
 });
 
-app.post('/api/shows', bodyParser.json(), (req, res) => {
-    const data = req.body;
+const submitCastList = async (data) => {
+    const featureBranch = `cast-${uuid()}`;
 
-    // TODO FIXME Validation
+    var octo = new octokat({ token: process.env.API_TOKEN });
+    var repo = octo.repos('tdv-casts', 'website');
 
-    // TODO FIXME Create proper .env entries.
-    if (process.env.NODE_ENV !== 'production') {
-        console.log(`Submitted: ${JSON.stringify(data, null, 4)}`);
-        return res.json({});
-    }
+    const master = await repo.git.refs('heads/master').fetch();
+    const baseBranch = await repo.git.refs.create({
+        'ref': `refs/heads/${featureBranch}`,
+        'sha': master.object.sha,
+    });
 
+    const blob = await repo.git.blobs.create({ content: JSON.stringify(data, null, 4) });
+
+    const tree = await repo.git.trees.create({
+        'base_tree': baseBranch.object.sha,
+        'tree': [
+            {
+                'path': `database/data/${data.location}/${moment(data.day, 'YYYY-MM-DD').format('DD.MM.YYYY')}-${data.time.replace(/:/, '')}.json`,
+                'mode': '100644',
+                'type': 'blob',
+                'sha': blob.sha,
+            }
+        ]
+    });
+
+    const commit = await repo.git.commits.create({
+        'message': `Added show ${data.day} ${data.time} (${data.location})`,
+        'tree': tree.sha,
+        'parents': [baseBranch.object.sha],
+    });
+
+    const updatedBaseBranch = await repo.git.refs(`heads/${featureBranch}`).update({
+        'sha': commit.sha,
+        'force': false,
+    });
+
+    const pr = await octo.fromUrl('/repos/Airblader/playground/pulls').create({
+        'title': `Added show ${data.day} ${data.time} (${data.location})`,
+        'body': '',
+        'head': featureBranch,
+        'base': 'master',
+    });
+};
+
+const submitCastListViaEmail = data => {
     let transporter = nodemailer.createTransport({
         host: process.env.SUBMIT_EMAIL_HOST,
         port: process.env.SUBMIT_EMAIL_PORT,
@@ -296,9 +334,32 @@ app.post('/api/shows', bodyParser.json(), (req, res) => {
 
         console.log('Message %s sent: %s', info.messageId, info.response);
     });
+};
+app.post('/api/shows', bodyParser.json(), (req, res) => {
+    const data = req.body;
 
-    return res.json({});
+    // TODO FIXME Validation
+
+    if (process.env.NODE_ENV !== 'production') {
+        console.log(`Submitted: ${JSON.stringify(data, null, 4)}`);
+        return res.json({});
+    }
+
+    try {
+        submitCastList(data);
+        return res.json({});
+    } catch(e) {
+        try {
+            submitCastListViaEmail(data);
+            return res.json({});
+        } catch(e) {
+            return res.status(500).json({
+                'error': e.toString(),
+            });
+        }
+    }
 });
+
 
 /* Route everything else to index.html */
 if (process.env.NODE_ENV === 'production') {
