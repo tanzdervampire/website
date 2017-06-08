@@ -301,7 +301,7 @@ const submitCastList = async (data) => {
         'force': false,
     });
 
-    const pr = await octo.fromUrl('/repos/Airblader/playground/pulls').create({
+    const pr = await octo.fromUrl('/repos/tdv-casts/website/pulls').create({
         'title': `Added show ${data.day} ${data.time} (${data.location})`,
         'body': '',
         'head': featureBranch,
