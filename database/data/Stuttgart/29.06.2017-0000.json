@@ -1,0 +1,27 @@
+{
+    "day": "2017-06-29",
+    "time": "00:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [],
+        "Professor Abronsius": [],
+        "Chagal": [],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [],
+        "Tanzsolisten": [],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
