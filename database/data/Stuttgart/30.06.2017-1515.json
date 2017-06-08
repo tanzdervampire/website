@@ -1,0 +1,23 @@
+{
+    "day": "2017-06-30",
+    "time": "15:15",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [],
+        "Sarah": [],
+        "Alfred": [],
+        "Professor Abronsius": [],
+        "Chagal": [],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [],
+        "Tanzsolisten": [],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
