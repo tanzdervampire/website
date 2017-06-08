@@ -96,7 +96,7 @@ app.get('/api/shows/stats', (req, res) => {
 /**
  * /api/shows/dates
  *
- * Returns a (sorted) list of dates (YYYY-MM-DD) for which information is available for
+ * Returns a list of dates (YYYY-MM-DD) for which information is available for
  * at least one show on that day.
  */
 app.get('/api/shows/dates', (req, res) => {

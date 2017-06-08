@@ -15,6 +15,7 @@ import FullWidthSection from './FullWidthSection';
 import GithubIcon from './components/GithubIcon';
 import Search from 'material-ui/svg-icons/action/search';
 import NoteAdd from 'material-ui/svg-icons/action/note-add';
+import ViewList from 'material-ui/svg-icons/action/view-list';
 
 import { Link } from 'react-router-dom';
 import Routes from './Routes';
@@ -121,9 +122,17 @@ class App extends React.Component {
                         <MenuItem
                             leftIcon={<Search />}
                             onTouchTap={this.closeDrawer}
-                            containerElement={<Link to="/shows" />}
+                            containerElement={<Link to="/" />}
                         >
                             Cast suchen
+                        </MenuItem>
+
+                        <MenuItem
+                            leftIcon={<ViewList />}
+                            onTouchTap={this.closeDrawer}
+                            containerElement={<Link to="/shows" />}
+                        >
+                            Liste aller Vorstellungen
                         </MenuItem>
 
                         <Divider />
