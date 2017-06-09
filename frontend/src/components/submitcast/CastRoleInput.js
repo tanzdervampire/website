@@ -91,6 +91,10 @@ class CastRoleInput extends React.Component {
         const {actors} = this.state;
         const filtered = actors.filter(actor => this.toChipKey(actor) !== key);
         this.setState({ actors: filtered });
+        this.focus();
+    };
+
+    focus() {
         if (this.input) {
             this.input.focus();
         }

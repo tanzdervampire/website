@@ -183,6 +183,10 @@ class EnterCast extends React.Component {
         /* There's a next role, so transition and be done with it. */
         if (currentIndex < Roles.length - 1) {
             this.setState({ currentRole: Roles[currentIndex + 1] });
+            if (this.input) {
+                this.input.focus();
+            }
+
             return;
         }
 
@@ -249,6 +253,7 @@ class EnterCast extends React.Component {
                         dataSource={actors}
                         onFinish={this.handleCastRoleInputFinish}
                         cardStyle={styles.card}
+                        ref={element => this.input = element}
                     />
                 ) }
             </div>
