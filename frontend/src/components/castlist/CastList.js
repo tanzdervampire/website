@@ -83,9 +83,9 @@ class CastList extends React.Component {
         return [
             this.renderDivider('Hauptrollen'),
             ...this.renderMainCastItemsForRole('Graf von Krolock'),
+            ...this.renderMainCastItemsForRole('Sarah'),
             ...this.renderMainCastItemsForRole('Alfred'),
             ...this.renderMainCastItemsForRole('Professor Abronsius'),
-            ...this.renderMainCastItemsForRole('Sarah'),
             ...this.renderMainCastItemsForRole('Chagal'),
             ...this.renderMainCastItemsForRole('Magda'),
             ...this.renderMainCastItemsForRole('Herbert'),
