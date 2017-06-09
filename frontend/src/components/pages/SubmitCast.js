@@ -137,6 +137,9 @@ class EnterCast extends React.Component {
     handleSubmitShow = () => {
         let show = this.convertToShow();
 
+        /* Fix the date. */
+        show.day = moment(show.day, 'YYYY-MM-DD').format('DD.MM.YYYY');
+
         /* Remove the person IDs since they might change, so we shouldn't have them in the submitted data. */
         Object.keys(show.cast).forEach(role => {
             show.cast[role] = show.cast[role].map(obj => obj.name);
