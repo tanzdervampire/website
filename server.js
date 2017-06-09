@@ -346,7 +346,12 @@ app.post('/api/shows', bodyParser.json(), (req, res) => {
     }
 
     try {
-        submitCastList(data);
+        submitCastList(data).catch(err => {
+            if (err) {
+                throw err;
+            }
+        });
+
         return res.json({});
     } catch(e) {
         try {
