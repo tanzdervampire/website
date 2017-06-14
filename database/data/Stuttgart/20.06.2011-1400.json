@@ -1,0 +1,66 @@
+{
+    "day": "11.06.2017",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Anja Wendzel"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Pascal Höwing"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Michael Anzalone",
+            "Thijs Kobes",
+            "Máté Gyenei",
+            "Astrid Gollob",
+            "Samantha Harris-Hughes",
+            "Karolin Konert",
+            "Fleur Alders"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
