@@ -1,0 +1,29 @@
+{
+    "day": "28.06.2017",
+    "time": "00:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Amélie Dobler"
+        ],
+        "Sarah": [
+            "Tom van der Ven"
+        ],
+        "Alfred": [],
+        "Professor Abronsius": [],
+        "Chagal": [],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [],
+        "Tanzsolisten": [
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
