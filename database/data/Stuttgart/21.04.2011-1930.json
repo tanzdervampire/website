@@ -1,0 +1,64 @@
+{
+    "day": "21.04.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Raphaela Pekovsek",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Antje Eckermann",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Dennis Jankowiak",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Helen Morris",
+            "Sven Prüwer",
+            "Thomas Schwein",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": []
+    }
+}
