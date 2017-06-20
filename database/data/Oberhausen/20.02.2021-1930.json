@@ -1,0 +1,33 @@
+{
+    "day": "21.02.2009",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
