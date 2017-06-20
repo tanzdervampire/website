@@ -1,0 +1,57 @@
+{
+    "day": "09.10.2011",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Joana Henrique"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Vanni Viscusi",
+            "Jakub Wocial"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Raphaela Pekovsek",
+            "Judit Szoboszlay",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Antje Eckermann",
+            "Zoltán Fekete"
+        ],
+        "Dirigent": []
+    }
+}
