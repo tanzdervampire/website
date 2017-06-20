@@ -1,0 +1,66 @@
+{
+    "day": "28.03.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Philipp Hägeli"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Franz Frickel"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Zoltán Fekete"
+        ],
+        "Tanzsolisten": [
+            "Amanda Huke",
+            "Csaba Nagy",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Dennis Jankowiak"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Anna Lopusny",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Helen Morris",
+            "Vicky Riddoch",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Conny Braun",
+            "Tibor Heger",
+            "Kevin Köhler",
+            "Angelina Markiefka",
+            "Claudie Reinhard",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
