@@ -1,0 +1,58 @@
+{
+    "day": "03.04.2011",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Antje Eckermann",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
