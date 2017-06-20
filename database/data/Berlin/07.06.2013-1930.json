@@ -1,0 +1,68 @@
+{
+    "day": "07.06.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Dorothea Baumann"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Udo Eickelmann"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Tibor Nagy",
+            "Judit Szoboszlay",
+            "Matteo Vigna"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Udo Eickelmann"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Joseph Dockree",
+            "Amanda Huke",
+            "Anna Lopusny",
+            "Silvano Marraffa",
+            "Vicky Riddoch",
+            "Nina Ungerer"
+        ],
+        "Gesangsensemble": [
+            "Conny Braun",
+            "Zoltán Fekete",
+            "Tibor Heger",
+            "Judith Jandl",
+            "Stéphane Le Breton",
+            "Sven Prüwer",
+            "Angelina Markiefka",
+            "Claudie Reinhard",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Andreas Pabst"
+        ]
+    }
+}
