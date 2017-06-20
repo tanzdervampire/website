@@ -1,0 +1,49 @@
+{
+    "day": "01.05.2003",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Apollo-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Marion Furtner"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Christian Paumgarten"
+        ],
+        "Chagal": [
+            "Cornelius Baltus"
+        ],
+        "Magda": [
+            "Natascha-Cecillia Hill"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Alyssa Preston"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kevin Hudson",
+            "Stéphane Le Breton",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [],
+        "Tanzensemble": [
+            "Jacquie Biggs"
+        ],
+        "Gesangsensemble": [],
+        "Dirigent": [
+            "Bernhard Wünsch"
+        ]
+    }
+}
