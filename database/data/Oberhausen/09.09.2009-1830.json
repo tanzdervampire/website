@@ -1,0 +1,64 @@
+{
+    "day": "09.09.2009",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Riccardo Greco"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Csaba Farago",
+            "Paul Knights",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Florian Fetterle",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Sanne Buskermolen",
+            "Kevin Hudson",
+            "Amanda Huke",
+            "Raphaela Pekovsek",
+            "Els Smekens"
+        ],
+        "Gesangsensemble": [
+            "Eva Maria Bender",
+            "Tibor Heger",
+            "Anne Hoth",
+            "Sven Prüwer",
+            "Michaela Schober",
+            "Matthias Stockinger"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
