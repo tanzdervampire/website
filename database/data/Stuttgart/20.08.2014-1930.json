@@ -1,0 +1,49 @@
+{
+    "day": "14.08.2010",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Christian Stadlhofer"
+        ],
+        "Professor Abronsius": [
+            "Tibor Heger"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [
+            "Matthias Stockinger"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse"
+        ],
+        "Tanzensemble": [
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Sanne Buskermolen",
+            "Kevin Hudson",
+            "Sven Prüwer",
+            "Jakub Wocial"
+        ],
+        "Dirigent": []
+    }
+}
