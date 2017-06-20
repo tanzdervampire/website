@@ -282,7 +282,7 @@ const submitCastList = async (data) => {
         'base_tree': baseBranch.object.sha,
         'tree': [
             {
-                'path': `database/data/${data.location}/${moment(data.day, 'YYYY-MM-DD').format('DD.MM.YYYY')}-${data.time.replace(/:/, '')}.json`,
+                'path': `database/data/${data.location}/${moment(data.day, 'DD.MM.YYYY').format('DD.MM.YYYY')}-${data.time.replace(/:/, '')}.json`,
                 'mode': '100644',
                 'type': 'blob',
                 'sha': blob.sha,
