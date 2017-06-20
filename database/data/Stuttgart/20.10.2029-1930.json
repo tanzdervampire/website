@@ -1,0 +1,58 @@
+{
+    "day": "29.10.2010",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Sandra Milly"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Antje Eckermann",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Sven Prüwer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
