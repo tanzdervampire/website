@@ -1,0 +1,59 @@
+{
+    "day": "04.02.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [],
+        "Magda": [],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Miriam Lotz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Silvano Marraffa",
+            "Helen Morris",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Laura Greer",
+            "Dennis Jankowiak",
+            "Toby Poole",
+            "Thomas Schwein",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
