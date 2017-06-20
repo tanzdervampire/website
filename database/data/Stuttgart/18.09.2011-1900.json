@@ -1,0 +1,61 @@
+{
+    "day": "18.09.2011",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Laura Greer",
+            "Brett Hibberd",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Joana Henrique",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Sven Prüwer",
+            "Thomas Schwein",
+            "Linda Veenhuizen",
+            "Gemma West"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
