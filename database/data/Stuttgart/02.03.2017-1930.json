@@ -5,9 +5,6 @@
     "location": "Stuttgart",
     "theater": "Palladium-Theater",
     "cast": {
-        "Dirigent": [
-            "Bob Edwards"
-        ],
         "Graf von Krolock": [
             "Mathias Edenborn"
         ],
@@ -60,6 +57,9 @@
             "Anja Wendzel",
             "Karolin Konert",
             "Fleur Alders"
+        ],
+        "Dirigent": [
+            "Bob Edwards"
         ]
     }
 }
