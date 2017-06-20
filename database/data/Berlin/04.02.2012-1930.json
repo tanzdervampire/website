@@ -11,12 +11,18 @@
         "Sarah": [
             "Angelina Markiefka"
         ],
-        "Alfred": [],
+        "Alfred": [
+            "Anton Zetterholm"
+        ],
         "Professor Abronsius": [
             "Veit Schäfermeier"
         ],
-        "Chagal": [],
-        "Magda": [],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Esther Hehl"
+        ],
         "Herbert": [
             "Robert D. Marx"
         ],
@@ -41,7 +47,8 @@
             "Anna Lopusny",
             "Silvano Marraffa",
             "Helen Morris",
-            "Judit Szoboszlay"
+            "Judit Szoboszlay",
+            "Sarah Bowden"
         ],
         "Gesangsensemble": [
             "Juliane Bischoff",
@@ -50,7 +57,8 @@
             "Toby Poole",
             "Thomas Schwein",
             "Nina Ungerer",
-            "Linda Veenhuizen"
+            "Linda Veenhuizen",
+            "Myrthes Monteiro"
         ],
         "Dirigent": [
             "Shay Cohen"

@@ -14,7 +14,9 @@
         "Alfred": [
             "Krisha Dalke"
         ],
-        "Professor Abronsius": [],
+        "Professor Abronsius": [
+            "Gernot Kranner"
+        ],
         "Chagal": [
             "Jerzy Jeszke"
         ],
@@ -24,25 +26,38 @@
         "Herbert": [
             "Florian Fetterle"
         ],
-        "Rebecca": [],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
         "Koukol": [
             "Stefan Büdenbender"
         ],
         "Tanzsolisten": [
             "David Baranya",
-            "Kym Boyson"
+            "Kym Boyson",
+            "Ross McDermott",
+            "Daniel Rákász"
         ],
         "Gesangssolisten": [
-            "Michel Driesse"
+            "Michel Driesse",
+            "Riccardo Greco"
         ],
         "Tanzensemble": [
             "Amanda Huke",
-            "Raphaela Pekovsek"
+            "Raphaela Pekovsek",
+            "Csaba Farago",
+            "Paul Knights",
+            "Els Smekens",
+            "Veronique Spiteri"
         ],
         "Gesangsensemble": [
             "Sanne Buskermolen",
             "Tibor Heger",
-            "Christian Stadlhofer"
+            "Christian Stadlhofer",
+            "Eva Maria Bender",
+            "Sandra Bleicher",
+            "Anne Hoth",
+            "Timea Kecskes"
         ],
         "Dirigent": [
             "Klaus Wilhelm"
