@@ -1,0 +1,65 @@
+{
+    "day": "11.08.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Udo Eckelmann"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Yves Adang",
+            "Paula Ferreira",
+            "Matteo Vigna"
+        ],
+        "Gesangssolisten": [
+            "Dennis Jankowiak",
+            "Stéphane Le Breton"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Zoltán Fekete",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Conny Braun",
+            "Tibor Heger",
+            "Judith Jandl",
+            "Anna Lopusny",
+            "Angelina Markiefka",
+            "Helen Morris",
+            "Sven Prüwer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": []
+    }
+}
