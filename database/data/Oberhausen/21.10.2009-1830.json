@@ -1,0 +1,50 @@
+{
+    "day": "21.10.2009",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse"
+        ],
+        "Tanzensemble": [
+            "Amanda Huke",
+            "Raphaela Pekovsek",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Tibor Heger",
+            "Sven Prüwer",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
