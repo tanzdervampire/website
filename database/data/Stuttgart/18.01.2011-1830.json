@@ -1,0 +1,55 @@
+{
+    "day": "18.01.2011",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Koukol": [
+            "Lucas Theisen"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Helen Morris",
+            "Sandra Milly",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": []
+    }
+}
