@@ -1,0 +1,66 @@
+{
+    "day": "06.08.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Judith Jandl"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Zoltán Fekete"
+        ],
+        "Tanzsolisten": [
+            "Joseph Dockree",
+            "Csaba Nagy",
+            "Judit Szoboszlay"
+        ],
+        "Gesangssolisten": [
+            "Stéphane Le Breton",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Nina Ungerer",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Conny Braun",
+            "Udo Eckelmann",
+            "Tibor Heger",
+            "Dennis Jankowiak",
+            "Helen Morris",
+            "Claudie Reinhard",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
