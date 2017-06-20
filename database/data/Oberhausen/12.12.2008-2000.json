@@ -8,7 +8,9 @@
         "Graf von Krolock": [
             "Jan Ammann"
         ],
-        "Sarah": [],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
         "Alfred": [
             "Krisha Dalke"
         ],
@@ -16,8 +18,12 @@
         "Chagal": [
             "Jerzy Jeszke"
         ],
-        "Magda": [],
-        "Herbert": [],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
         "Rebecca": [],
         "Koukol": [
             "Stefan Büdenbender"
@@ -30,6 +36,7 @@
             "Michel Driesse"
         ],
         "Tanzensemble": [
+            "Amanda Huke",
             "Raphaela Pekovsek"
         ],
         "Gesangsensemble": [
@@ -37,6 +44,8 @@
             "Tibor Heger",
             "Christian Stadlhofer"
         ],
-        "Dirigent": []
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
     }
 }
