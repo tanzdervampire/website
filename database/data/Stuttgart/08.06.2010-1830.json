@@ -1,0 +1,48 @@
+{
+    "day": "08.06.2010",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Lucas Theisen",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [],
+        "Tanzensemble": [
+            "Toby Poole",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Sanne Buskermolen",
+            "Raphaela Pekovsek",
+            "Sven Prüwer",
+            "Matthias Stockinger"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
