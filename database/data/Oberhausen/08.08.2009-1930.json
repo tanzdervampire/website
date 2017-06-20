@@ -1,0 +1,27 @@
+{
+    "day": "08.08.2009",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [],
+        "Chagal": [],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [],
+        "Koukol": [],
+        "Tanzsolisten": [],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
