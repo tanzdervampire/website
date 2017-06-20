@@ -1,0 +1,70 @@
+{
+    "day": "14.12.2003",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paul Walthaus",
+            "Alexander di Capri",
+            "Michel Driesse",
+            "Jesse Webb",
+            "Oliver Heim",
+            "Frank Winkels",
+            "Katrin Löbbert",
+            "Mona Graw",
+            "Bettina Oswald",
+            "Femke Soetenga",
+            "Stephanie Tschöppe",
+            "Stephanie Sturm"
+        ],
+        "Gesangssolisten": [
+            "Andreas Björkman",
+            "Thomas Huber",
+            "Robert Johansson",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Gemma West",
+            "Silvia Diletto",
+            "Lucy Costelloe"
+        ],
+        "Tanzensemble": [
+            "Wolf Bader",
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Jacquie Biggs"
+        ],
+        "Gesangsensemble": [],
+        "Dirigent": [
+            "Bernhard Volk"
+        ]
+    }
+}
