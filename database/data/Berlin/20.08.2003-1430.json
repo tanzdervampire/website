@@ -1,0 +1,68 @@
+{
+    "day": "03.08.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Florian Soyka"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Conny Braun"
+        ],
+        "Koukol": [
+            "Zoltán Fekete"
+        ],
+        "Tanzsolisten": [
+            "Sandra Milly",
+            "Csaba Nagy",
+            "Tibor Nagy",
+            "Amanda Huke"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Dennis Jankowiak"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Silvano Marraffa",
+            "Helen Morris",
+            "Vicky Riddoch",
+            "Judit Szoboszlay",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Udo Eckelmann",
+            "Judith Jandl",
+            "Stéphane Le Breton",
+            "Anna Lopusny",
+            "Sven Prüwer",
+            "Claudie Reinhard",
+            "Amanda Huke"
+        ],
+        "Dirigent": [
+            "Andreas Pabst"
+        ]
+    }
+}
