@@ -1,0 +1,57 @@
+{
+    "day": "18.06.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Thomas Schwein"
+        ],
+        "Magda": [],
+        "Herbert": [],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Zoltán Fekete",
+            "Paula Ferreira"
+        ],
+        "Gesangssolisten": [
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Brett Hibberd",
+            "Anna Lopusny",
+            "Judit Szoboszlay",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Raphaela Pekovsek",
+            "Sven Prüwer",
+            "Linda Veenhuizen",
+            "Gemma West"
+        ],
+        "Dirigent": []
+    }
+}
