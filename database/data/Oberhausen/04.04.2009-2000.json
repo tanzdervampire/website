@@ -1,0 +1,66 @@
+{
+    "day": "04.04.2009",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Gernot Kranner"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Timea Kecskes"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Eva Maria Bender"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "David Baranya",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Riccardo Greco",
+            "Maciej Salamon"
+        ],
+        "Tanzensemble": [
+            "Amanda Huke",
+            "Paul Knights",
+            "Silvia Lambertoni",
+            "Els Smekens",
+            "Cale Stanojevic",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Sanne Buskermolen",
+            "Tibor Heger",
+            "Matthias Stockinger",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
