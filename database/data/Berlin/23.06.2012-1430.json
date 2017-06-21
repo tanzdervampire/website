@@ -1,0 +1,66 @@
+{
+    "day": "23.06.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Kevin Köhler"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Judit Szoboszlay",
+            "Samantha Turton"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Angelina Markiefka",
+            "Sven Prüwer",
+            "Thomas Schweins",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
