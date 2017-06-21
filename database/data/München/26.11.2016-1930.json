@@ -1,0 +1,65 @@
+{
+    "day": "26.11.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "München",
+    "theater": "Deutsches Theater München",
+    "cast": {
+        "Graf von Krolock": [
+            "Torsten Ankert"
+        ],
+        "Sarah": [
+            "Marina Maniglio"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Karolin Konert"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Katie Allday",
+            "Joe Nolan",
+            "Kevin Schmid"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "David Baranya",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Vicki Douglas",
+            "Sanne Buskermolen",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Michael Anzalone",
+            "Alex Hyne",
+            "Pascal Höwing",
+            "Noah Wili",
+            "Anja Wendzel",
+            "Astrid Gollob",
+            "Fleur Alders"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
