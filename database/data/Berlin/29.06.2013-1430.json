@@ -1,0 +1,67 @@
+{
+    "day": "29.06.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Dorothea Baumann"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Csaba Nagy",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Tibor Heger",
+            "Dennis Jankowiak"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Amanda Huke",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Franz Frickel",
+            "Judith Jandl",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Sven Prüwer",
+            "Claudie Reinhard",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
