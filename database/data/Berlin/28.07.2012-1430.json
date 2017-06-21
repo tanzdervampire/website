@@ -1,0 +1,67 @@
+{
+    "day": "28.07.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Franz Frickel"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Udo Eickelmann"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Zoltán Fekete",
+            "Tibor Nagy",
+            "Judit Szoboszlay"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Stéphane Le Breton",
+            "Anna Lopusny",
+            "Helen Morris",
+            "Vicky Riddoch"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Conny Braun",
+            "Tibor Heger",
+            "Amanda Huke",
+            "Judith Jandl",
+            "Sven Prüwer",
+            "Claudie Reinhard",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Andreas Pabst"
+        ]
+    }
+}
