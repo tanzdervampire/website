@@ -1,0 +1,48 @@
+{
+    "day": "29.07.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Thomas Schwein"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Sven Prüwer"
+        ],
+        "Tanzsolisten": [
+            "Toby Poole",
+            "Pierre Damen",
+            "Paula Ferreira"
+        ],
+        "Gesangssolisten": [
+            "Jakub Wocial",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
