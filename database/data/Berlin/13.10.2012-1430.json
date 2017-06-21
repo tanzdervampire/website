@@ -1,0 +1,67 @@
+{
+    "day": "13.10.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Sven Tummeleer"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Zoltán Fekete",
+            "Amanda Huke",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Tibor Nagy"
+        ],
+        "Gesangsensemble": [
+            "Franz Frickel",
+            "Joana Henrique",
+            "Judith Jandl",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Toby Poole",
+            "Claudie Reinhard",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
