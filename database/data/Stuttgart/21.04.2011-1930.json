@@ -1,15 +1,15 @@
 {
-    "day": "15.10.2011",
+    "day": "21.04.2011",
     "time": "19:30",
     "type": "Soirée",
     "location": "Stuttgart",
     "theater": "Palladium-Theater",
     "cast": {
         "Graf von Krolock": [
-            "Kevin Tarte"
+            "Jan Ammann"
         ],
         "Sarah": [
-            "Antje Eckermann"
+            "Sabrina Auer"
         ],
         "Alfred": [
             "Krisha Dalke"
@@ -21,13 +21,13 @@
             "Christoph Leszczynski"
         ],
         "Magda": [
-            "Linda Veenhuizen"
-        ],
-        "Rebecca": [
-            "Juliane Bischoff"
+            "Linda Konrad"
         ],
         "Herbert": [
-            "Jakub Wocial"
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
         ],
         "Koukol": [
             "Stefan Büdenbender"
@@ -39,29 +39,31 @@
         ],
         "Gesangssolisten": [
             "Christopher Busse",
-            "Florian Soyka"
+            "Rune Høck Møller"
         ],
         "Tanzensemble": [
             "Brett Hibberd",
             "Alan Kelly",
-            "Anna Lopusny",
             "Sandra Milly",
+            "Raphaela Pekovsek",
             "Judit Szoboszlay",
-            "Lucas Theisen",
-            "Gemma West"
+            "Lieselot Meurisse",
+            "Johan Vandamme"
         ],
         "Gesangsensemble": [
-            "Laura Greer",
-            "Zoltán Fekete",
+            "Antje Eckermann",
             "Joana Henrique",
+            "Dennis Jankowiak",
+            "Dennis Jankowiak",
             "Dennis Jankowiak",
             "Miriam Lotz",
             "Helen Morris",
-            "Raphaela Pekovsek",
-            "Thomas Schweins"
+            "Sven Prüwer",
+            "Thomas Schweins",
+            "Linda Veenhuizen"
         ],
         "Dirigent": [
-            "Boris Ritter"
+            "Guido Löflad"
         ]
     }
 }
