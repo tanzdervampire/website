@@ -1,0 +1,67 @@
+{
+    "day": "12.04.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Udo Eickelmann"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Judith Jandl"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Amanda Huke",
+            "Csaba Nagy",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Zoltán Fekete",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Dennis Jankowiak",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Helen Morris",
+            "Sven Prüwer",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
