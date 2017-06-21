@@ -38,14 +38,17 @@
             "Toby Poole"
         ],
         "Gesangssolisten": [
-            "Christopher Busse"
+            "Christopher Busse",
+            "Rune Høck Møller"
         ],
         "Tanzensemble": [
             "Brett Hibberd",
             "Alan Kelly",
             "Sandra Milly",
             "Raphaela Pekovsek",
-            "Judit Szoboszlay"
+            "Judit Szoboszlay",
+            "Lieselot Meurisse",
+            "Johan Vandamme"
         ],
         "Gesangsensemble": [
             "Antje Eckermann",
@@ -56,9 +59,11 @@
             "Miriam Lotz",
             "Helen Morris",
             "Sven Prüwer",
-            "Thomas Schwein",
+            "Thomas Schweins",
             "Linda Veenhuizen"
         ],
-        "Dirigent": []
+        "Dirigent": [
+            "Guido Löflad"
+        ]
     }
 }
