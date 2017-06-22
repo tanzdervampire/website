@@ -11,16 +11,24 @@
         "Sarah": [
             "Antje Eckermann"
         ],
-        "Alfred": [],
+        "Alfred": [
+            "Riccardo Greco"
+        ],
         "Professor Abronsius": [
             "Christian Stadlhofer"
         ],
         "Chagal": [
             "Jerzy Jeszke"
         ],
-        "Magda": [],
-        "Herbert": [],
-        "Rebecca": [],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
         "Koukol": [
             "Stefan Büdenbender"
         ],
@@ -30,16 +38,27 @@
             "Lucas Theisen",
             "Vanni Viscusi"
         ],
-        "Gesangssolisten": [],
+        "Gesangssolisten": [
+            "Andrea Casati",
+            "Maciej Salamon"
+        ],
         "Tanzensemble": [
             "Toby Poole",
-            "Gemma West"
+            "Gemma West",
+            "Isabel Dan",
+            "Amanda Huke",
+            "Paul Knights",
+            "Taryn Nelson"
         ],
         "Gesangsensemble": [
             "Sanne Buskermolen",
             "Raphaela Pekovsek",
             "Sven Prüwer",
-            "Matthias Stockinger"
+            "Matthias Stockinger",
+            "Sanne Mieloo",
+            "Michaela Schober",
+            "Samantha Turton",
+            "Johan Vandamme"
         ],
         "Dirigent": [
             "Boris Ritter"

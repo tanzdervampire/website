@@ -20,8 +20,12 @@
         "Chagal": [
             "Thomas Schweins"
         ],
-        "Magda": [],
-        "Herbert": [],
+        "Magda": [
+            "Esther Hehl"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
         "Rebecca": [
             "Jeanne-Marie Nigl"
         ],
@@ -34,6 +38,7 @@
             "Paula Ferreira"
         ],
         "Gesangssolisten": [
+            "Rune Høck Møller",
             "Vanni Viscusi"
         ],
         "Tanzensemble": [
@@ -41,10 +46,13 @@
             "Brett Hibberd",
             "Anna Lopusny",
             "Judit Szoboszlay",
-            "Lucas Theisen"
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Johan Vandamme"
         ],
         "Gesangsensemble": [
             "Juliane Bischoff",
+            "Tim Edwards",
             "Joana Henrique",
             "Dennis Jankowiak",
             "Raphaela Pekovsek",
@@ -52,6 +60,8 @@
             "Linda Veenhuizen",
             "Gemma West"
         ],
-        "Dirigent": []
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
     }
 }

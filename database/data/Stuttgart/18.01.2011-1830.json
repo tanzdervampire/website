@@ -8,7 +8,9 @@
         "Graf von Krolock": [
             "Jan Ammann"
         ],
-        "Sarah": [],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
         "Alfred": [
             "Krisha Dalke"
         ],
@@ -18,7 +20,9 @@
         "Chagal": [
             "Christoph Leszczynski"
         ],
-        "Magda": [],
+        "Magda": [
+            "Linda Konrad"
+        ],
         "Herbert": [
             "Vanni Viscusi"
         ],
@@ -34,22 +38,30 @@
             "Toby Poole"
         ],
         "Gesangssolisten": [
-            "Florian Soyka"
+            "Florian Soyka",
+            "Rune Høck Møller"
         ],
         "Tanzensemble": [
             "Brett Hibberd",
             "Alan Kelly",
+            "Luisa Mancarella",
+            "Ross McDermott",
             "Helen Morris",
             "Sandra Milly",
             "Judit Szoboszlay"
         ],
         "Gesangsensemble": [
+            "Tim Edwards",
+            "Esther Hehl",
             "Joana Henrique",
             "Dennis Jankowiak",
             "Miriam Lotz",
             "Raphaela Pekovsek",
+            "Thomas Schweins",
             "Linda Veenhuizen"
         ],
-        "Dirigent": []
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
     }
 }

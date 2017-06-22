@@ -20,30 +20,49 @@
         "Chagal": [
             "Jerzy Jeszke"
         ],
-        "Magda": [],
-        "Herbert": [],
-        "Rebecca": [],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
         "Koukol": [
             "Matthias Stockinger"
         ],
         "Tanzsolisten": [
             "David Baranya",
-            "Kym Boyson"
+            "Kym Boyson",
+            "Ross McDermott"
         ],
         "Gesangssolisten": [
-            "Michel Driesse"
+            "Michel Driesse",
+            "Riccardo Greco"
         ],
         "Tanzensemble": [
             "Raphaela Pekovsek",
             "Lucas Theisen",
-            "Gemma West"
+            "Gemma West",
+            "Isabel Dan",
+            "Paul Knights",
+            "Taryn Nelson",
+            "Johan Vandamme"
         ],
         "Gesangsensemble": [
             "Sanne Buskermolen",
             "Kevin Hudson",
             "Sven Prüwer",
+            "Jakub Wocial",
+            "Eva Maria Bender",
+            "Sandra Bleicher",
+            "Timea Kecskes",
+            "Michaela Schober",
             "Jakub Wocial"
         ],
-        "Dirigent": []
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
     }
 }
