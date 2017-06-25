@@ -1,0 +1,64 @@
+{
+    "day": "24.06.2017",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kirill Zolygin"
+        ],
+        "Sarah": [
+            "Marina Maniglio"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Sander van Wissen"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Michael Anzalone"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Máté Gyenei",
+            "Veronika Enders",
+            "Sanne Buskermolen",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Thijs Kobes",
+            "Kevin Hudson",
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Samantha Harris-Hughes"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
