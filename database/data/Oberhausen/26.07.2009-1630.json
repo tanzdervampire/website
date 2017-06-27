@@ -1,0 +1,59 @@
+{
+    "day": "26.07.2009",
+    "time": "16:30",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Anne Hoth"
+        ],
+        "Alfred": [
+            "Riccardo Greco"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Jakub Wocial"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Milena Alaze",
+            "Csaba Farago"
+        ],
+        "Gesangssolisten": [
+            "Maciej Salamon",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Kevin Hudson",
+            "Amanda Huke"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Sandra Bleicher",
+            "Tibor Heger",
+            "Timea Kecskes",
+            "Michaela Schober",
+            "Matthias Stockinger"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
