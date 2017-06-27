@@ -1,0 +1,55 @@
+{
+    "day": "07.08.2009",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Anne Hoth"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Maciej Salamon"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Eva Maria Bender"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Heike Wiltrud Schmitz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Milena Alaze",
+            "Csaba Farago"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Florian Fetterle"
+        ],
+        "Tanzensemble": [
+            "Sanne Buskermolen",
+            "Amanda Huke"
+        ],
+        "Gesangsensemble": [
+            "Sandra Bleicher",
+            "Kevin Hudson"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
