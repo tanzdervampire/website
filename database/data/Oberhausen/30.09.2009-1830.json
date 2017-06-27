@@ -1,0 +1,55 @@
+{
+    "day": "30.09.2009",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Anne Hoth"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Csaba Farago",
+            "Kevin Hudson"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Amanda Huke"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Eva Maria Bender"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
