@@ -1,0 +1,68 @@
+{
+    "day": "30.10.2009",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Maciej Salamon"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Kevin Hudson",
+            "Ross McDermott",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Paul Knights",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Veronique Spiteri"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Senta-Sofia Delliponti",
+            "Sanne Mieloo",
+            "Sven Prüwer",
+            "Matthias Stockinger",
+            "Jakub Wocial",
+            "Bernd Steixner"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
