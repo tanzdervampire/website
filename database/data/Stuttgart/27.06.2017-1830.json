@@ -1,0 +1,65 @@
+{
+    "day": "27.06.2017",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Gonzalo Campos"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Karolin Konert"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Michael Anzalone"
+        ],
+        "Tanzensemble": [
+            "Joe Nolan",
+            "Jacob Fearey",
+            "Nicola Trazzi",
+            "Samantha Harris-Hughes",
+            "Sanne Buskermolen",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Thijs Kobes",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Astrid Gollob",
+            "Fleur Alders"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
