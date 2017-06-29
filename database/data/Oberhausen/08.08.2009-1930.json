@@ -8,20 +8,57 @@
         "Graf von Krolock": [
             "Jan Ammann"
         ],
-        "Sarah": [],
+        "Sarah": [
+            "Anne Hoth"
+        ],
         "Alfred": [
             "Tibor Heger"
         ],
-        "Professor Abronsius": [],
-        "Chagal": [],
-        "Magda": [],
-        "Herbert": [],
-        "Rebecca": [],
-        "Koukol": [],
-        "Tanzsolisten": [],
-        "Gesangssolisten": [],
-        "Tanzensemble": [],
-        "Gesangsensemble": [],
-        "Dirigent": []
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Eva Maria Bender"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Heike Wiltrud Schmitz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Cale Stanojevic",
+            "Vanni Viscusi",
+            "Milena Alaze"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Maciej Salamon"
+        ],
+        "Tanzensemble": [
+            "Els Smekens",
+            "Lyndsey Stokes",
+            "Raphaela Pekovsek",
+            "Ian Oswald",
+            "Amanda Huke",
+            "Kevin Hudson"
+        ],
+        "Gesangsensemble": [
+            "Michaela Schober",
+            "Matthias Stockinger",
+            "Fanny Drenthe",
+            "Sanne Buskermolen",
+            "Sandra Bleicher",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
     }
 }
