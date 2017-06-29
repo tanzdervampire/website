@@ -1,0 +1,67 @@
+{
+    "day": "14.01.2010",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Senta-Sofia Delliponti"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Matthias Stockinger"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Csaba Farago",
+            "Vanni Viscusi",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Veronique Spiteri",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Johan Vandamme",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Milena Alaze",
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Kevin Hudson",
+            "Sanne Mieloo",
+            "Sven Prüwer",
+            "Maciej Salamon"
+        ],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
+    }
+}
