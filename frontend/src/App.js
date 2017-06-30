@@ -66,7 +66,7 @@ class App extends React.Component {
                 style={styles.appBar}
                 onLeftIconButtonTouchTap={this.toggleDrawer}
                 iconElementRight={
-                    <IconButton href="https://github.com/tdv-casts/">
+                    <IconButton href="https://github.com/tanzdervampire/">
                         <GithubIcon />
                     </IconButton>
                 }
@@ -92,7 +92,7 @@ class App extends React.Component {
                     <p style={styles.p}>
                         Created by Ingo Bürk, 2017.
                     </p>
-                    <IconButton href="https://github.com/tdv-casts/">
+                    <IconButton href="https://github.com/tanzdervampire/">
                         <GithubIcon color={white} />
                     </IconButton>
                 </div>
