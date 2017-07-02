@@ -1,0 +1,67 @@
+{
+    "day": "20.01.2010",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Paul Knights",
+            "Veronique Spiteri",
+            "Cale Stanojevic",
+            "Samantha Turton",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Kevin Hudson",
+            "Sanne Mieloo",
+            "Maciej Salamon",
+            "Matthias Stockinger",
+            "Kerstin Zwanzig"
+        ],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
+    }
+}
