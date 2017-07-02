@@ -1,0 +1,65 @@
+{
+    "day": "30.01.2010",
+    "time": "15:00",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Johan Vandamme"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Paul Knights",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Eva Maria Bender",
+            "Senta-Sofia Delliponti",
+            "Kevin Hudson",
+            "Sven Prüwer",
+            "Maciej Salamon",
+            "Michaela Schober",
+            "Veronique Spiteri",
+            "Kerstin Zwanzig"
+        ],
+        "Dirigent": []
+    }
+}
