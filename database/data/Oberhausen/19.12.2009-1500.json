@@ -1,0 +1,67 @@
+{
+    "day": "19.12.2009",
+    "time": "15:00",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Senta-Sofia Delliponti"
+        ],
+        "Alfred": [
+            "Riccardo Greco"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Kevin Hudson",
+            "Raphaela Pekovsek",
+            "Veronique Spiteri",
+            "Lucas Theisen",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Milena Alaze",
+            "Eva Maria Bender",
+            "Sandra Bleicher",
+            "Tibor Heger",
+            "Sanne Mieloo",
+            "Sven Prüwer",
+            "Michaela Schober",
+            "Johan Vandamme"
+        ],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
+    }
+}
