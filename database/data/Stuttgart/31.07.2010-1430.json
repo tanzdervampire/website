@@ -1,0 +1,67 @@
+{
+    "day": "31.07.2010",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Senta-Sofia Delliponti"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Eva Maria Bender"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Johan Vandamme"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Maciej Salamon"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Amanda Huke",
+            "Paul Knights",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Sanne Buskermolen",
+            "Antje Eckermann",
+            "Tibor Heger",
+            "Kevin Hudson",
+            "Matthias Stockinger",
+            "Vanni Viscusi",
+            "Jakub Wocial",
+            "Kerstin Zwanzig"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
