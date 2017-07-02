@@ -1,0 +1,69 @@
+{
+    "day": "06.08.2011",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Zoltán Fekete",
+            "Paula Ferreira",
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Lieselot Meurisse",
+            "Judit Szoboszlay",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Tim Edwards",
+            "Esther Hehl",
+            "Miriam Lotz",
+            "Helen Morris",
+            "Linda Veenhuizen",
+            "Vanni Viscusi",
+            "Gemma West",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
