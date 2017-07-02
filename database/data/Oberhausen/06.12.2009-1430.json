@@ -1,0 +1,64 @@
+{
+    "day": "06.12.2009",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Matthias Stockinger"
+        ],
+        "Sarah": [
+            "Senta-Sofia Delliponti"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Maciej Salamon"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Csaba Farago",
+            "Amanda Huke",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Florian Fetterle",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Paul Knights",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Milena Alaze",
+            "Sabrina Auer",
+            "Kevin Hudson",
+            "Sanne Mieloo",
+            "Michaela Schober",
+            "Johan Vandamme",
+            "Kerstin Zwanzig"
+        ],
+        "Dirigent": []
+    }
+}
