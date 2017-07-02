@@ -1,0 +1,64 @@
+{
+    "day": "22.11.2009",
+    "time": "18:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Maciej Salamon"
+        ],
+        "Chagal": [
+            "Matthias Stockinger"
+        ],
+        "Magda": [
+            "Sanne Mieloo"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Eva Maria Bender"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Kevin Hudson",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Amanda Huke",
+            "Paul Knights",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Samantha Turton"
+        ],
+        "Gesangsensemble": [
+            "Milena Alaze",
+            "Senta-Sofia Delliponti",
+            "Tibor Heger",
+            "Sven Prüwer",
+            "Michaela Schober",
+            "Veronique Spiteri",
+            "Lyndsey Stokes",
+            "Kerstin Zwanzig"
+        ],
+        "Dirigent": []
+    }
+}
