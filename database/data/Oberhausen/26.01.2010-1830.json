@@ -1,0 +1,64 @@
+{
+    "day": "26.01.2010",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Eva Maria Bender"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Michel Driesse"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Maciej Salamon",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Paul Knights",
+            "Veronique Spiteri",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Senta-Sofia Delliponti",
+            "Raphaela Pekovsek",
+            "Sven Prüwer",
+            "Matthias Stockinger",
+            "Johan Vandamme"
+        ],
+        "Dirigent": []
+    }
+}
