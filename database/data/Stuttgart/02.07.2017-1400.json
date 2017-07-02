@@ -1,0 +1,67 @@
+{
+    "day": "02.07.2017",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Anja Wendzel"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Michael Anzalone"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Max Meister"
+        ],
+        "Tanzensemble": [
+            "Máté Gyenei",
+            "Joe Nolan",
+            "Jacob Fearey",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Thijs Kobes",
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Astrid Gollob",
+            "Samantha Harris-Hughes",
+            "Karolin Konert",
+            "Fleur Alders"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
