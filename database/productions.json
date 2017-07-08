@@ -64,5 +64,23 @@
     "end": "2017-09-03",
     "location": "Stuttgart",
     "theater": "Palladium-Theater"
+  },
+  {
+    "start": "2017-09-30",
+    "end": "2018-03-18",
+    "location": "Wien",
+    "theater": "Ronacher"
+  },
+  {
+    "start": "2017-09-16",
+    "end": "2018-01-28",
+    "location": "Hamburg",
+    "theater": "Stage-Theater an der Elbe"
+  },
+  {
+    "start": "2018-02-14",
+    "end": "2018-06-30",
+    "location": "Köln",
+    "theater": "Musical-Dome"
   }
 ]
