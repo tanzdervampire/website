@@ -1,0 +1,67 @@
+{
+    "day": "09.07.2017",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mark Seibert"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Nicolas Tenerani"
+        ],
+        "Magda": [
+            "Karolin Konert"
+        ],
+        "Herbert": [
+            "Max Meister"
+        ],
+        "Rebecca": [
+            "Merel Zeeman"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ],
+        "Gesangssolisten": [
+            "Max Meister",
+            "Karolin Konert"
+        ],
+        "Tanzensemble": [
+            "Máté Gyenei",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Sanne Buskermolen",
+            "Thijs Kobes",
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Astrid Gollob",
+            "Samantha Harris-Hughes"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
