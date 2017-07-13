@@ -28,7 +28,7 @@
     "url": "git+https://github.com/tanzdervampire/website.git"
   },
   "engines": {
-    "node": "7.10.0"
+    "node": "8.1.x"
   },
   "author": "Ingo Bürk",
   "license": "MIT",
