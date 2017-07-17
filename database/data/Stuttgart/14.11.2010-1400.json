@@ -1,0 +1,67 @@
+{
+    "day": "14.11.2010",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Sven Prüwer"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Sandra Milly",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Rune Høck Møller"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Lieselot Meurisse",
+            "Helen Morris",
+            "Raphaela Pekovsek",
+            "Samantha Turton",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Laura Greer",
+            "Tim Edwards",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Timea Kecskes",
+            "Miriam Lotz",
+            "Thomas Schweins"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
