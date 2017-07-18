@@ -1,0 +1,66 @@
+{
+    "day": "28.12.2008",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Maciej Salamon"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Heike Wiltrud Schmitz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Csaba Farago",
+            "Paul Knights",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Amanda Huke",
+            "Silvia Lambertoni",
+            "Raphaela Pekovsek",
+            "András Simonffy",
+            "Els Smekens"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Sanne Buskermolen",
+            "Tibor Heger",
+            "Anne Hoth",
+            "Matthias Stockinger",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
