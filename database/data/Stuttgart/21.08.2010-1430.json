@@ -1,0 +1,67 @@
+{
+    "day": "21.08.2010",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Christian Stadlhofer"
+        ],
+        "Professor Abronsius": [
+            "Riccardo Greco"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Stefan Büdenbender"
+        ],
+        "Koukol": [
+            "Martine de Jager"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "Ross McDermott",
+            "Csaba Farago",
+            "Paul Knights"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Maciej Salamon"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Johan Vandamme",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Senta-Sofia Delliponti",
+            "Tibor Heger",
+            "Timea Kecskes",
+            "Sven Prüwer",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
