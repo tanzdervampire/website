@@ -1,0 +1,67 @@
+{
+    "day": "28.03.2010",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Matthias Stockinger"
+        ],
+        "Sarah": [
+            "Lucy Scherer"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Maciej Salamon"
+        ],
+        "Magda": [
+            "Sanne Mieloo"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Andrea Casati",
+            "Michel Driesse"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Kevin Hudson",
+            "Amanda Huke",
+            "Veronique Spiteri",
+            "Lucas Theisen",
+            "Samantha Turton"
+        ],
+        "Gesangsensemble": [
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Antje Eckermann",
+            "Sven Prüwer",
+            "Michaela Schober",
+            "Johan Vandamme",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
