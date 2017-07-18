@@ -1,0 +1,67 @@
+{
+    "day": "24.02.2010",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Lucy Scherer"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "David Baranya",
+            "Kym Boyson",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Isabel Dan",
+            "Amanda Huke",
+            "Paul Knights",
+            "Lucas Theisen",
+            "Samantha Turton",
+            "Gemma West"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Eva Maria Bender",
+            "Janaina Bianchi",
+            "Senta-Sofia Delliponti",
+            "Tibor Heger",
+            "Sanne Mieloo",
+            "Sven Prüwer",
+            "Matthias Stockinger"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
