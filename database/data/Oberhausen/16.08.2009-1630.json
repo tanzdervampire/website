@@ -1,0 +1,67 @@
+{
+    "day": "16.08.2009",
+    "time": "16:30",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Anne Hoth"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Matthias Stockinger"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Janaina Bianchi"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kevin Hudson",
+            "Amanda Huke",
+            "Ross McDermott",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Ian Oswald",
+            "Raphaela Pekovsek",
+            "Els Smekens",
+            "Veronique Spiteri",
+            "Cale Stanojevic",
+            "Lyndsey Stokes"
+        ],
+        "Gesangsensemble": [
+            "Milena Alaze",
+            "Eva Maria Bender",
+            "Sandra Bleicher",
+            "Sanne Buskermolen",
+            "Fanny Drenthe",
+            "Tibor Heger",
+            "Sven Prüwer",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
