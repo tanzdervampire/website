@@ -1,0 +1,66 @@
+{
+    "day": "27.08.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Sven Prüwer"
+        ],
+        "Professor Abronsius": [
+            "Dennis Jankowiak"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Lucas Theisen"
+        ],
+        "Koukol": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Tanzsolisten": [
+            "Brett Hibberd",
+            "Toby Poole",
+            "Samantha Turton"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Judit Szoboszlay",
+            "Vanni Viscusi"
+        ],
+        "Gesangsensemble": [
+            "Antje Eckermann",
+            "Esther Hehl",
+            "Joana Henrique",
+            "Helen Morris",
+            "Linda Veenhuizen",
+            "Gemma West",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Guido Löflad"
+        ]
+    }
+}
