@@ -1,0 +1,67 @@
+{
+    "day": "22.03.2008",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Alfred": [
+            "Alexander Klaws"
+        ],
+        "Professor Abronsius": [
+            "Jens Janke"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Danielle Veneman"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Maike Katrin Schmidt"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Milena Alaze",
+            "David Baranya",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Mathias Edenborn"
+        ],
+        "Tanzensemble": [
+            "Sanne Buskermolen",
+            "Hannah Carter",
+            "Bart de Clercq",
+            "Philipp Hägeli",
+            "Silvia Lambertoni",
+            "Florian Theiler",
+            "Kimberly Trees"
+        ],
+        "Gesangsensemble": [
+            "Andrea Casati",
+            "Marion Furtner",
+            "Anne Hoth",
+            "Nina Janke",
+            "Schirin Kazemi",
+            "Kevin Köhler",
+            "Svenja Kühl",
+            "Stephanie Sturm"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}
