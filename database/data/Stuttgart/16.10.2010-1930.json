@@ -1,0 +1,67 @@
+{
+    "day": "16.10.2010",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Rune Høck Møller"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Lucas Theisen",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Joana Henrique",
+            "Dennis Jankowiak",
+            "Timea Kecskes",
+            "Miriam Lotz",
+            "Linda Veenhuizen",
+            "Vanni Viscusi",
+            "Gemma West"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
