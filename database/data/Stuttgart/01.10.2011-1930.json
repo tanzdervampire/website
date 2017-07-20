@@ -1,0 +1,66 @@
+{
+    "day": "01.10.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Florian Soyka"
+        ],
+        "Magda": [
+            "Esther Hehl"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Toby Poole",
+            "Johan Vandamme"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Laura Greer",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Helen Morris"
+        ],
+        "Gesangsensemble": [
+            "Antje Eckermann",
+            "Tim Edwards",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Linda Veenhuizen",
+            "Gemma West"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
