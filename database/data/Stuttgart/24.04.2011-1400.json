@@ -1,0 +1,67 @@
+{
+    "day": "24.04.2011",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Tim Edwards"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Zoltán Fekete",
+            "Paula Ferreira"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Helen Morris",
+            "Judit Szoboszlay",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Esther Hehl",
+            "Joana Henrique",
+            "Rune Høck Møller",
+            "Miriam Lotz",
+            "Thomas Schweins",
+            "Linda Veenhuizen",
+            "Gemma West",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
