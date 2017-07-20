@@ -1,0 +1,67 @@
+{
+    "day": "29.01.2011",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Antje Eckermann"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Toby Poole",
+            "Johan Vandamme"
+        ],
+        "Gesangssolisten": [
+            "Florian Soyka",
+            "Jakub Wocial"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Helen Morris",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Tim Edwards",
+            "Esther Hehl",
+            "Joana Henrique",
+            "Rune Høck Møller",
+            "Miriam Lotz",
+            "Thomas Schweins",
+            "Gemma West"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
