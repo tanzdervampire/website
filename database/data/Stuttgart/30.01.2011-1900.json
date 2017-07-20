@@ -1,0 +1,67 @@
+{
+    "day": "30.01.2011",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Tim Edwards"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Esther Hehl"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Brett Hibberd",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Rune Høck Møller",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Lieselot Meurisse",
+            "Judit Szoboszlay",
+            "Lucas Theisen",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Antje Eckermann",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Sven Prüwer",
+            "Thomas Schweins",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
