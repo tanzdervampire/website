@@ -1,0 +1,67 @@
+{
+    "day": "26.10.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Sven Tummeleer"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Brett Hibberd",
+            "Amanda Huke",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Tibor Nagy"
+        ],
+        "Gesangsensemble": [
+            "Elke Buyle",
+            "Zoltán Fekete",
+            "Judith Jandl",
+            "Angelina Markiefka",
+            "Toby Poole",
+            "Sven Prüwer",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
