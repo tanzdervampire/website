@@ -1,0 +1,64 @@
+{
+    "day": "21.06.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Stefan Mosonyi",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Sarah Bowden",
+            "Zoltán Fekete",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Sandra Milly",
+            "Judit Szoboszlay",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Juliane Bischoff",
+            "Laura Greer",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Angelina Markiefka",
+            "Sven Prüwer",
+            "Thomas Schweins",
+            "Nina Ungerer"
+        ],
+        "Gesangsensemble": [
+            "Christoph Bönecker"
+        ],
+        "Dirigent": []
+    }
+}
