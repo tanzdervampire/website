@@ -1,0 +1,67 @@
+{
+    "day": "16.07.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Joana Henrique"
+        ],
+        "Alfred": [
+            "Tim Edwards"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Lieselot Meurisse",
+            "Raphaela Pekovsek",
+            "Judit Szoboszlay",
+            "Lucas Theisen",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Laura Greer",
+            "Esther Hehl",
+            "Miriam Lotz",
+            "Dennis Jankowiak",
+            "Helen Morris",
+            "Thomas Schweins",
+            "Gemma West",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Guido Löflad"
+        ]
+    }
+}
