@@ -1,0 +1,67 @@
+{
+    "day": "16.02.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Conny Braun"
+        ],
+        "Koukol": [
+            "Sven Prüwer"
+        ],
+        "Tanzsolisten": [
+            "Zoltán Fekete",
+            "Paula Ferreira",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Kevin Köhler"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Joseph Dockree",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Judit Szoboszlay",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Udo Eickelmann",
+            "Amanda Huke",
+            "Judith Jandl",
+            "Dennis Jankowiak",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Claudie Reinhard",
+            "Nina Ungerer"
+        ],
+        "Dirigent": [
+            "Andreas Pabst"
+        ]
+    }
+}
