@@ -1,0 +1,67 @@
+{
+    "day": "23.11.2011",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Drew Sarich"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Thomas Schweins"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Brett Hibberd",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Helen Morris",
+            "Stefan Mosonyi",
+            "Toby Poole",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Laura Greer",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Robert D. Marx",
+            "Myrthes Monteiro",
+            "Sven Prüwer",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
