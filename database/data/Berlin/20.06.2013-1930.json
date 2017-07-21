@@ -1,0 +1,66 @@
+{
+    "day": "20.06.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Florian Soyka"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Claudie Reinhard"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Tibor Nagy",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Udo Eickelmann"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Zoltán Fekete",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Judit Szoboszlay",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Tibor Heger",
+            "Stéphane Le Breton",
+            "Angelina Markiefka",
+            "Helen Morris",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
