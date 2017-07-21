@@ -1,0 +1,67 @@
+{
+    "day": "22.06.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Robert D. Marx"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Stefan Mosonyi",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Zoltán Fekete",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Esther Hehl",
+            "Kevin Köhler",
+            "Sven Prüwer",
+            "Thomas Schweins",
+            "Samantha Turton",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
