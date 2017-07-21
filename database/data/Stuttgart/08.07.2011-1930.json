@@ -38,6 +38,10 @@
             "Toby Poole"
         ],
         "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
             "Alan Kelly",
             "Anna Lopusny",
             "Sandra Milly",
@@ -46,7 +50,7 @@
             "Lucas Theisen",
             "Johan Vandamme"
         ],
-        "Tanzensemble": [
+        "Gesangsensemble": [
             "Juliane Bischoff",
             "Antje Eckermann",
             "Esther Hehl",
@@ -56,7 +60,6 @@
             "Gemma West",
             "Jakub Wocial"
         ],
-        "Gesangsensemble": [],
         "Dirigent": [
             "Guido Löflad"
         ]
