@@ -1,0 +1,67 @@
+{
+    "day": "14.04.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Tibor Heger"
+        ],
+        "Professor Abronsius": [
+            "Franz Frickel"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Judith Jandl"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Sandra Milly",
+            "Csaba Nagy",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Dennis Jankowiak"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Silvano Marraffa",
+            "Helen Morris",
+            "Vicky Riddoch",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Udo Eickelmann",
+            "Zoltán Fekete",
+            "Angelina Markiefka",
+            "Claudie Reinhard",
+            "Nina Ungerer",
+            "Linda Veenhuizen",
+            "Vanni Viscusi"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
