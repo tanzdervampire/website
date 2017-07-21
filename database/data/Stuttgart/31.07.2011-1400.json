@@ -1,0 +1,67 @@
+{
+    "day": "31.07.2011",
+    "time": "14:00",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Brett Hibberd",
+            "Lucas Theisen"
+        ],
+        "Gesangssolisten": [
+            "Florian Soyka",
+            "Florian Fetterle"
+        ],
+        "Tanzensemble": [
+            "Zoltán Fekete",
+            "Laura Greer",
+            "Anna Lopusny",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Judit Szoboszlay",
+            "Vanni Viscusi"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Tim Edwards",
+            "Esther Hehl",
+            "Joana Henrique",
+            "Miriam Lotz",
+            "Raphaela Pekovsek",
+            "Thomas Schweins",
+            "Gemma West"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
