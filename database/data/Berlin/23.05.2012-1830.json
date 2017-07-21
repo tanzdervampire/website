@@ -1,0 +1,67 @@
+{
+    "day": "23.05.2012",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Thomas Schweins"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Csaba Nagy",
+            "Samantha Turton"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Sandra Milly",
+            "Helen Morris",
+            "Stefan Mosonyi"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Zoltán Fekete",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Angelina Markiefka",
+            "Myrthes Monteiro",
+            "Nina Ungerer",
+            "Vanni Viscusi"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
