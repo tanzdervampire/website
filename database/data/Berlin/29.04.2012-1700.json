@@ -1,0 +1,67 @@
+{
+    "day": "29.04.2012",
+    "time": "17:00",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Thomas Schweins"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Kevin Köhler",
+            "Stefan Mosonyi"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Sandra Milly",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Zoltán Fekete",
+            "Esther Hehl",
+            "Miriam Lotz",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Myrthes Monteiro",
+            "Toby Poole",
+            "Sven Prüwer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
