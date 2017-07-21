@@ -1,0 +1,67 @@
+{
+    "day": "08.07.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Joana Henrique"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Thomas Schweins"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Lieselot Meurisse",
+            "Raphaela Pekovsek",
+            "Lucas Theisen",
+            "Johan Vandamme"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Antje Eckermann",
+            "Esther Hehl",
+            "Rune Høck Møller",
+            "Dennis Jankowiak",
+            "Linda Veenhuizen",
+            "Gemma West",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Guido Löflad"
+        ]
+    }
+}
