@@ -38,6 +38,10 @@
             "Csaba Nagy"
         ],
         "Gesangssolisten": [
+            "Christopher Busse",
+            "Kevin Köhler"
+        ],
+        "Tanzensemble": [
             "Sarah Bowden",
             "Zoltán Fekete",
             "Alan Kelly",
@@ -46,7 +50,7 @@
             "Judit Szoboszlay",
             "Vanni Viscusi"
         ],
-        "Tanzensemble": [
+        "Gesangsensemble": [
             "Juliane Bischoff",
             "Laura Greer",
             "Esther Hehl",
@@ -56,9 +60,8 @@
             "Thomas Schweins",
             "Nina Ungerer"
         ],
-        "Gesangsensemble": [
+        "Dirigent": [
             "Christoph Bönecker"
-        ],
-        "Dirigent": []
+        ]
     }
 }
