@@ -12,16 +12,24 @@ const slurpJson = fn => {
     return JSON.parse(slurp(fn));
 };
 
-/* Store shows */
-const fnToDate = fn => moment(fn.replace(/\.json$/, ''), 'DD.MM.YYYY-HHmm');
 fs.readdirSync('./data/')
     .map(location => fs.readdirSync(`./data/${location}/`).map(fn => { return { 'fn': fn, 'location': location }; }))
     .reduce((a,b) => [...a, ...b])
-    .sort((a,b) => fnToDate(a.fn).diff(fnToDate(b.fn)))
     .forEach(show => {
-        const data = slurpJson(`./data/${show.location}/${show.fn}`);
+        let data = slurpJson(`./data/${show.location}/${show.fn}`);
         const day = moment(data.day, 'DD.MM.YYYY');
 
-        const newName = `${day.format('DD.MM.YYYY')}-${data.time.replace(/:/, '')}.json`;
-        fs.renameSync(`./data/${show.location}/${show.fn}`, `./data/${show.location}/${newName}`);
+        Object.keys(data.cast).forEach(role => {
+            let unique = [];
+            data.cast[role].forEach((actor, idx) => {
+                if (data.cast[role].indexOf(actor) === idx) {
+                    unique.push(actor);
+                }
+            });
+
+            data.cast[role] = unique;
+        });
+
+        //fs.renameSync(`./data/${show.location}/${show.fn}`, `./data/${show.location}/${newName}`);
+        fs.writeFileSync(`./data/${show.location}/${show.fn}`, JSON.stringify(data, null, 4));
     });
