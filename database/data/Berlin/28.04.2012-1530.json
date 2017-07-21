@@ -1,0 +1,67 @@
+{
+    "day": "28.04.2012",
+    "time": "15:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Juliane Bischoff"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Stefan Mosonyi",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Zoltán Fekete",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Angelina Markiefka",
+            "Myrthes Monteiro",
+            "Thomas Schweins",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
