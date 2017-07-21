@@ -1,0 +1,66 @@
+{
+    "day": "26.05.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Thomas Schweins"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Luisa Mancarella",
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Samantha Turton"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Zoltán Fekete",
+            "Laura Greer",
+            "Dennis Jankowiak",
+            "Myrthes Monteiro",
+            "Helen Morris",
+            "Nina Ungerer"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
