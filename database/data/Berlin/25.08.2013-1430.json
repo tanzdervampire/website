@@ -5,9 +5,6 @@
     "location": "Berlin",
     "theater": "Theater des Westens",
     "cast": {
-        "Dirigent": [
-            "Bernd Steixner"
-        ],
         "Graf von Krolock": [
             "Ivan Ozhogin"
         ],
@@ -26,11 +23,11 @@
         "Magda": [
             "Goele de Raedt"
         ],
-        "Rebecca": [
-            "Anja Wessel"
-        ],
         "Herbert": [
             "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
         ],
         "Koukol": [
             "Stefan Büdenbender"
@@ -71,6 +68,9 @@
             "Sven Prüwer",
             "Claudie Reinhard",
             "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
         ]
     }
 }
