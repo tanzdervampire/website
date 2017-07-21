@@ -1,0 +1,67 @@
+{
+    "day": "03.02.2012",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Myrthes Monteiro"
+        ],
+        "Alfred": [
+            "Anton Zetterholm"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Kai Hüsgen"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Csaba Nagy",
+            "Judit Szoboszlay"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Laura Greer",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Silvano Marraffa",
+            "Sandra Milly",
+            "Stefan Mosonyi"
+        ],
+        "Gesangsensemble": [
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Angelina Markiefka",
+            "Robert D. Marx",
+            "Helen Morris",
+            "Thomas Schweins",
+            "Samantha Turton"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
