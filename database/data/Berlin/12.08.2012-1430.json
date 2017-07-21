@@ -1,0 +1,67 @@
+{
+    "day": "12.08.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Myrthes Monteiro"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Toby Poole",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Laura Greer",
+            "Brett Hibberd",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Helen Morris",
+            "Tibor Nagy",
+            "Samantha Turton"
+        ],
+        "Gesangsensemble": [
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Angelina Markiefka",
+            "Sven Prüwer",
+            "Claudie Reinhard",
+            "Thomas Schweins",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
