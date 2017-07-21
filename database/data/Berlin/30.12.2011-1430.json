@@ -1,0 +1,67 @@
+{
+    "day": "30.12.2011",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Drew Sarich"
+        ],
+        "Sarah": [
+            "Amélie Dobler"
+        ],
+        "Alfred": [
+            "Anton Zetterholm"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Florian Soyka"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Kevin Köhler",
+            "Vanni Viscusi"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Toby Poole",
+            "Judit Szoboszlay",
+            "Nina Ungerer"
+        ],
+        "Gesangsensemble": [
+            "Laura Greer",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Miriam Lotz",
+            "Angelina Markiefka",
+            "Robert D. Marx",
+            "Myrthes Monteiro",
+            "Thomas Schweins"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
