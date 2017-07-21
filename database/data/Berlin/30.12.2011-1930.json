@@ -1,0 +1,67 @@
+{
+    "day": "30.12.2011",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Drew Sarich"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Anton Zetterholm"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Thomas Schweins"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Miriam Lotz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Kevin Köhler",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Sarah Bowden",
+            "Alan Kelly",
+            "Sandra Milly",
+            "Stefan Mosonyi",
+            "Toby Poole",
+            "Judit Szoboszlay",
+            "Nina Ungerer"
+        ],
+        "Gesangsensemble": [
+            "Juliane Bischoff",
+            "Laura Greer",
+            "Esther Hehl",
+            "Dennis Jankowiak",
+            "Robert D. Marx",
+            "Myrthes Monteiro",
+            "Samantha Turton",
+            "Vanni Viscusi"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
