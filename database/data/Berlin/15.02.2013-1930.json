@@ -1,0 +1,67 @@
+{
+    "day": "15.02.2013",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Michael Heller"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Judith Jandl"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Claudie Reinhard"
+        ],
+        "Koukol": [
+            "Sven Prüwer"
+        ],
+        "Tanzsolisten": [
+            "Paula Ferreira",
+            "Csaba Nagy",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Joseph Dockree",
+            "Sandra Milly",
+            "Vicky Riddoch",
+            "Judit Szoboszlay",
+            "Nina Ungerer",
+            "Matteo Vigna"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Conny Braun",
+            "Zoltán Fekete",
+            "Dennis Jankowiak",
+            "Anna Lopusny",
+            "Angelina Markiefka",
+            "Silvano Marraffa",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Andreas Pabst"
+        ]
+    }
+}
