@@ -1,0 +1,50 @@
+{
+    "day": "16.01.2010",
+    "time": "15:00",
+    "type": "Matinée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Kevin Tarte"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Maciej Salamon"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Vanni Viscusi"
+        ],
+        "Rebecca": [
+            "Martine de Jager"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Johan Vandamme",
+            "Csaba Farago",
+            "Amanda Huke"
+        ],
+        "Gesangssolisten": [
+            "Riccardo Greco",
+            "Jakub Wocial"
+        ],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
+    }
+}
