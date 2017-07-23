@@ -1,0 +1,41 @@
+{
+    "day": "18.03.2008",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Katrin Löbbert"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Sven Prüwer"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Danielle Veneman"
+        ],
+        "Herbert": [
+            "Haldor Laegreid"
+        ],
+        "Rebecca": [
+            "Maike Katrin Schmidt"
+        ],
+        "Koukol": [
+            "Philipp Hägeli"
+        ],
+        "Tanzsolisten": [],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
+        "Dirigent": []
+    }
+}
