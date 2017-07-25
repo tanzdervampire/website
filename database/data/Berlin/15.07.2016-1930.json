@@ -1,0 +1,68 @@
+{
+    "day": "15.07.2016",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Veronica Appeddu"
+        ],
+        "Alfred": [
+            "Noah Wili"
+        ],
+        "Professor Abronsius": [
+            "Sander van Wissen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Merel Zeeman"
+        ],
+        "Herbert": [
+            "Milan van Waardenburg"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Nicola Trazzi",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Milan van Waardenburg",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Thomas Höfner",
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Veronika Enders",
+            "Sanne Buskermolen",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Alex Hyne",
+            "Kevin Hudson",
+            "Andrew Chadwick",
+            "Pascal Höwing",
+            "Marina Maniglio",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Fleur Alders",
+            "Pamela Zottele"
+        ],
+        "Dirigent": [
+            "Shay Cohen"
+        ]
+    }
+}
