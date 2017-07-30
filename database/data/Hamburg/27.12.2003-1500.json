@@ -1,0 +1,73 @@
+{
+    "day": "27.12.2003",
+    "time": "15:00",
+    "type": "Matinée",
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Felix Martin"
+        ],
+        "Sarah": [
+            "Gabriella Mezöfi"
+        ],
+        "Alfred": [
+            "Max Niemeyer"
+        ],
+        "Professor Abronsius": [
+            "Oliver Heim"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Jacquie Biggs",
+            "Wolf Bader"
+        ],
+        "Gesangssolisten": [
+            "Paul Walthaus",
+            "Yousef Sheikh",
+            "Michel Driesse",
+            "Jesse Webb",
+            "Stefan Stara",
+            "Patrick Mares",
+            "Mona Graw",
+            "Katrin Löbbert",
+            "Ute Geske",
+            "Femke Soetenga",
+            "Stephanie Tschöppe",
+            "Kati Heidebrecht"
+        ],
+        "Tanzensemble": [
+            "Andrew Chadwick",
+            "Peter Horemans",
+            "Thomas Huber",
+            "Robert Johansson",
+            "Horst Kulmbrein",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Gemma West",
+            "Kimberly Trees",
+            "Lucy Costelloe"
+        ],
+        "Gesangsensemble": [
+            "Paul Walthaus",
+            "Yousef Sheikh"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}
