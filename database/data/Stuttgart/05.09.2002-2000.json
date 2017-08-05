@@ -8,14 +8,14 @@
         "Graf von Krolock": [
             "Ian Jon Bourg"
         ],
+        "Sarah": [
+            "Barbara Köhler"
+        ],
         "Alfred": [
             "Fredrik Wickerts"
         ],
         "Professor Abronsius": [
             "Andreas Bühring"
-        ],
-        "Sarah": [
-            "Barbara Köhler"
         ],
         "Chagal": [
             "Matthias Dressel"
@@ -23,21 +23,25 @@
         "Magda": [
             "Jessie Roggemann"
         ],
-        "Rebecca": [
-            "Jan Merchant"
-        ],
         "Herbert": [
             "Robert D. Marx"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
         ],
         "Koukol": [
             "Stefan Büdenbender"
         ],
-        "Solotänzer": [
+        "Tanzsolisten": [
             "Kevin Hudson",
+            "Thomas Kienast",
             "Marc Bollmeyer",
             "Jacqueline van der Pol",
             "Margherita Huisman"
         ],
+        "Gesangssolisten": [],
+        "Tanzensemble": [],
+        "Gesangsensemble": [],
         "Dirigent": [
             "Bernhard Wünsch"
         ]
