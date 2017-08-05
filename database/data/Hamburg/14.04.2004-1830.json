@@ -1,0 +1,71 @@
+{
+    "day": "14.04.2004",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Hamburg",
+    "theater": "Theater Neue Flora",
+    "cast": {
+        "Graf von Krolock": [
+            "Thomas Borchert"
+        ],
+        "Sarah": [
+            "Jessica Kessler"
+        ],
+        "Alfred": [
+            "Fredrik Wickerts"
+        ],
+        "Professor Abronsius": [
+            "Werner Bauer"
+        ],
+        "Chagal": [
+            "Jesse Webb"
+        ],
+        "Magda": [
+            "Anna Thorén"
+        ],
+        "Herbert": [
+            "Norbert Kohler"
+        ],
+        "Rebecca": [
+            "Jan Merchant"
+        ],
+        "Koukol": [
+            "Kai Helm"
+        ],
+        "Tanzsolisten": [
+            "Jacquie Biggs",
+            "Wolf Bader",
+            "Andrew Chadwick",
+            "Peter Horemanns"
+        ],
+        "Gesangssolisten": [
+            "Yousef Sheikh",
+            "Alexander di Capri"
+        ],
+        "Tanzensemble": [
+            "Horst Kulmbrein",
+            "Kevin Foster",
+            "Christopher Tölle",
+            "Leigh-Anne Vizer",
+            "Kerstin Zwanzig",
+            "Gemma West",
+            "Silvia Diletto",
+            "Kimberly Trees"
+        ],
+        "Gesangsensemble": [
+            "Max Niemeyer",
+            "Patrick Mares",
+            "Oliver Heim",
+            "Frank Winkels",
+            "Mona Graw",
+            "Katrin Löbbert",
+            "Bettina Oswald",
+            "Femke Soetenga",
+            "Stephanie Tschöppe",
+            "Stephanie Sturm"
+        ],
+        "Dirigent": [
+            "Carsten Paap"
+        ]
+    }
+}
