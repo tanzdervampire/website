@@ -1,0 +1,67 @@
+{
+    "day": "23.09.2010",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Sabrina Auer"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Christian Stadlhofer"
+        ],
+        "Chagal": [
+            "Christoph Leszczynski"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Jeanne-Marie Nigl"
+        ],
+        "Koukol": [
+            "Michel Driesse"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Alan Kelly",
+            "Toby Poole"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Florian Soyka"
+        ],
+        "Tanzensemble": [
+            "Brett Hibberd",
+            "Luisa Mancarella",
+            "Lieselot Meurisse",
+            "Sandra Milly",
+            "Helen Morris",
+            "Lucas Theisen"
+        ],
+        "Gesangsensemble": [
+            "Antje Eckermann",
+            "Tim Edwards",
+            "Dennis Jankowiak",
+            "Joana Henrique",
+            "Timea Kecskes",
+            "Miriam Lotz",
+            "Thomas Schweins",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
