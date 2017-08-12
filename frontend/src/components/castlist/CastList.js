@@ -133,7 +133,6 @@ class CastList extends React.Component {
         }
 
         const ensemble = [
-            ...this.renderEnsembleGroup('Tanzsolisten', 'Solotänzer'),
             ...this.renderEnsembleGroup('Tanzsolisten', 'Tanzsolisten'),
             ...this.renderEnsembleGroup('Gesangssolisten', 'Gesangssolisten'),
             ...this.renderEnsembleGroup('Tanzensemble', 'Tanzensemble'),
