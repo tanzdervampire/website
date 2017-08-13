@@ -1,0 +1,65 @@
+{
+    "day": "06.08.2017",
+    "time": "19:00",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Maureen Mac Gillavry"
+        ],
+        "Alfred": [
+            "Thijs Kobes"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Kirill Zolygin"
+        ],
+        "Magda": [
+            "Sara Jane Checchi"
+        ],
+        "Herbert": [
+            "Christian Funk"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Jan Kriz"
+        ],
+        "Tanzensemble": [
+            "Niall Swords",
+            "Sonny Grieveson",
+            "Lorenzo Eccher",
+            "Molly Hunt",
+            "Lisa Kühn",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Michael Anzalone",
+            "Pamina Lenn",
+            "Anja Wendzel",
+            "Alexandra Avenell",
+            "Janis van Dorsselaer"
+        ],
+        "Dirigent": [
+            "Boris Ritter"
+        ]
+    }
+}
