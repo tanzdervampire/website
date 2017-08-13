@@ -1,0 +1,65 @@
+{
+    "day": "11.08.2017",
+    "time": "19:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Kriz"
+        ],
+        "Sarah": [
+            "Maureen Mac Gillavry"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Sander van Wissen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Janis van Dorsselaer"
+        ],
+        "Herbert": [
+            "Christian Funk"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Thijs Kobes",
+            "Kirill Zolygin"
+        ],
+        "Tanzensemble": [
+            "Niall Swords",
+            "Sonny Grieveson",
+            "Lorenzo Eccher",
+            "Veronika Enders",
+            "Lisa Kühn",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Pamina Lenn",
+            "Anja Wendzel",
+            "Alexandra Avenell",
+            "Elise Doorn"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
