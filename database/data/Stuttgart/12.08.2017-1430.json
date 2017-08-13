@@ -1,0 +1,65 @@
+{
+    "day": "12.08.2017",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Pamina Lenn"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Sara Jane Checchi"
+        ],
+        "Herbert": [
+            "Christian Funk"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Jan Kriz"
+        ],
+        "Tanzensemble": [
+            "Albert Jan Kingma",
+            "Sonny Grieveson",
+            "Lorenzo Eccher",
+            "Veronika Enders",
+            "Lisa Kühn",
+            "Lynsey Reid",
+            "Nicole Ollio"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Sanne Buskermolen",
+            "Anja Wendzel",
+            "Alexandra Avenell",
+            "Janis van Dorsselaer"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
