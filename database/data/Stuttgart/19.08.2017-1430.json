@@ -1,0 +1,66 @@
+{
+    "day": "19.08.2017",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Maureen Mac Gillavry"
+        ],
+        "Alfred": [
+            "Thijs Kobes"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Kirill Zolygin"
+        ],
+        "Magda": [
+            "Sara Jane Checchi"
+        ],
+        "Herbert": [
+            "Christian Funk"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Paolo Bianca"
+        ],
+        "Tanzsolisten": [
+            "Sonny Grieveson",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Sander van Wissen",
+            "Jan Kriz"
+        ],
+        "Tanzensemble": [
+            "Niall Swords",
+            "Jack Widdowson",
+            "Sonny Grieveson",
+            "Lorenzo Eccher",
+            "Veronika Enders",
+            "Lisa Kühn",
+            "Lynsey Reid",
+            "Samantha Harris-Hughes"
+        ],
+        "Gesangsensemble": [
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Pamina Lenn",
+            "Anja Wendzel",
+            "Alexandra Avenell",
+            "Janis van Dorsselaer"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
