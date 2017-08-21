@@ -1,0 +1,67 @@
+{
+    "day": "28.01.2009",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Nele-Liis Vaiksoo"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Gernot Kranner"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Jakub Wocial"
+        ],
+        "Rebecca": [
+            "Eva Maria Bender"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Kym Boyson",
+            "David Baranya",
+            "Csaba Farago",
+            "Ross McDermott"
+        ],
+        "Gesangssolisten": [
+            "Riccardo Greco",
+            "Christian Stadlhofer"
+        ],
+        "Tanzensemble": [
+            "Paul Knights",
+            "Silvia Lambertoni",
+            "Raphaela Pekovsek",
+            "András Simonffy",
+            "Els Smekens",
+            "Veronique Spiteri"
+        ],
+        "Gesangsensemble": [
+            "Sabrina Auer",
+            "Sandra Bleicher",
+            "Tibor Heger",
+            "Anne Hoth",
+            "Timea Kecskes",
+            "Michaela Schober",
+            "Matthias Stockinger",
+            "Maciej Salamon"
+        ],
+        "Dirigent": [
+            "Martin Gallery"
+        ]
+    }
+}
