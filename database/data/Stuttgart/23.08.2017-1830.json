@@ -1,0 +1,65 @@
+{
+    "day": "23.08.2017",
+    "time": "18:30",
+    "type": "Soirée",
+    "location": "Stuttgart",
+    "theater": "Palladium-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Mathias Edenborn"
+        ],
+        "Sarah": [
+            "Maureen Mac Gillavry"
+        ],
+        "Alfred": [
+            "Tom van der Ven"
+        ],
+        "Professor Abronsius": [
+            "Victor Petersen"
+        ],
+        "Chagal": [
+            "Michael Anzalone"
+        ],
+        "Magda": [
+            "Sara Jane Checchi"
+        ],
+        "Herbert": [
+            "Sander van Wissen"
+        ],
+        "Rebecca": [
+            "Yvonne Köstler"
+        ],
+        "Koukol": [
+            "Jacob Fearey"
+        ],
+        "Tanzsolisten": [
+            "Andrea Luca Cotti",
+            "Jack Widdowson",
+            "Astrid Gollob"
+        ],
+        "Gesangssolisten": [
+            "Gonzalo Campos",
+            "Jan Kriz"
+        ],
+        "Tanzensemble": [
+            "Albert Jan Kingma",
+            "Sonny Grieveson",
+            "Lorenzo Eccher",
+            "Veronika Enders",
+            "Lisa Kühn",
+            "Samantha Harris-Hughes",
+            "Molly Hunt"
+        ],
+        "Gesangsensemble": [
+            "Niall Swords",
+            "Pascal Höwing",
+            "Pamina Lenn",
+            "Anja Wendzel",
+            "Alexandra Avenell",
+            "Janis van Dorsselaer"
+        ],
+        "Dirigent": [
+            "Leif Klinkhardt"
+        ]
+    }
+}
