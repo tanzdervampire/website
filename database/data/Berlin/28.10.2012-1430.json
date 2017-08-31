@@ -1,0 +1,68 @@
+{
+    "day": "28.10.2012",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Florian Soyka"
+        ],
+        "Sarah": [
+            "Angelina Markiefka"
+        ],
+        "Alfred": [
+            "Kevin Köhler"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Goele de Raedt"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Barbara Raunegger"
+        ],
+        "Koukol": [
+            "Zoltán Fekete"
+        ],
+        "Tanzsolisten": [
+            "Pierre Damen",
+            "Paula Ferreira",
+            "Csaba Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Sven Tummeleer"
+        ],
+        "Tanzensemble": [
+            "Kym Boyson",
+            "Brett Hibberd",
+            "Brett Hibberd",
+            "Amanda Huke",
+            "Alan Kelly",
+            "Anna Lopusny",
+            "Sandra Milly",
+            "Tibor Nagy"
+        ],
+        "Gesangsensemble": [
+            "Elke Buyle",
+            "Dennis Jankowiak",
+            "Silvano Marraffa",
+            "Toby Poole",
+            "Sven Prüwer",
+            "Claudie Reinhard",
+            "Nina Ungerer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Christoph Bönecker"
+        ]
+    }
+}
