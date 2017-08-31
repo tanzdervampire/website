@@ -1,0 +1,66 @@
+{
+    "day": "19.06.2009",
+    "time": "20:00",
+    "type": "Soirée",
+    "location": "Oberhausen",
+    "theater": "Metronom-Theater",
+    "cast": {
+        "Graf von Krolock": [
+            "Jan Ammann"
+        ],
+        "Sarah": [
+            "Sanne Buskermolen"
+        ],
+        "Alfred": [
+            "Krisha Dalke"
+        ],
+        "Professor Abronsius": [
+            "Gernot Kranner"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Konrad"
+        ],
+        "Herbert": [
+            "Florian Fetterle"
+        ],
+        "Rebecca": [
+            "Heike Wiltrud Schmitz"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Milena Alaze",
+            "Andrew Chadwick",
+            "Vanni Viscusi"
+        ],
+        "Gesangssolisten": [
+            "Michel Driesse",
+            "Riccardo Greco"
+        ],
+        "Tanzensemble": [
+            "Paul Knights",
+            "Ian Oswald",
+            "Raphaela Pekovsek",
+            "András Simonffy",
+            "Els Smekens",
+            "Veronique Spiteri",
+            "Kerstin Zwanzig"
+        ],
+        "Gesangsensemble": [
+            "Janaina Bianchi",
+            "Sandra Bleicher",
+            "Fanny Drenthe",
+            "Michaela Schober",
+            "Christian Stadlhofer",
+            "Matthias Stockinger",
+            "Jakub Wocial"
+        ],
+        "Dirigent": [
+            "Klaus Wilhelm"
+        ]
+    }
+}
