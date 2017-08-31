@@ -1,0 +1,67 @@
+{
+    "day": "20.07.2013",
+    "time": "14:30",
+    "type": "Matinée",
+    "location": "Berlin",
+    "theater": "Theater des Westens",
+    "cast": {
+        "Graf von Krolock": [
+            "Ivan Ozhogin"
+        ],
+        "Sarah": [
+            "Mercedesz Csampai"
+        ],
+        "Alfred": [
+            "Dennis Jankowiak"
+        ],
+        "Professor Abronsius": [
+            "Veit Schäfermeier"
+        ],
+        "Chagal": [
+            "Jerzy Jeszke"
+        ],
+        "Magda": [
+            "Linda Veenhuizen"
+        ],
+        "Herbert": [
+            "Marc Liebisch"
+        ],
+        "Rebecca": [
+            "Anja Wessel"
+        ],
+        "Koukol": [
+            "Stefan Büdenbender"
+        ],
+        "Tanzsolisten": [
+            "Zoltán Fekete",
+            "Amanda Huke",
+            "Tibor Nagy"
+        ],
+        "Gesangssolisten": [
+            "Christopher Busse",
+            "Udo Eickelmann"
+        ],
+        "Tanzensemble": [
+            "Yves Adang",
+            "Kym Boyson",
+            "Joseph Dockree",
+            "Stéphane Le Breton",
+            "Anna Lopusny",
+            "Helen Morris",
+            "Judit Szoboszlay"
+        ],
+        "Gesangsensemble": [
+            "Dorothea Baumann",
+            "Conny Braun",
+            "Franz Frickel",
+            "Tibor Heger",
+            "Judith Jandl",
+            "Angelina Markiefka",
+            "Sven Prüwer",
+            "Linda Veenhuizen"
+        ],
+        "Dirigent": [
+            "Bernd Steixner"
+        ]
+    }
+}
